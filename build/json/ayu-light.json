@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#f8f9fa",
+        "hexterm": "f8/f9/fa"
+    },
+    "bright": {
+        "black": {
+            "hex": "#686868",
+            "hexterm": "68/68/68"
+        },
+        "blue": {
+            "hex": "#399ee6",
+            "hexterm": "39/9e/e6"
+        },
+        "cyan": {
+            "hex": "#4cbf99",
+            "hexterm": "4c/bf/99"
+        },
+        "green": {
+            "hex": "#86b300",
+            "hexterm": "86/b3/00"
+        },
+        "magenta": {
+            "hex": "#a37acc",
+            "hexterm": "a3/7a/cc"
+        },
+        "red": {
+            "hex": "#f07171",
+            "hexterm": "f0/71/71"
+        },
+        "white": {
+            "hex": "#d1d1d1",
+            "hexterm": "d1/d1/d1"
+        },
+        "yellow": {
+            "hex": "#f2ae49",
+            "hexterm": "f2/ae/49"
+        }
+    },
+    "cursor": {
+        "hex": "#ffaa33",
+        "hexterm": "ff/aa/33"
+    },
+    "cursor-text": {
+        "hex": "#f8f9fa",
+        "hexterm": "f8/f9/fa"
+    },
+    "foreground": {
+        "hex": "#5c6166",
+        "hexterm": "5c/61/66"
+    },
+    "normal": {
+        "black": {
+            "hex": "#000000",
+            "hexterm": "00/00/00"
+        },
+        "blue": {
+            "hex": "#3199e1",
+            "hexterm": "31/99/e1"
+        },
+        "cyan": {
+            "hex": "#46ba94",
+            "hexterm": "46/ba/94"
+        },
+        "green": {
+            "hex": "#6cbf43",
+            "hexterm": "6c/bf/43"
+        },
+        "magenta": {
+            "hex": "#9e75c7",
+            "hexterm": "9e/75/c7"
+        },
+        "red": {
+            "hex": "#ea6c6d",
+            "hexterm": "ea/6c/6d"
+        },
+        "white": {
+            "hex": "#c7c7c7",
+            "hexterm": "c7/c7/c7"
+        },
+        "yellow": {
+            "hex": "#eca944",
+            "hexterm": "ec/a9/44"
+        }
+    },
+    "selection-background": {
+        "hex": "#035bd6",
+        "hexterm": "03/5b/d6"
+    },
+    "selection-foreground": {
+        "hex": "#f8f9fa",
+        "hexterm": "f8/f9/fa"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Ayu Light",
+    "theme-slug": "ayu-light",
+    "theme-source": "Ayu Theme (https://github.com/ayu-theme)"
+}

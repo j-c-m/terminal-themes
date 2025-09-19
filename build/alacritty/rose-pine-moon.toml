@@ -1,0 +1,40 @@
+# Theme:    Rose Pine Moon
+# Mode:     dark
+# Source:   Rose Pine (https://github.com/rose-pine)
+
+# Default colors
+[colors.primary]
+background  = '#232136'
+foreground  = '#e0def4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#e0def4'
+cursor      = '#56526e'
+
+# Selection colors
+[colors.selection]
+background  = '#44415a'
+text        = '#e0def4'
+
+# Normal colors
+[colors.normal]
+black       = '#393552'
+red         = '#eb6f92'
+green       = '#3e8fb0'
+yellow      = '#f6c177'
+blue        = '#9ccfd8'
+magenta     = '#c4a7e7'
+cyan        = '#ea9a97'
+white       = '#e0def4'
+
+# Bright colors
+[colors.bright]
+black       = '#6e6a86'
+red         = '#ef8da9'
+green       = '#479cbe'
+yellow      = '#f8d199'
+blue        = '#b7dce3'
+magenta     = '#d9c6f0'
+cyan        = '#f0b9b7'
+white       = '#e0def4'

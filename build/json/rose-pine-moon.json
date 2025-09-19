@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#232136",
+        "hexterm": "23/21/36"
+    },
+    "bright": {
+        "black": {
+            "hex": "#6e6a86",
+            "hexterm": "6e/6a/86"
+        },
+        "blue": {
+            "hex": "#b7dce3",
+            "hexterm": "b7/dc/e3"
+        },
+        "cyan": {
+            "hex": "#f0b9b7",
+            "hexterm": "f0/b9/b7"
+        },
+        "green": {
+            "hex": "#479cbe",
+            "hexterm": "47/9c/be"
+        },
+        "magenta": {
+            "hex": "#d9c6f0",
+            "hexterm": "d9/c6/f0"
+        },
+        "red": {
+            "hex": "#ef8da9",
+            "hexterm": "ef/8d/a9"
+        },
+        "white": {
+            "hex": "#e0def4",
+            "hexterm": "e0/de/f4"
+        },
+        "yellow": {
+            "hex": "#f8d199",
+            "hexterm": "f8/d1/99"
+        }
+    },
+    "cursor": {
+        "hex": "#56526e",
+        "hexterm": "56/52/6e"
+    },
+    "cursor-text": {
+        "hex": "#e0def4",
+        "hexterm": "e0/de/f4"
+    },
+    "foreground": {
+        "hex": "#e0def4",
+        "hexterm": "e0/de/f4"
+    },
+    "normal": {
+        "black": {
+            "hex": "#393552",
+            "hexterm": "39/35/52"
+        },
+        "blue": {
+            "hex": "#9ccfd8",
+            "hexterm": "9c/cf/d8"
+        },
+        "cyan": {
+            "hex": "#ea9a97",
+            "hexterm": "ea/9a/97"
+        },
+        "green": {
+            "hex": "#3e8fb0",
+            "hexterm": "3e/8f/b0"
+        },
+        "magenta": {
+            "hex": "#c4a7e7",
+            "hexterm": "c4/a7/e7"
+        },
+        "red": {
+            "hex": "#eb6f92",
+            "hexterm": "eb/6f/92"
+        },
+        "white": {
+            "hex": "#e0def4",
+            "hexterm": "e0/de/f4"
+        },
+        "yellow": {
+            "hex": "#f6c177",
+            "hexterm": "f6/c1/77"
+        }
+    },
+    "selection-background": {
+        "hex": "#44415a",
+        "hexterm": "44/41/5a"
+    },
+    "selection-foreground": {
+        "hex": "#e0def4",
+        "hexterm": "e0/de/f4"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Rose Pine Moon",
+    "theme-slug": "rose-pine-moon",
+    "theme-source": "Rose Pine (https://github.com/rose-pine)"
+}

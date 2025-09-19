@@ -1,0 +1,40 @@
+# Theme:    Tokyo Night Storm
+# Mode:     dark
+# Source:   Tokyo Night (https://github.com/tokyo-night/)
+
+# Default colors
+[colors.primary]
+background  = '#24283b'
+foreground  = '#a9b1d6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#24283b'
+cursor      = '#a9b1d6'
+
+# Selection colors
+[colors.selection]
+background  = '#a9b1d6'
+text        = '#24283b'
+
+# Normal colors
+[colors.normal]
+black       = '#414868'
+red         = '#f7768e'
+green       = '#9ece6a'
+yellow      = '#e0af68'
+blue        = '#7aa2f7'
+magenta     = '#bb9af7'
+cyan        = '#7dcfff'
+white       = '#a9b1d6'
+
+# Bright colors
+[colors.bright]
+black       = '#565f89'
+red         = '#f998aa'
+green       = '#add681'
+yellow      = '#e6bd83'
+blue        = '#9dbaf9'
+magenta     = '#d4bffa'
+cyan        = '#a3ddff'
+white       = '#c0caf5'

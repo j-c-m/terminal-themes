@@ -1,0 +1,40 @@
+# Theme:    Everforest Dark Soft
+# Mode:     dark
+# Source:   Everforest (https://github.com/sainnhe/everforest)
+
+# Default colors
+[colors.primary]
+background  = '#333c43'
+foreground  = '#d3c6aa'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#333c43'
+cursor      = '#d3c6aa'
+
+# Selection colors
+[colors.selection]
+background  = '#d3c6aa'
+text        = '#333c43'
+
+# Normal colors
+[colors.normal]
+black       = '#333c43'
+red         = '#e67e80'
+green       = '#a7c080'
+yellow      = '#dbbc7f'
+blue        = '#7fbbb3'
+magenta     = '#d699b6'
+cyan        = '#83c092'
+white       = '#d3c6aa'
+
+# Bright colors
+[colors.bright]
+black       = '#7a8478'
+red         = '#ec9c9d'
+green       = '#b6cb95'
+yellow      = '#e3ca9a'
+blue        = '#94c6bf'
+magenta     = '#e1b3c9'
+cyan        = '#98cba5'
+white       = '#f3ead3'

@@ -1,0 +1,40 @@
+# Theme:    Solarized Light
+# Mode:     light
+# Source:   Solarized (https://github.com/altercation/solarized/)
+
+# Default colors
+[colors.primary]
+background  = '#fdf6e3'
+foreground  = '#657b83'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#fdf6e3'
+cursor      = '#586e75'
+
+# Selection colors
+[colors.selection]
+background  = '#657b83'
+text        = '#fdf6e3'
+
+# Normal colors
+[colors.normal]
+black       = '#073642'
+red         = '#dc322f'
+green       = '#859900'
+yellow      = '#cb4b16'
+blue        = '#268bd2'
+magenta     = '#6c71c4'
+cyan        = '#2aa198'
+white       = '#93a1a1'
+
+# Bright colors
+[colors.bright]
+black       = '#586e75'
+red         = '#e04946'
+green       = '#92a800'
+yellow      = '#b58900'
+blue        = '#3697db'
+magenta     = '#d33682'
+cyan        = '#2eb1a7'
+white       = '#fdf6e3'

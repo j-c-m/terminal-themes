@@ -1,0 +1,29 @@
+# Theme:    Tomorrow Night
+# Mode:     dark
+# Source:   Chris Kempson (http://chriskempson.com)
+
+palette = 0=#282a2e
+palette = 1=#cc6666
+palette = 2=#b5bd68
+palette = 3=#a3685a
+palette = 4=#81a2be
+palette = 5=#b294bb
+palette = 6=#8abeb7
+palette = 7=#c5c8c6
+palette = 8=#969896
+palette = 9=#d47d7d
+palette = 10=#bfc67c
+palette = 11=#f0c674
+palette = 12=#96b2c9
+palette = 13=#c1a8c8
+palette = 14=#9fcac4
+palette = 15=#ffffff
+
+background = #1d1f21
+foreground = #c5c8c6
+
+cursor-color = #c5c8c6
+cursor-text = #1d1f21
+
+selection-background = #c5c8c6
+selection-foreground = #1d1f21

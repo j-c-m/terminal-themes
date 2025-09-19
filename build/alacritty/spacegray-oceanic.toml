@@ -1,0 +1,40 @@
+# Theme:    Spacegray Oceanic
+# Mode:     dark
+# Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+
+# Default colors
+[colors.primary]
+background  = '#1b2b34'
+foreground  = '#c0c5ce'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1b2b34'
+cursor      = '#c0c5ce'
+
+# Selection colors
+[colors.selection]
+background  = '#c0c5ce'
+text        = '#1b2b34'
+
+# Normal colors
+[colors.normal]
+black       = '#343d46'
+red         = '#ec5f67'
+green       = '#99c794'
+yellow      = '#ab7967'
+blue        = '#6699cc'
+magenta     = '#c594c5'
+cyan        = '#5fb3b3'
+white       = '#c0c5ce'
+
+# Bright colors
+[colors.bright]
+black       = '#65737e'
+red         = '#f07d83'
+green       = '#afd3ab'
+yellow      = '#fac863'
+blue        = '#7da8d4'
+magenta     = '#d1aad1'
+cyan        = '#72bcbc'
+white       = '#d8dee9'

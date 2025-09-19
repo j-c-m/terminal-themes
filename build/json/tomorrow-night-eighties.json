@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#2d2d2d",
+        "hexterm": "2d/2d/2d"
+    },
+    "bright": {
+        "black": {
+            "hex": "#999999",
+            "hexterm": "99/99/99"
+        },
+        "blue": {
+            "hex": "#7da8d4",
+            "hexterm": "7d/a8/d4"
+        },
+        "cyan": {
+            "hex": "#7dd4d4",
+            "hexterm": "7d/d4/d4"
+        },
+        "green": {
+            "hex": "#b1d8b1",
+            "hexterm": "b1/d8/b1"
+        },
+        "magenta": {
+            "hex": "#d8b1d8",
+            "hexterm": "d8/b1/d8"
+        },
+        "red": {
+            "hex": "#f5989a",
+            "hexterm": "f5/98/9a"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#ffcc66",
+            "hexterm": "ff/cc/66"
+        }
+    },
+    "cursor": {
+        "hex": "#cccccc",
+        "hexterm": "cc/cc/cc"
+    },
+    "cursor-text": {
+        "hex": "#2d2d2d",
+        "hexterm": "2d/2d/2d"
+    },
+    "foreground": {
+        "hex": "#cccccc",
+        "hexterm": "cc/cc/cc"
+    },
+    "normal": {
+        "black": {
+            "hex": "#393939",
+            "hexterm": "39/39/39"
+        },
+        "blue": {
+            "hex": "#6699cc",
+            "hexterm": "66/99/cc"
+        },
+        "cyan": {
+            "hex": "#66cccc",
+            "hexterm": "66/cc/cc"
+        },
+        "green": {
+            "hex": "#99cc99",
+            "hexterm": "99/cc/99"
+        },
+        "magenta": {
+            "hex": "#cc99cc",
+            "hexterm": "cc/99/cc"
+        },
+        "red": {
+            "hex": "#f2777a",
+            "hexterm": "f2/77/7a"
+        },
+        "white": {
+            "hex": "#cccccc",
+            "hexterm": "cc/cc/cc"
+        },
+        "yellow": {
+            "hex": "#a3685a",
+            "hexterm": "a3/68/5a"
+        }
+    },
+    "selection-background": {
+        "hex": "#cccccc",
+        "hexterm": "cc/cc/cc"
+    },
+    "selection-foreground": {
+        "hex": "#2d2d2d",
+        "hexterm": "2d/2d/2d"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Tomorrow Night Eighties",
+    "theme-slug": "tomorrow-night-eighties",
+    "theme-source": "Chris Kempson (http://chriskempson.com)"
+}

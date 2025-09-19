@@ -1,0 +1,40 @@
+# Theme:    Catppuccin Mocha
+# Mode:     dark
+# Source:   Catppuccin (https://github.com/catppuccin/)
+
+# Default colors
+[colors.primary]
+background  = '#1e1e2e'
+foreground  = '#cdd6f4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1e1e2e'
+cursor      = '#f5e0dc'
+
+# Selection colors
+[colors.selection]
+background  = '#f5e0dc'
+text        = '#1e1e2e'
+
+# Normal colors
+[colors.normal]
+black       = '#45475a'
+red         = '#f38ba8'
+green       = '#a6e3a1'
+yellow      = '#f9e2af'
+blue        = '#89b4fa'
+magenta     = '#f5c2e7'
+cyan        = '#94e2d5'
+white       = '#bac2de'
+
+# Bright colors
+[colors.bright]
+black       = '#585b70'
+red         = '#f7aec2'
+green       = '#c2ecbf'
+yellow      = '#fcd682'
+blue        = '#aeccfc'
+magenta     = '#f398da'
+cyan        = '#b1eae1'
+white       = '#a6adc8'

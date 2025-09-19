@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#eff1f5",
+        "hexterm": "ef/f1/f5"
+    },
+    "bright": {
+        "black": {
+            "hex": "#acb0be",
+            "hexterm": "ac/b0/be"
+        },
+        "blue": {
+            "hex": "#3878f6",
+            "hexterm": "38/78/f6"
+        },
+        "cyan": {
+            "hex": "#19a1a8",
+            "hexterm": "19/a1/a8"
+        },
+        "green": {
+            "hex": "#46b02f",
+            "hexterm": "46/b0/2f"
+        },
+        "magenta": {
+            "hex": "#ef95d7",
+            "hexterm": "ef/95/d7"
+        },
+        "red": {
+            "hex": "#e7103f",
+            "hexterm": "e7/10/3f"
+        },
+        "white": {
+            "hex": "#6c6f85",
+            "hexterm": "6c/6f/85"
+        },
+        "yellow": {
+            "hex": "#e49931",
+            "hexterm": "e4/99/31"
+        }
+    },
+    "cursor": {
+        "hex": "#dc8a78",
+        "hexterm": "dc/8a/78"
+    },
+    "cursor-text": {
+        "hex": "#eff1f5",
+        "hexterm": "ef/f1/f5"
+    },
+    "foreground": {
+        "hex": "#4c4f69",
+        "hexterm": "4c/4f/69"
+    },
+    "normal": {
+        "black": {
+            "hex": "#bcc0cc",
+            "hexterm": "bc/c0/cc"
+        },
+        "blue": {
+            "hex": "#1e66f5",
+            "hexterm": "1e/66/f5"
+        },
+        "cyan": {
+            "hex": "#179299",
+            "hexterm": "17/92/99"
+        },
+        "green": {
+            "hex": "#40a02b",
+            "hexterm": "40/a0/2b"
+        },
+        "magenta": {
+            "hex": "#ea76cb",
+            "hexterm": "ea/76/cb"
+        },
+        "red": {
+            "hex": "#d20f39",
+            "hexterm": "d2/0f/39"
+        },
+        "white": {
+            "hex": "#5c5f77",
+            "hexterm": "5c/5f/77"
+        },
+        "yellow": {
+            "hex": "#df8e1d",
+            "hexterm": "df/8e/1d"
+        }
+    },
+    "selection-background": {
+        "hex": "#dc8a78",
+        "hexterm": "dc/8a/78"
+    },
+    "selection-foreground": {
+        "hex": "#eff1f5",
+        "hexterm": "ef/f1/f5"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Catppuccin Latte",
+    "theme-slug": "catppuccin-latte",
+    "theme-source": "Catppuccin (https://github.com/catppuccin/)"
+}

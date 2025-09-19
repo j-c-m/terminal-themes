@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#fdf6e3",
+        "hexterm": "fd/f6/e3"
+    },
+    "bright": {
+        "black": {
+            "hex": "#586e75",
+            "hexterm": "58/6e/75"
+        },
+        "blue": {
+            "hex": "#3697db",
+            "hexterm": "36/97/db"
+        },
+        "cyan": {
+            "hex": "#2eb1a7",
+            "hexterm": "2e/b1/a7"
+        },
+        "green": {
+            "hex": "#92a800",
+            "hexterm": "92/a8/00"
+        },
+        "magenta": {
+            "hex": "#d33682",
+            "hexterm": "d3/36/82"
+        },
+        "red": {
+            "hex": "#e04946",
+            "hexterm": "e0/49/46"
+        },
+        "white": {
+            "hex": "#fdf6e3",
+            "hexterm": "fd/f6/e3"
+        },
+        "yellow": {
+            "hex": "#b58900",
+            "hexterm": "b5/89/00"
+        }
+    },
+    "cursor": {
+        "hex": "#586e75",
+        "hexterm": "58/6e/75"
+    },
+    "cursor-text": {
+        "hex": "#fdf6e3",
+        "hexterm": "fd/f6/e3"
+    },
+    "foreground": {
+        "hex": "#657b83",
+        "hexterm": "65/7b/83"
+    },
+    "normal": {
+        "black": {
+            "hex": "#073642",
+            "hexterm": "07/36/42"
+        },
+        "blue": {
+            "hex": "#268bd2",
+            "hexterm": "26/8b/d2"
+        },
+        "cyan": {
+            "hex": "#2aa198",
+            "hexterm": "2a/a1/98"
+        },
+        "green": {
+            "hex": "#859900",
+            "hexterm": "85/99/00"
+        },
+        "magenta": {
+            "hex": "#6c71c4",
+            "hexterm": "6c/71/c4"
+        },
+        "red": {
+            "hex": "#dc322f",
+            "hexterm": "dc/32/2f"
+        },
+        "white": {
+            "hex": "#93a1a1",
+            "hexterm": "93/a1/a1"
+        },
+        "yellow": {
+            "hex": "#cb4b16",
+            "hexterm": "cb/4b/16"
+        }
+    },
+    "selection-background": {
+        "hex": "#657b83",
+        "hexterm": "65/7b/83"
+    },
+    "selection-foreground": {
+        "hex": "#fdf6e3",
+        "hexterm": "fd/f6/e3"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Solarized Light",
+    "theme-slug": "solarized-light",
+    "theme-source": "Solarized (https://github.com/altercation/solarized/)"
+}

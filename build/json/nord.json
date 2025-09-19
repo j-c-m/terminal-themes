@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#2e3440",
+        "hexterm": "2e/34/40"
+    },
+    "bright": {
+        "black": {
+            "hex": "#4c566a",
+            "hexterm": "4c/56/6a"
+        },
+        "blue": {
+            "hex": "#97b1cc",
+            "hexterm": "97/b1/cc"
+        },
+        "cyan": {
+            "hex": "#8fbcbb",
+            "hexterm": "8f/bc/bb"
+        },
+        "green": {
+            "hex": "#b4caa1",
+            "hexterm": "b4/ca/a1"
+        },
+        "magenta": {
+            "hex": "#c1a1bb",
+            "hexterm": "c1/a1/bb"
+        },
+        "red": {
+            "hex": "#c7757d",
+            "hexterm": "c7/75/7d"
+        },
+        "white": {
+            "hex": "#eceff4",
+            "hexterm": "ec/ef/f4"
+        },
+        "yellow": {
+            "hex": "#ebcb8b",
+            "hexterm": "eb/cb/8b"
+        }
+    },
+    "cursor": {
+        "hex": "#d8dee9",
+        "hexterm": "d8/de/e9"
+    },
+    "cursor-text": {
+        "hex": "#2e3440",
+        "hexterm": "2e/34/40"
+    },
+    "foreground": {
+        "hex": "#d8dee9",
+        "hexterm": "d8/de/e9"
+    },
+    "normal": {
+        "black": {
+            "hex": "#3b4252",
+            "hexterm": "3b/42/52"
+        },
+        "blue": {
+            "hex": "#81a1c1",
+            "hexterm": "81/a1/c1"
+        },
+        "cyan": {
+            "hex": "#88c0d0",
+            "hexterm": "88/c0/d0"
+        },
+        "green": {
+            "hex": "#a3be8c",
+            "hexterm": "a3/be/8c"
+        },
+        "magenta": {
+            "hex": "#b48ead",
+            "hexterm": "b4/8e/ad"
+        },
+        "red": {
+            "hex": "#bf616a",
+            "hexterm": "bf/61/6a"
+        },
+        "white": {
+            "hex": "#e5e9f0",
+            "hexterm": "e5/e9/f0"
+        },
+        "yellow": {
+            "hex": "#d08770",
+            "hexterm": "d0/87/70"
+        }
+    },
+    "selection-background": {
+        "hex": "#4c566a",
+        "hexterm": "4c/56/6a"
+    },
+    "selection-foreground": {
+        "hex": "#d8dee9",
+        "hexterm": "d8/de/e9"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Nord",
+    "theme-slug": "nord",
+    "theme-source": "Nord (https://www.nordtheme.com/)"
+}

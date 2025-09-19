@@ -1,0 +1,40 @@
+# Theme:    One Dark Dark
+# Mode:     dark
+# Source:   One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
+
+# Default colors
+[colors.primary]
+background  = '#1e2127'
+foreground  = '#abb2bf'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1e2127'
+cursor      = '#5c6370'
+
+# Selection colors
+[colors.selection]
+background  = '#abb2bf'
+text        = '#1e2127'
+
+# Normal colors
+[colors.normal]
+black       = '#1e2127'
+red         = '#e06c75'
+green       = '#98c379'
+yellow      = '#d19a66'
+blue        = '#61afef'
+magenta     = '#c678dd'
+cyan        = '#56b6c2'
+white       = '#abb2bf'
+
+# Bright colors
+[colors.bright]
+black       = '#5c6370'
+red         = '#e6878f'
+green       = '#a9cd8f'
+yellow      = '#d8aa7e'
+blue        = '#80bef2'
+magenta     = '#d293e4'
+cyan        = '#6bbfc9'
+white       = '#ffffff'

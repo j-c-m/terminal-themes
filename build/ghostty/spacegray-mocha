@@ -1,0 +1,29 @@
+# Theme:    Spacegray Mocha
+# Mode:     dark
+# Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+
+palette = 0=#534636
+palette = 1=#cb6077
+palette = 2=#beb55b
+palette = 3=#bb9584
+palette = 4=#8ab3b5
+palette = 5=#a89bb9
+palette = 6=#7bbda4
+palette = 7=#d0c8c6
+palette = 8=#7e705a
+palette = 9=#d2778a
+palette = 10=#c6be6f
+palette = 11=#f4bc87
+palette = 12=#9ec0c1
+palette = 13=#b9afc7
+palette = 14=#90c7b2
+palette = 15=#f5eeeb
+
+background = #3b3228
+foreground = #d0c8c6
+
+cursor-color = #d0c8c6
+cursor-text = #3b3228
+
+selection-background = #d0c8c6
+selection-foreground = #3b3228

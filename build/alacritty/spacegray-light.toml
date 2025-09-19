@@ -1,0 +1,40 @@
+# Theme:    Spacegray Light
+# Mode:     light
+# Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+
+# Default colors
+[colors.primary]
+background  = '#dfe1e8'
+foreground  = '#65737e'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#dfe1e8'
+cursor      = '#65737e'
+
+# Selection colors
+[colors.selection]
+background  = '#65737e'
+text        = '#dfe1e8'
+
+# Normal colors
+[colors.normal]
+black       = '#343d46'
+red         = '#c85863'
+green       = '#6f984c'
+yellow      = '#90604f'
+blue        = '#5986b6'
+magenta     = '#8b5b82'
+cyan        = '#5ca8a5'
+white       = '#c0c5ce'
+
+# Bright colors
+[colors.bright]
+black       = '#65737e'
+red         = '#cf6e77'
+green       = '#7aa754'
+yellow      = '#ebcb8b'
+blue        = '#6c94be'
+magenta     = '#99648f'
+cyan        = '#6db1ae'
+white       = '#eff1f5'

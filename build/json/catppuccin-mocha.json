@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#1e1e2e",
+        "hexterm": "1e/1e/2e"
+    },
+    "bright": {
+        "black": {
+            "hex": "#585b70",
+            "hexterm": "58/5b/70"
+        },
+        "blue": {
+            "hex": "#aeccfc",
+            "hexterm": "ae/cc/fc"
+        },
+        "cyan": {
+            "hex": "#b1eae1",
+            "hexterm": "b1/ea/e1"
+        },
+        "green": {
+            "hex": "#c2ecbf",
+            "hexterm": "c2/ec/bf"
+        },
+        "magenta": {
+            "hex": "#f398da",
+            "hexterm": "f3/98/da"
+        },
+        "red": {
+            "hex": "#f7aec2",
+            "hexterm": "f7/ae/c2"
+        },
+        "white": {
+            "hex": "#a6adc8",
+            "hexterm": "a6/ad/c8"
+        },
+        "yellow": {
+            "hex": "#fcd682",
+            "hexterm": "fc/d6/82"
+        }
+    },
+    "cursor": {
+        "hex": "#f5e0dc",
+        "hexterm": "f5/e0/dc"
+    },
+    "cursor-text": {
+        "hex": "#1e1e2e",
+        "hexterm": "1e/1e/2e"
+    },
+    "foreground": {
+        "hex": "#cdd6f4",
+        "hexterm": "cd/d6/f4"
+    },
+    "normal": {
+        "black": {
+            "hex": "#45475a",
+            "hexterm": "45/47/5a"
+        },
+        "blue": {
+            "hex": "#89b4fa",
+            "hexterm": "89/b4/fa"
+        },
+        "cyan": {
+            "hex": "#94e2d5",
+            "hexterm": "94/e2/d5"
+        },
+        "green": {
+            "hex": "#a6e3a1",
+            "hexterm": "a6/e3/a1"
+        },
+        "magenta": {
+            "hex": "#f5c2e7",
+            "hexterm": "f5/c2/e7"
+        },
+        "red": {
+            "hex": "#f38ba8",
+            "hexterm": "f3/8b/a8"
+        },
+        "white": {
+            "hex": "#bac2de",
+            "hexterm": "ba/c2/de"
+        },
+        "yellow": {
+            "hex": "#f9e2af",
+            "hexterm": "f9/e2/af"
+        }
+    },
+    "selection-background": {
+        "hex": "#f5e0dc",
+        "hexterm": "f5/e0/dc"
+    },
+    "selection-foreground": {
+        "hex": "#1e1e2e",
+        "hexterm": "1e/1e/2e"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Catppuccin Mocha",
+    "theme-slug": "catppuccin-mocha",
+    "theme-source": "Catppuccin (https://github.com/catppuccin/)"
+}

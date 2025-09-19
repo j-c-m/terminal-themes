@@ -1,0 +1,40 @@
+# Theme:    Cobalt2
+# Mode:     dark
+# Source:   Wes Bos(https://github.com/wesbos/Cobalt2-iterm)
+
+# Default colors
+[colors.primary]
+background  = '#173448'
+foreground  = '#ffffff'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#fefff4'
+cursor      = '#f4d300'
+
+# Selection colors
+[colors.selection]
+background  = '#1f4562'
+text        = '#c2c2c2'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#ff2600'
+green       = '#3ddf2b'
+yellow      = '#f4d300'
+blue        = '#1478db'
+magenta     = '#ff2c70'
+cyan        = '#00c5c7'
+white       = '#c7c7c7'
+
+# Bright colors
+[colors.bright]
+black       = '#686868'
+red         = '#f92a1c'
+green       = '#43d426'
+yellow      = '#f1d000'
+blue        = '#6871ff'
+magenta     = '#ff77ff'
+cyan        = '#79e8fb'
+white       = '#ffffff'

@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#173448",
+        "hexterm": "17/34/48"
+    },
+    "bright": {
+        "black": {
+            "hex": "#686868",
+            "hexterm": "68/68/68"
+        },
+        "blue": {
+            "hex": "#6871ff",
+            "hexterm": "68/71/ff"
+        },
+        "cyan": {
+            "hex": "#79e8fb",
+            "hexterm": "79/e8/fb"
+        },
+        "green": {
+            "hex": "#43d426",
+            "hexterm": "43/d4/26"
+        },
+        "magenta": {
+            "hex": "#ff77ff",
+            "hexterm": "ff/77/ff"
+        },
+        "red": {
+            "hex": "#f92a1c",
+            "hexterm": "f9/2a/1c"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#f1d000",
+            "hexterm": "f1/d0/00"
+        }
+    },
+    "cursor": {
+        "hex": "#f4d300",
+        "hexterm": "f4/d3/00"
+    },
+    "cursor-text": {
+        "hex": "#fefff4",
+        "hexterm": "fe/ff/f4"
+    },
+    "foreground": {
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
+    },
+    "normal": {
+        "black": {
+            "hex": "#000000",
+            "hexterm": "00/00/00"
+        },
+        "blue": {
+            "hex": "#1478db",
+            "hexterm": "14/78/db"
+        },
+        "cyan": {
+            "hex": "#00c5c7",
+            "hexterm": "00/c5/c7"
+        },
+        "green": {
+            "hex": "#3ddf2b",
+            "hexterm": "3d/df/2b"
+        },
+        "magenta": {
+            "hex": "#ff2c70",
+            "hexterm": "ff/2c/70"
+        },
+        "red": {
+            "hex": "#ff2600",
+            "hexterm": "ff/26/00"
+        },
+        "white": {
+            "hex": "#c7c7c7",
+            "hexterm": "c7/c7/c7"
+        },
+        "yellow": {
+            "hex": "#f4d300",
+            "hexterm": "f4/d3/00"
+        }
+    },
+    "selection-background": {
+        "hex": "#1f4562",
+        "hexterm": "1f/45/62"
+    },
+    "selection-foreground": {
+        "hex": "#c2c2c2",
+        "hexterm": "c2/c2/c2"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Cobalt2",
+    "theme-slug": "cobalt2",
+    "theme-source": "Wes Bos(https://github.com/wesbos/Cobalt2-iterm)"
+}

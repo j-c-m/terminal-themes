@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#1f1f28",
+        "hexterm": "1f/1f/28"
+    },
+    "bright": {
+        "black": {
+            "hex": "#727169",
+            "hexterm": "72/71/69"
+        },
+        "blue": {
+            "hex": "#7fb4ca",
+            "hexterm": "7f/b4/ca"
+        },
+        "cyan": {
+            "hex": "#7aa89f",
+            "hexterm": "7a/a8/9f"
+        },
+        "green": {
+            "hex": "#98bb6c",
+            "hexterm": "98/bb/6c"
+        },
+        "magenta": {
+            "hex": "#938aa9",
+            "hexterm": "93/8a/a9"
+        },
+        "red": {
+            "hex": "#e82424",
+            "hexterm": "e8/24/24"
+        },
+        "white": {
+            "hex": "#dcd7ba",
+            "hexterm": "dc/d7/ba"
+        },
+        "yellow": {
+            "hex": "#e6c384",
+            "hexterm": "e6/c3/84"
+        }
+    },
+    "cursor": {
+        "hex": "#dcd7ba",
+        "hexterm": "dc/d7/ba"
+    },
+    "cursor-text": {
+        "hex": "#1f1f28",
+        "hexterm": "1f/1f/28"
+    },
+    "foreground": {
+        "hex": "#dcd7ba",
+        "hexterm": "dc/d7/ba"
+    },
+    "normal": {
+        "black": {
+            "hex": "#090618",
+            "hexterm": "09/06/18"
+        },
+        "blue": {
+            "hex": "#7e9cd8",
+            "hexterm": "7e/9c/d8"
+        },
+        "cyan": {
+            "hex": "#6a9589",
+            "hexterm": "6a/95/89"
+        },
+        "green": {
+            "hex": "#76946a",
+            "hexterm": "76/94/6a"
+        },
+        "magenta": {
+            "hex": "#957fb8",
+            "hexterm": "95/7f/b8"
+        },
+        "red": {
+            "hex": "#c34043",
+            "hexterm": "c3/40/43"
+        },
+        "white": {
+            "hex": "#c8c093",
+            "hexterm": "c8/c0/93"
+        },
+        "yellow": {
+            "hex": "#c0a36e",
+            "hexterm": "c0/a3/6e"
+        }
+    },
+    "selection-background": {
+        "hex": "#2d4f67",
+        "hexterm": "2d/4f/67"
+    },
+    "selection-foreground": {
+        "hex": "#c8c093",
+        "hexterm": "c8/c0/93"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Kanagawa Wave",
+    "theme-slug": "kanagawa-wave",
+    "theme-source": "Kanagawa (https://github.com/rebelot/kanagawa)"
+}

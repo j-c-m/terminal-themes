@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#f9f9f9",
+        "hexterm": "f9/f9/f9"
+    },
+    "bright": {
+        "black": {
+            "hex": "#383a42",
+            "hexterm": "38/3a/42"
+        },
+        "blue": {
+            "hex": "#5d8cf4",
+            "hexterm": "5d/8c/f4"
+        },
+        "cyan": {
+            "hex": "#0191cf",
+            "hexterm": "01/91/cf"
+        },
+        "green": {
+            "hex": "#5bae5a",
+            "hexterm": "5b/ae/5a"
+        },
+        "magenta": {
+            "hex": "#b72ab4",
+            "hexterm": "b7/2a/b4"
+        },
+        "red": {
+            "hex": "#e86e63",
+            "hexterm": "e8/6e/63"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#a77201",
+            "hexterm": "a7/72/01"
+        }
+    },
+    "cursor": {
+        "hex": "#383a42",
+        "hexterm": "38/3a/42"
+    },
+    "cursor-text": {
+        "hex": "#f9f9f9",
+        "hexterm": "f9/f9/f9"
+    },
+    "foreground": {
+        "hex": "#383a42",
+        "hexterm": "38/3a/42"
+    },
+    "normal": {
+        "black": {
+            "hex": "#000000",
+            "hexterm": "00/00/00"
+        },
+        "blue": {
+            "hex": "#4078f2",
+            "hexterm": "40/78/f2"
+        },
+        "cyan": {
+            "hex": "#0184bc",
+            "hexterm": "01/84/bc"
+        },
+        "green": {
+            "hex": "#50a14f",
+            "hexterm": "50/a1/4f"
+        },
+        "magenta": {
+            "hex": "#a626a4",
+            "hexterm": "a6/26/a4"
+        },
+        "red": {
+            "hex": "#e45649",
+            "hexterm": "e4/56/49"
+        },
+        "white": {
+            "hex": "#a0a1a7",
+            "hexterm": "a0/a1/a7"
+        },
+        "yellow": {
+            "hex": "#986801",
+            "hexterm": "98/68/01"
+        }
+    },
+    "selection-background": {
+        "hex": "#383a42",
+        "hexterm": "38/3a/42"
+    },
+    "selection-foreground": {
+        "hex": "#f9f9f9",
+        "hexterm": "f9/f9/f9"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "One Dark Light",
+    "theme-slug": "one-dark-light",
+    "theme-source": "One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)"
+}

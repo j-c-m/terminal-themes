@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#f9f5d7",
+        "hexterm": "f9/f5/d7"
+    },
+    "bright": {
+        "black": {
+            "hex": "#928374",
+            "hexterm": "92/83/74"
+        },
+        "blue": {
+            "hex": "#076678",
+            "hexterm": "07/66/78"
+        },
+        "cyan": {
+            "hex": "#427b58",
+            "hexterm": "42/7b/58"
+        },
+        "green": {
+            "hex": "#79740e",
+            "hexterm": "79/74/0e"
+        },
+        "magenta": {
+            "hex": "#8f3f71",
+            "hexterm": "8f/3f/71"
+        },
+        "red": {
+            "hex": "#9d0006",
+            "hexterm": "9d/00/06"
+        },
+        "white": {
+            "hex": "#3c3836",
+            "hexterm": "3c/38/36"
+        },
+        "yellow": {
+            "hex": "#b57614",
+            "hexterm": "b5/76/14"
+        }
+    },
+    "cursor": {
+        "hex": "#3c3836",
+        "hexterm": "3c/38/36"
+    },
+    "cursor-text": {
+        "hex": "#f9f5d7",
+        "hexterm": "f9/f5/d7"
+    },
+    "foreground": {
+        "hex": "#3c3836",
+        "hexterm": "3c/38/36"
+    },
+    "normal": {
+        "black": {
+            "hex": "#fbf1c7",
+            "hexterm": "fb/f1/c7"
+        },
+        "blue": {
+            "hex": "#458588",
+            "hexterm": "45/85/88"
+        },
+        "cyan": {
+            "hex": "#689d6a",
+            "hexterm": "68/9d/6a"
+        },
+        "green": {
+            "hex": "#98971a",
+            "hexterm": "98/97/1a"
+        },
+        "magenta": {
+            "hex": "#b16286",
+            "hexterm": "b1/62/86"
+        },
+        "red": {
+            "hex": "#cc241d",
+            "hexterm": "cc/24/1d"
+        },
+        "white": {
+            "hex": "#504945",
+            "hexterm": "50/49/45"
+        },
+        "yellow": {
+            "hex": "#d79921",
+            "hexterm": "d7/99/21"
+        }
+    },
+    "selection-background": {
+        "hex": "#3c3836",
+        "hexterm": "3c/38/36"
+    },
+    "selection-foreground": {
+        "hex": "#f9f5d7",
+        "hexterm": "f9/f5/d7"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "Hard",
+    "theme-name": "Gruvbox Light Hard",
+    "theme-slug": "gruvbox-light-hard",
+    "theme-source": "Gruvbox (https://github.com/morhetz/gruvbox)"
+}

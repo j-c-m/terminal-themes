@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#192330",
+        "hexterm": "19/23/30"
+    },
+    "bright": {
+        "black": {
+            "hex": "#575860",
+            "hexterm": "57/58/60"
+        },
+        "blue": {
+            "hex": "#86abdc",
+            "hexterm": "86/ab/dc"
+        },
+        "cyan": {
+            "hex": "#7ad5d6",
+            "hexterm": "7a/d5/d6"
+        },
+        "green": {
+            "hex": "#8ebaa4",
+            "hexterm": "8e/ba/a4"
+        },
+        "magenta": {
+            "hex": "#baa1e2",
+            "hexterm": "ba/a1/e2"
+        },
+        "red": {
+            "hex": "#d16983",
+            "hexterm": "d1/69/83"
+        },
+        "white": {
+            "hex": "#e4e4e5",
+            "hexterm": "e4/e4/e5"
+        },
+        "yellow": {
+            "hex": "#e0c989",
+            "hexterm": "e0/c9/89"
+        }
+    },
+    "cursor": {
+        "hex": "#cdcecf",
+        "hexterm": "cd/ce/cf"
+    },
+    "cursor-text": {
+        "hex": "#192330",
+        "hexterm": "19/23/30"
+    },
+    "foreground": {
+        "hex": "#cdcecf",
+        "hexterm": "cd/ce/cf"
+    },
+    "normal": {
+        "black": {
+            "hex": "#393b44",
+            "hexterm": "39/3b/44"
+        },
+        "blue": {
+            "hex": "#719cd6",
+            "hexterm": "71/9c/d6"
+        },
+        "cyan": {
+            "hex": "#63cdcf",
+            "hexterm": "63/cd/cf"
+        },
+        "green": {
+            "hex": "#81b29a",
+            "hexterm": "81/b2/9a"
+        },
+        "magenta": {
+            "hex": "#9d79d6",
+            "hexterm": "9d/79/d6"
+        },
+        "red": {
+            "hex": "#c94f6d",
+            "hexterm": "c9/4f/6d"
+        },
+        "white": {
+            "hex": "#dfdfe0",
+            "hexterm": "df/df/e0"
+        },
+        "yellow": {
+            "hex": "#dbc074",
+            "hexterm": "db/c0/74"
+        }
+    },
+    "selection-background": {
+        "hex": "#2b3b51",
+        "hexterm": "2b/3b/51"
+    },
+    "selection-foreground": {
+        "hex": "#cdcecf",
+        "hexterm": "cd/ce/cf"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Nightfox",
+    "theme-slug": "nightfox",
+    "theme-source": "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+}

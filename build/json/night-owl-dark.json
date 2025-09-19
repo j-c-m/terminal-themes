@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#011627",
+        "hexterm": "01/16/27"
+    },
+    "bright": {
+        "black": {
+            "hex": "#575656",
+            "hexterm": "57/56/56"
+        },
+        "blue": {
+            "hex": "#a9c4ff",
+            "hexterm": "a9/c4/ff"
+        },
+        "cyan": {
+            "hex": "#7fdbca",
+            "hexterm": "7f/db/ca"
+        },
+        "green": {
+            "hex": "#36e07c",
+            "hexterm": "36/e0/7c"
+        },
+        "magenta": {
+            "hex": "#d7b2f0",
+            "hexterm": "d7/b2/f0"
+        },
+        "red": {
+            "hex": "#f2706d",
+            "hexterm": "f2/70/6d"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#ffeb95",
+            "hexterm": "ff/eb/95"
+        }
+    },
+    "cursor": {
+        "hex": "#80a4c2",
+        "hexterm": "80/a4/c2"
+    },
+    "cursor-text": {
+        "hex": "#011627",
+        "hexterm": "01/16/27"
+    },
+    "foreground": {
+        "hex": "#d6deeb",
+        "hexterm": "d6/de/eb"
+    },
+    "normal": {
+        "black": {
+            "hex": "#011627",
+            "hexterm": "01/16/27"
+        },
+        "blue": {
+            "hex": "#82aaff",
+            "hexterm": "82/aa/ff"
+        },
+        "cyan": {
+            "hex": "#21c7a8",
+            "hexterm": "21/c7/a8"
+        },
+        "green": {
+            "hex": "#22da6e",
+            "hexterm": "22/da/6e"
+        },
+        "magenta": {
+            "hex": "#c792ea",
+            "hexterm": "c7/92/ea"
+        },
+        "red": {
+            "hex": "#ef5350",
+            "hexterm": "ef/53/50"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#c5e478",
+            "hexterm": "c5/e4/78"
+        }
+    },
+    "selection-background": {
+        "hex": "#4373c2",
+        "hexterm": "43/73/c2"
+    },
+    "selection-foreground": {
+        "hex": "#011627",
+        "hexterm": "01/16/27"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Night Owl Dark",
+    "theme-slug": "night-owl-dark",
+    "theme-source": "Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)"
+}

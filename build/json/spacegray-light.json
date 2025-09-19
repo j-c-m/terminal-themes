@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#dfe1e8",
+        "hexterm": "df/e1/e8"
+    },
+    "bright": {
+        "black": {
+            "hex": "#65737e",
+            "hexterm": "65/73/7e"
+        },
+        "blue": {
+            "hex": "#6c94be",
+            "hexterm": "6c/94/be"
+        },
+        "cyan": {
+            "hex": "#6db1ae",
+            "hexterm": "6d/b1/ae"
+        },
+        "green": {
+            "hex": "#7aa754",
+            "hexterm": "7a/a7/54"
+        },
+        "magenta": {
+            "hex": "#99648f",
+            "hexterm": "99/64/8f"
+        },
+        "red": {
+            "hex": "#cf6e77",
+            "hexterm": "cf/6e/77"
+        },
+        "white": {
+            "hex": "#eff1f5",
+            "hexterm": "ef/f1/f5"
+        },
+        "yellow": {
+            "hex": "#ebcb8b",
+            "hexterm": "eb/cb/8b"
+        }
+    },
+    "cursor": {
+        "hex": "#65737e",
+        "hexterm": "65/73/7e"
+    },
+    "cursor-text": {
+        "hex": "#dfe1e8",
+        "hexterm": "df/e1/e8"
+    },
+    "foreground": {
+        "hex": "#65737e",
+        "hexterm": "65/73/7e"
+    },
+    "normal": {
+        "black": {
+            "hex": "#343d46",
+            "hexterm": "34/3d/46"
+        },
+        "blue": {
+            "hex": "#5986b6",
+            "hexterm": "59/86/b6"
+        },
+        "cyan": {
+            "hex": "#5ca8a5",
+            "hexterm": "5c/a8/a5"
+        },
+        "green": {
+            "hex": "#6f984c",
+            "hexterm": "6f/98/4c"
+        },
+        "magenta": {
+            "hex": "#8b5b82",
+            "hexterm": "8b/5b/82"
+        },
+        "red": {
+            "hex": "#c85863",
+            "hexterm": "c8/58/63"
+        },
+        "white": {
+            "hex": "#c0c5ce",
+            "hexterm": "c0/c5/ce"
+        },
+        "yellow": {
+            "hex": "#90604f",
+            "hexterm": "90/60/4f"
+        }
+    },
+    "selection-background": {
+        "hex": "#65737e",
+        "hexterm": "65/73/7e"
+    },
+    "selection-foreground": {
+        "hex": "#dfe1e8",
+        "hexterm": "df/e1/e8"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Spacegray Light",
+    "theme-slug": "spacegray-light",
+    "theme-source": "Spacegray (https://github.com/SublimeText/Spacegray/)"
+}

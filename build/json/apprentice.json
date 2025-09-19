@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#262626",
+        "hexterm": "26/26/26"
+    },
+    "bright": {
+        "black": {
+            "hex": "#444444",
+            "hexterm": "44/44/44"
+        },
+        "blue": {
+            "hex": "#87afd7",
+            "hexterm": "87/af/d7"
+        },
+        "cyan": {
+            "hex": "#5fafaf",
+            "hexterm": "5f/af/af"
+        },
+        "green": {
+            "hex": "#87af87",
+            "hexterm": "87/af/87"
+        },
+        "magenta": {
+            "hex": "#8787af",
+            "hexterm": "87/87/af"
+        },
+        "red": {
+            "hex": "#ff8700",
+            "hexterm": "ff/87/00"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#ffffaf",
+            "hexterm": "ff/ff/af"
+        }
+    },
+    "cursor": {
+        "hex": "#bcbcbc",
+        "hexterm": "bc/bc/bc"
+    },
+    "cursor-text": {
+        "hex": "#262626",
+        "hexterm": "26/26/26"
+    },
+    "foreground": {
+        "hex": "#bcbcbc",
+        "hexterm": "bc/bc/bc"
+    },
+    "normal": {
+        "black": {
+            "hex": "#1c1c1c",
+            "hexterm": "1c/1c/1c"
+        },
+        "blue": {
+            "hex": "#5f87af",
+            "hexterm": "5f/87/af"
+        },
+        "cyan": {
+            "hex": "#5f8787",
+            "hexterm": "5f/87/87"
+        },
+        "green": {
+            "hex": "#5f875f",
+            "hexterm": "5f/87/5f"
+        },
+        "magenta": {
+            "hex": "#5f5f87",
+            "hexterm": "5f/5f/87"
+        },
+        "red": {
+            "hex": "#af5f5f",
+            "hexterm": "af/5f/5f"
+        },
+        "white": {
+            "hex": "#6c6c6c",
+            "hexterm": "6c/6c/6c"
+        },
+        "yellow": {
+            "hex": "#87875f",
+            "hexterm": "87/87/5f"
+        }
+    },
+    "selection-background": {
+        "hex": "#bcbcbc",
+        "hexterm": "bc/bc/bc"
+    },
+    "selection-foreground": {
+        "hex": "#262626",
+        "hexterm": "26/26/26"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Apprentice",
+    "theme-slug": "apprentice",
+    "theme-source": "(https://github.com/romainl/Apprentice)"
+}

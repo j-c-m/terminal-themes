@@ -1,0 +1,29 @@
+# Theme:    Tokyo Night Light
+# Mode:     light
+# Source:   Tokyo Night (https://github.com/tokyo-night/)
+
+palette = 0=#343b58
+palette = 1=#8c4351
+palette = 2=#385f0d
+palette = 3=#8f5e15
+palette = 4=#2959aa
+palette = 5=#5a3e8e
+palette = 6=#0f4b6e
+palette = 7=#343b58
+palette = 8=#6c6e75
+palette = 9=#9a4a59
+palette = 10=#3e690e
+palette = 11=#9d6717
+palette = 12=#2d62bb
+palette = 13=#63449c
+palette = 14=#105279
+palette = 15=#343b58
+
+background = #e6e7ed
+foreground = #343b58
+
+cursor-color = #343b58
+cursor-text = #e6e7ed
+
+selection-background = #343b58
+selection-foreground = #e6e7ed

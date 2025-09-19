@@ -1,0 +1,40 @@
+# Theme:    Rose Pine
+# Mode:     dark
+# Source:   Rose Pine (https://github.com/rose-pine)
+
+# Default colors
+[colors.primary]
+background  = '#191724'
+foreground  = '#e0def4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#e0def4'
+cursor      = '#524f67'
+
+# Selection colors
+[colors.selection]
+background  = '#403d52'
+text        = '#e0def4'
+
+# Normal colors
+[colors.normal]
+black       = '#26233a'
+red         = '#eb6f92'
+green       = '#31748f'
+yellow      = '#f6c177'
+blue        = '#9ccfd8'
+magenta     = '#c4a7e7'
+cyan        = '#ebbcba'
+white       = '#e0def4'
+
+# Bright colors
+[colors.bright]
+black       = '#6e6a86'
+red         = '#ef8da9'
+green       = '#36809d'
+yellow      = '#f8d199'
+blue        = '#b7dce3'
+magenta     = '#d9c6f0'
+cyan        = '#e59996'
+white       = '#e0def4'

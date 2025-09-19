@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#103c48",
+        "hexterm": "10/3c/48"
+    },
+    "bright": {
+        "black": {
+            "hex": "#2d5b69",
+            "hexterm": "2d/5b/69"
+        },
+        "blue": {
+            "hex": "#58a3ff",
+            "hexterm": "58/a3/ff"
+        },
+        "cyan": {
+            "hex": "#53d6c7",
+            "hexterm": "53/d6/c7"
+        },
+        "green": {
+            "hex": "#84c747",
+            "hexterm": "84/c7/47"
+        },
+        "magenta": {
+            "hex": "#ff84cd",
+            "hexterm": "ff/84/cd"
+        },
+        "red": {
+            "hex": "#ff665c",
+            "hexterm": "ff/66/5c"
+        },
+        "white": {
+            "hex": "#cad8d9",
+            "hexterm": "ca/d8/d9"
+        },
+        "yellow": {
+            "hex": "#ebc13d",
+            "hexterm": "eb/c1/3d"
+        }
+    },
+    "cursor": {
+        "hex": "#af88eb",
+        "hexterm": "af/88/eb"
+    },
+    "cursor-text": {
+        "hex": "#103c48",
+        "hexterm": "10/3c/48"
+    },
+    "foreground": {
+        "hex": "#adbcbc",
+        "hexterm": "ad/bc/bc"
+    },
+    "normal": {
+        "black": {
+            "hex": "#184956",
+            "hexterm": "18/49/56"
+        },
+        "blue": {
+            "hex": "#4695f7",
+            "hexterm": "46/95/f7"
+        },
+        "cyan": {
+            "hex": "#41c7b9",
+            "hexterm": "41/c7/b9"
+        },
+        "green": {
+            "hex": "#75b938",
+            "hexterm": "75/b9/38"
+        },
+        "magenta": {
+            "hex": "#f275be",
+            "hexterm": "f2/75/be"
+        },
+        "red": {
+            "hex": "#fa5750",
+            "hexterm": "fa/57/50"
+        },
+        "white": {
+            "hex": "#72898f",
+            "hexterm": "72/89/8f"
+        },
+        "yellow": {
+            "hex": "#dbb32d",
+            "hexterm": "db/b3/2d"
+        }
+    },
+    "selection-background": {
+        "hex": "#adbcbc",
+        "hexterm": "ad/bc/bc"
+    },
+    "selection-foreground": {
+        "hex": "#103c48",
+        "hexterm": "10/3c/48"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Selenized Dark",
+    "theme-slug": "selenized-dark",
+    "theme-source": "Jan Warchol (https://github.com/jan-warchol/selenized)"
+}

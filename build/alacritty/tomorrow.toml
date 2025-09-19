@@ -1,0 +1,40 @@
+# Theme:    Tomorrow
+# Mode:     light
+# Source:   Chris Kempson (http://chriskempson.com)
+
+# Default colors
+[colors.primary]
+background  = '#ffffff'
+foreground  = '#373b41'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#ffffff'
+cursor      = '#373b41'
+
+# Selection colors
+[colors.selection]
+background  = '#373b41'
+text        = '#ffffff'
+
+# Normal colors
+[colors.normal]
+black       = '#e0e0e0'
+red         = '#c82829'
+green       = '#718c00'
+yellow      = '#a3685a'
+blue        = '#4271ae'
+magenta     = '#8959a8'
+cyan        = '#3e999f'
+white       = '#373b41'
+
+# Bright colors
+[colors.bright]
+black       = '#b4b7b4'
+red         = '#d63233'
+green       = '#7c9a00'
+yellow      = '#eab700'
+blue        = '#4d7dbb'
+magenta     = '#956ab1'
+cyan        = '#44a8af'
+white       = '#1d1f21'

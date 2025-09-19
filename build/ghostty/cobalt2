@@ -1,0 +1,29 @@
+# Theme:    Cobalt2
+# Mode:     dark
+# Source:   Wes Bos(https://github.com/wesbos/Cobalt2-iterm)
+
+palette = 0=#000000
+palette = 1=#ff2600
+palette = 2=#3ddf2b
+palette = 3=#f4d300
+palette = 4=#1478db
+palette = 5=#ff2c70
+palette = 6=#00c5c7
+palette = 7=#c7c7c7
+palette = 8=#686868
+palette = 9=#f92a1c
+palette = 10=#43d426
+palette = 11=#f1d000
+palette = 12=#6871ff
+palette = 13=#ff77ff
+palette = 14=#79e8fb
+palette = 15=#ffffff
+
+background = #173448
+foreground = #ffffff
+
+cursor-color = #f4d300
+cursor-text = #fefff4
+
+selection-background = #1f4562
+selection-foreground = #c2c2c2

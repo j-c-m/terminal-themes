@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#f6f2ee",
+        "hexterm": "f6/f2/ee"
+    },
+    "bright": {
+        "black": {
+            "hex": "#534c45",
+            "hexterm": "53/4c/45"
+        },
+        "blue": {
+            "hex": "#4863b6",
+            "hexterm": "48/63/b6"
+        },
+        "cyan": {
+            "hex": "#488d93",
+            "hexterm": "48/8d/93"
+        },
+        "green": {
+            "hex": "#577f63",
+            "hexterm": "57/7f/63"
+        },
+        "magenta": {
+            "hex": "#8452d5",
+            "hexterm": "84/52/d5"
+        },
+        "red": {
+            "hex": "#b3434e",
+            "hexterm": "b3/43/4e"
+        },
+        "white": {
+            "hex": "#f4ece6",
+            "hexterm": "f4/ec/e6"
+        },
+        "yellow": {
+            "hex": "#b86e28",
+            "hexterm": "b8/6e/28"
+        }
+    },
+    "cursor": {
+        "hex": "#3d2b5a",
+        "hexterm": "3d/2b/5a"
+    },
+    "cursor-text": {
+        "hex": "#f6f2ee",
+        "hexterm": "f6/f2/ee"
+    },
+    "foreground": {
+        "hex": "#3d2b5a",
+        "hexterm": "3d/2b/5a"
+    },
+    "normal": {
+        "black": {
+            "hex": "#352c24",
+            "hexterm": "35/2c/24"
+        },
+        "blue": {
+            "hex": "#2848a9",
+            "hexterm": "28/48/a9"
+        },
+        "cyan": {
+            "hex": "#287980",
+            "hexterm": "28/79/80"
+        },
+        "green": {
+            "hex": "#396847",
+            "hexterm": "39/68/47"
+        },
+        "magenta": {
+            "hex": "#6e33ce",
+            "hexterm": "6e/33/ce"
+        },
+        "red": {
+            "hex": "#a5222f",
+            "hexterm": "a5/22/2f"
+        },
+        "white": {
+            "hex": "#f2e9e1",
+            "hexterm": "f2/e9/e1"
+        },
+        "yellow": {
+            "hex": "#ac5402",
+            "hexterm": "ac/54/02"
+        }
+    },
+    "selection-background": {
+        "hex": "#e7d2be",
+        "hexterm": "e7/d2/be"
+    },
+    "selection-foreground": {
+        "hex": "#3d2b5a",
+        "hexterm": "3d/2b/5a"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Dayfox",
+    "theme-slug": "dayfox",
+    "theme-source": "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+}

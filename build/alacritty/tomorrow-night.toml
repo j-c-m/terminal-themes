@@ -1,0 +1,40 @@
+# Theme:    Tomorrow Night
+# Mode:     dark
+# Source:   Chris Kempson (http://chriskempson.com)
+
+# Default colors
+[colors.primary]
+background  = '#1d1f21'
+foreground  = '#c5c8c6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1d1f21'
+cursor      = '#c5c8c6'
+
+# Selection colors
+[colors.selection]
+background  = '#c5c8c6'
+text        = '#1d1f21'
+
+# Normal colors
+[colors.normal]
+black       = '#282a2e'
+red         = '#cc6666'
+green       = '#b5bd68'
+yellow      = '#a3685a'
+blue        = '#81a2be'
+magenta     = '#b294bb'
+cyan        = '#8abeb7'
+white       = '#c5c8c6'
+
+# Bright colors
+[colors.bright]
+black       = '#969896'
+red         = '#d47d7d'
+green       = '#bfc67c'
+yellow      = '#f0c674'
+blue        = '#96b2c9'
+magenta     = '#c1a8c8'
+cyan        = '#9fcac4'
+white       = '#ffffff'

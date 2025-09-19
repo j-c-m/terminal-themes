@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#282a36",
+        "hexterm": "28/2a/36"
+    },
+    "bright": {
+        "black": {
+            "hex": "#6272a4",
+            "hexterm": "62/72/a4"
+        },
+        "blue": {
+            "hex": "#d6acff",
+            "hexterm": "d6/ac/ff"
+        },
+        "cyan": {
+            "hex": "#a4ffff",
+            "hexterm": "a4/ff/ff"
+        },
+        "green": {
+            "hex": "#69ff94",
+            "hexterm": "69/ff/94"
+        },
+        "magenta": {
+            "hex": "#ff92df",
+            "hexterm": "ff/92/df"
+        },
+        "red": {
+            "hex": "#ff6e6e",
+            "hexterm": "ff/6e/6e"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#ffffa5",
+            "hexterm": "ff/ff/a5"
+        }
+    },
+    "cursor": {
+        "hex": "#f8f8f2",
+        "hexterm": "f8/f8/f2"
+    },
+    "cursor-text": {
+        "hex": "#282a36",
+        "hexterm": "28/2a/36"
+    },
+    "foreground": {
+        "hex": "#f8f8f2",
+        "hexterm": "f8/f8/f2"
+    },
+    "normal": {
+        "black": {
+            "hex": "#21222c",
+            "hexterm": "21/22/2c"
+        },
+        "blue": {
+            "hex": "#bd93f9",
+            "hexterm": "bd/93/f9"
+        },
+        "cyan": {
+            "hex": "#8be9fd",
+            "hexterm": "8b/e9/fd"
+        },
+        "green": {
+            "hex": "#50fa7b",
+            "hexterm": "50/fa/7b"
+        },
+        "magenta": {
+            "hex": "#ff79c6",
+            "hexterm": "ff/79/c6"
+        },
+        "red": {
+            "hex": "#ff5555",
+            "hexterm": "ff/55/55"
+        },
+        "white": {
+            "hex": "#f8f8f2",
+            "hexterm": "f8/f8/f2"
+        },
+        "yellow": {
+            "hex": "#f1fa8c",
+            "hexterm": "f1/fa/8c"
+        }
+    },
+    "selection-background": {
+        "hex": "#44475a",
+        "hexterm": "44/47/5a"
+    },
+    "selection-foreground": {
+        "hex": "#f8f8f2",
+        "hexterm": "f8/f8/f2"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Dracula",
+    "theme-slug": "dracula",
+    "theme-source": "Dracula (https://draculatheme.com/)"
+}

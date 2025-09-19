@@ -1,0 +1,40 @@
+# Theme:    Nord
+# Mode:     dark
+# Source:   Nord (https://www.nordtheme.com/)
+
+# Default colors
+[colors.primary]
+background  = '#2e3440'
+foreground  = '#d8dee9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2e3440'
+cursor      = '#d8dee9'
+
+# Selection colors
+[colors.selection]
+background  = '#4c566a'
+text        = '#d8dee9'
+
+# Normal colors
+[colors.normal]
+black       = '#3b4252'
+red         = '#bf616a'
+green       = '#a3be8c'
+yellow      = '#d08770'
+blue        = '#81a1c1'
+magenta     = '#b48ead'
+cyan        = '#88c0d0'
+white       = '#e5e9f0'
+
+# Bright colors
+[colors.bright]
+black       = '#4c566a'
+red         = '#c7757d'
+green       = '#b4caa1'
+yellow      = '#ebcb8b'
+blue        = '#97b1cc'
+magenta     = '#c1a1bb'
+cyan        = '#8fbcbb'
+white       = '#eceff4'

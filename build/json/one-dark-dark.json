@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#1e2127",
+        "hexterm": "1e/21/27"
+    },
+    "bright": {
+        "black": {
+            "hex": "#5c6370",
+            "hexterm": "5c/63/70"
+        },
+        "blue": {
+            "hex": "#80bef2",
+            "hexterm": "80/be/f2"
+        },
+        "cyan": {
+            "hex": "#6bbfc9",
+            "hexterm": "6b/bf/c9"
+        },
+        "green": {
+            "hex": "#a9cd8f",
+            "hexterm": "a9/cd/8f"
+        },
+        "magenta": {
+            "hex": "#d293e4",
+            "hexterm": "d2/93/e4"
+        },
+        "red": {
+            "hex": "#e6878f",
+            "hexterm": "e6/87/8f"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#d8aa7e",
+            "hexterm": "d8/aa/7e"
+        }
+    },
+    "cursor": {
+        "hex": "#5c6370",
+        "hexterm": "5c/63/70"
+    },
+    "cursor-text": {
+        "hex": "#1e2127",
+        "hexterm": "1e/21/27"
+    },
+    "foreground": {
+        "hex": "#abb2bf",
+        "hexterm": "ab/b2/bf"
+    },
+    "normal": {
+        "black": {
+            "hex": "#1e2127",
+            "hexterm": "1e/21/27"
+        },
+        "blue": {
+            "hex": "#61afef",
+            "hexterm": "61/af/ef"
+        },
+        "cyan": {
+            "hex": "#56b6c2",
+            "hexterm": "56/b6/c2"
+        },
+        "green": {
+            "hex": "#98c379",
+            "hexterm": "98/c3/79"
+        },
+        "magenta": {
+            "hex": "#c678dd",
+            "hexterm": "c6/78/dd"
+        },
+        "red": {
+            "hex": "#e06c75",
+            "hexterm": "e0/6c/75"
+        },
+        "white": {
+            "hex": "#abb2bf",
+            "hexterm": "ab/b2/bf"
+        },
+        "yellow": {
+            "hex": "#d19a66",
+            "hexterm": "d1/9a/66"
+        }
+    },
+    "selection-background": {
+        "hex": "#abb2bf",
+        "hexterm": "ab/b2/bf"
+    },
+    "selection-foreground": {
+        "hex": "#1e2127",
+        "hexterm": "1e/21/27"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "One Dark Dark",
+    "theme-slug": "one-dark-dark",
+    "theme-source": "One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)"
+}

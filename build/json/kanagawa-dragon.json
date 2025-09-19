@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#181616",
+        "hexterm": "18/16/16"
+    },
+    "bright": {
+        "black": {
+            "hex": "#a6a69c",
+            "hexterm": "a6/a6/9c"
+        },
+        "blue": {
+            "hex": "#7fb4ca",
+            "hexterm": "7f/b4/ca"
+        },
+        "cyan": {
+            "hex": "#7aa89f",
+            "hexterm": "7a/a8/9f"
+        },
+        "green": {
+            "hex": "#87a987",
+            "hexterm": "87/a9/87"
+        },
+        "magenta": {
+            "hex": "#938aa9",
+            "hexterm": "93/8a/a9"
+        },
+        "red": {
+            "hex": "#e46876",
+            "hexterm": "e4/68/76"
+        },
+        "white": {
+            "hex": "#c5c9c5",
+            "hexterm": "c5/c9/c5"
+        },
+        "yellow": {
+            "hex": "#e6c384",
+            "hexterm": "e6/c3/84"
+        }
+    },
+    "cursor": {
+        "hex": "#c5c9c5",
+        "hexterm": "c5/c9/c5"
+    },
+    "cursor-text": {
+        "hex": "#181616",
+        "hexterm": "18/16/16"
+    },
+    "foreground": {
+        "hex": "#c5c9c5",
+        "hexterm": "c5/c9/c5"
+    },
+    "normal": {
+        "black": {
+            "hex": "#0d0c0c",
+            "hexterm": "0d/0c/0c"
+        },
+        "blue": {
+            "hex": "#8ba4b0",
+            "hexterm": "8b/a4/b0"
+        },
+        "cyan": {
+            "hex": "#8ea4a2",
+            "hexterm": "8e/a4/a2"
+        },
+        "green": {
+            "hex": "#8a9a7b",
+            "hexterm": "8a/9a/7b"
+        },
+        "magenta": {
+            "hex": "#a292a3",
+            "hexterm": "a2/92/a3"
+        },
+        "red": {
+            "hex": "#c4746e",
+            "hexterm": "c4/74/6e"
+        },
+        "white": {
+            "hex": "#c8c093",
+            "hexterm": "c8/c0/93"
+        },
+        "yellow": {
+            "hex": "#c4b28a",
+            "hexterm": "c4/b2/8a"
+        }
+    },
+    "selection-background": {
+        "hex": "#2d4f67",
+        "hexterm": "2d/4f/67"
+    },
+    "selection-foreground": {
+        "hex": "#c8c093",
+        "hexterm": "c8/c0/93"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Kanagawa Dragon",
+    "theme-slug": "kanagawa-dragon",
+    "theme-source": "Kanagawa"
+}

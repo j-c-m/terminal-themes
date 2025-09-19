@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#f2ecbc",
+        "hexterm": "f2/ec/bc"
+    },
+    "bright": {
+        "black": {
+            "hex": "#8a8980",
+            "hexterm": "8a/89/80"
+        },
+        "blue": {
+            "hex": "#6693bf",
+            "hexterm": "66/93/bf"
+        },
+        "cyan": {
+            "hex": "#5e857a",
+            "hexterm": "5e/85/7a"
+        },
+        "green": {
+            "hex": "#6e915f",
+            "hexterm": "6e/91/5f"
+        },
+        "magenta": {
+            "hex": "#624c83",
+            "hexterm": "62/4c/83"
+        },
+        "red": {
+            "hex": "#d7474b",
+            "hexterm": "d7/47/4b"
+        },
+        "white": {
+            "hex": "#43436c",
+            "hexterm": "43/43/6c"
+        },
+        "yellow": {
+            "hex": "#836f4a",
+            "hexterm": "83/6f/4a"
+        }
+    },
+    "cursor": {
+        "hex": "#545464",
+        "hexterm": "54/54/64"
+    },
+    "cursor-text": {
+        "hex": "#f2ecbc",
+        "hexterm": "f2/ec/bc"
+    },
+    "foreground": {
+        "hex": "#545464",
+        "hexterm": "54/54/64"
+    },
+    "normal": {
+        "black": {
+            "hex": "#1f1f28",
+            "hexterm": "1f/1f/28"
+        },
+        "blue": {
+            "hex": "#4d699b",
+            "hexterm": "4d/69/9b"
+        },
+        "cyan": {
+            "hex": "#597b75",
+            "hexterm": "59/7b/75"
+        },
+        "green": {
+            "hex": "#6f894e",
+            "hexterm": "6f/89/4e"
+        },
+        "magenta": {
+            "hex": "#b35b79",
+            "hexterm": "b3/5b/79"
+        },
+        "red": {
+            "hex": "#c84053",
+            "hexterm": "c8/40/53"
+        },
+        "white": {
+            "hex": "#545464",
+            "hexterm": "54/54/64"
+        },
+        "yellow": {
+            "hex": "#77713f",
+            "hexterm": "77/71/3f"
+        }
+    },
+    "selection-background": {
+        "hex": "#c9cbd1",
+        "hexterm": "c9/cb/d1"
+    },
+    "selection-foreground": {
+        "hex": "#43436c",
+        "hexterm": "43/43/6c"
+    },
+    "theme-mode": "light",
+    "theme-modifier": "",
+    "theme-name": "Kanagawa Lotus",
+    "theme-slug": "kanagawa-lotus",
+    "theme-source": "Kanagawa (https://github.com/rebelot/kanagawa)"
+}

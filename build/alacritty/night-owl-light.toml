@@ -1,0 +1,40 @@
+# Theme:    Night Owl Light
+# Mode:     light
+# Source:   Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
+
+# Default colors
+[colors.primary]
+background  = '#f6f6f6'
+foreground  = '#403f53'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#f6f6f6'
+cursor      = '#90a7b2'
+
+# Selection colors
+[colors.selection]
+background  = '#7a8181'
+text        = '#f6f6f6'
+
+# Normal colors
+[colors.normal]
+black       = '#403f53'
+red         = '#de3d3b'
+green       = '#08916a'
+yellow      = '#e0af02'
+blue        = '#288ed7'
+magenta     = '#d6438a'
+cyan        = '#2aa298'
+white       = '#93a1a1'
+
+# Bright colors
+[colors.bright]
+black       = '#46455b'
+red         = '#e25553'
+green       = '#09a075'
+yellow      = '#daaa01'
+blue        = '#3e99db'
+magenta     = '#db5a98'
+cyan        = '#2eb2a7'
+white       = '#93a1a1'

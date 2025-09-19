@@ -1,0 +1,40 @@
+# Theme:    Gruvbox Dark Hard
+# Mode:     dark
+# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+
+# Default colors
+[colors.primary]
+background  = '#1d2021'
+foreground  = '#fbf1c7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1d2021'
+cursor      = '#fbf1c7'
+
+# Selection colors
+[colors.selection]
+background  = '#fbf1c7'
+text        = '#1d2021'
+
+# Normal colors
+[colors.normal]
+black       = '#282828'
+red         = '#cc241d'
+green       = '#98971a'
+yellow      = '#d79921'
+blue        = '#458588'
+magenta     = '#b16286'
+cyan        = '#689d6a'
+white       = '#d5c4a1'
+
+# Bright colors
+[colors.bright]
+black       = '#928374'
+red         = '#fb4934'
+green       = '#b8bb26'
+yellow      = '#fabd2f'
+blue        = '#83a598'
+magenta     = '#d3869b'
+cyan        = '#8ec07c'
+white       = '#ebdbb2'

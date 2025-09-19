@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#24273a",
+        "hexterm": "24/27/3a"
+    },
+    "bright": {
+        "black": {
+            "hex": "#5b6078",
+            "hexterm": "5b/60/78"
+        },
+        "blue": {
+            "hex": "#adc5f7",
+            "hexterm": "ad/c5/f7"
+        },
+        "cyan": {
+            "hex": "#a5ded6",
+            "hexterm": "a5/de/d6"
+        },
+        "green": {
+            "hex": "#bde3b0",
+            "hexterm": "bd/e3/b0"
+        },
+        "magenta": {
+            "hex": "#f493da",
+            "hexterm": "f4/93/da"
+        },
+        "red": {
+            "hex": "#f2a7b2",
+            "hexterm": "f2/a7/b2"
+        },
+        "white": {
+            "hex": "#a5adcb",
+            "hexterm": "a5/ad/cb"
+        },
+        "yellow": {
+            "hex": "#f4e3c1",
+            "hexterm": "f4/e3/c1"
+        }
+    },
+    "cursor": {
+        "hex": "#f4dbd6",
+        "hexterm": "f4/db/d6"
+    },
+    "cursor-text": {
+        "hex": "#24273a",
+        "hexterm": "24/27/3a"
+    },
+    "foreground": {
+        "hex": "#cad3f5",
+        "hexterm": "ca/d3/f5"
+    },
+    "normal": {
+        "black": {
+            "hex": "#494d64",
+            "hexterm": "49/4d/64"
+        },
+        "blue": {
+            "hex": "#8aadf4",
+            "hexterm": "8a/ad/f4"
+        },
+        "cyan": {
+            "hex": "#8bd5ca",
+            "hexterm": "8b/d5/ca"
+        },
+        "green": {
+            "hex": "#a6da95",
+            "hexterm": "a6/da/95"
+        },
+        "magenta": {
+            "hex": "#f5bde6",
+            "hexterm": "f5/bd/e6"
+        },
+        "red": {
+            "hex": "#ed8796",
+            "hexterm": "ed/87/96"
+        },
+        "white": {
+            "hex": "#b8c0e0",
+            "hexterm": "b8/c0/e0"
+        },
+        "yellow": {
+            "hex": "#eed49f",
+            "hexterm": "ee/d4/9f"
+        }
+    },
+    "selection-background": {
+        "hex": "#f4dbd6",
+        "hexterm": "f4/db/d6"
+    },
+    "selection-foreground": {
+        "hex": "#24273a",
+        "hexterm": "24/27/3a"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Catppuccin Macchiato",
+    "theme-slug": "catppuccin-macchiato",
+    "theme-source": "catppuccin-macchiato"
+}

@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#1a1b26",
+        "hexterm": "1a/1b/26"
+    },
+    "bright": {
+        "black": {
+            "hex": "#565f89",
+            "hexterm": "56/5f/89"
+        },
+        "blue": {
+            "hex": "#9dbaf9",
+            "hexterm": "9d/ba/f9"
+        },
+        "cyan": {
+            "hex": "#a3ddff",
+            "hexterm": "a3/dd/ff"
+        },
+        "green": {
+            "hex": "#add681",
+            "hexterm": "ad/d6/81"
+        },
+        "magenta": {
+            "hex": "#d4bffa",
+            "hexterm": "d4/bf/fa"
+        },
+        "red": {
+            "hex": "#f998aa",
+            "hexterm": "f9/98/aa"
+        },
+        "white": {
+            "hex": "#c0caf5",
+            "hexterm": "c0/ca/f5"
+        },
+        "yellow": {
+            "hex": "#e6bd83",
+            "hexterm": "e6/bd/83"
+        }
+    },
+    "cursor": {
+        "hex": "#a9b1d6",
+        "hexterm": "a9/b1/d6"
+    },
+    "cursor-text": {
+        "hex": "#1a1b26",
+        "hexterm": "1a/1b/26"
+    },
+    "foreground": {
+        "hex": "#a9b1d6",
+        "hexterm": "a9/b1/d6"
+    },
+    "normal": {
+        "black": {
+            "hex": "#414868",
+            "hexterm": "41/48/68"
+        },
+        "blue": {
+            "hex": "#7aa2f7",
+            "hexterm": "7a/a2/f7"
+        },
+        "cyan": {
+            "hex": "#7dcfff",
+            "hexterm": "7d/cf/ff"
+        },
+        "green": {
+            "hex": "#9ece6a",
+            "hexterm": "9e/ce/6a"
+        },
+        "magenta": {
+            "hex": "#bb9af7",
+            "hexterm": "bb/9a/f7"
+        },
+        "red": {
+            "hex": "#f7768e",
+            "hexterm": "f7/76/8e"
+        },
+        "white": {
+            "hex": "#a9b1d6",
+            "hexterm": "a9/b1/d6"
+        },
+        "yellow": {
+            "hex": "#e0af68",
+            "hexterm": "e0/af/68"
+        }
+    },
+    "selection-background": {
+        "hex": "#a9b1d6",
+        "hexterm": "a9/b1/d6"
+    },
+    "selection-foreground": {
+        "hex": "#1a1b26",
+        "hexterm": "1a/1b/26"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Tokyo Night Dark",
+    "theme-slug": "tokyo-night-dark",
+    "theme-source": "Tokyo Night (https://github.com/tokyo-night/)"
+}
