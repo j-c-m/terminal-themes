@@ -1,0 +1,7 @@
+pyyaml
+pystache
+pyjson
+pathlib
+unidecode
+tomli
+json5

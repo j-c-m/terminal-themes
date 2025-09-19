@@ -1,0 +1,49 @@
+name: Spacegray
+source: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+dark:
+  background: "#2B303B"
+  foreground: "#C0C5CE"
+  cursor: "#C0C5CE"
+  colors:
+    normal:
+      black:   "#343D46"  # base01
+      red:     "#BF616A"  # base08
+      green:   "#A3BE8C"  # base0B
+      yellow:  "#AB7967"  # base0F
+      blue:    "#8FA1B3"  # base0D
+      magenta: "#B48EAD"  # base0E
+      cyan:    "#96B5B4"  # base0C
+      white:   "#C0C5CE"  # base05
+    bright:
+      black:   "#65737E"  # base03
+      red:     "#BF616A"  # base08
+      green:   "#A3BE8C"  # base0B
+      yellow:  "#EBCB8B"  # base0A
+      blue:    "#8FA1B3"  # base0D
+      magenta: "#B48EAD"  # base0E
+      cyan:    "#96B5B4"  # base0C
+      white:   "#EFF1F5"  # base07
+
+light:
+  background: "#DFE1E8"
+  foreground: "#65737E"
+  cursor: "#65737E"
+  colors:
+    normal:
+      black:   "#343D46"  # base01
+      red:     "#C85863"  # base08 (light)
+      green:   "#6F984C"  # base0B (light)
+      yellow:  "#90604F"  # base0F (light)
+      blue:    "#5986B6"  # base0D (light)
+      magenta: "#8B5B82"  # base0E (light)
+      cyan:    "#5CA8A5"  # base0C (light, rounded)
+      white:   "#C0C5CE"  # base05
+    bright:
+      black:   "#65737E"  # base03
+      red:     "#C85863"  # base08 (light)
+      green:   "#6F984C"  # base0B (light)
+      yellow:  "#EBCB8B"  # base0A
+      blue:    "#5986B6"  # base0D (light)
+      magenta: "#8B5B82"  # base0E (light)
+      cyan:    "#5CA8A5"  # base0C (light)
+      white:   "#EFF1F5"  # base07

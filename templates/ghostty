@@ -1,0 +1,29 @@
+# Theme:    {{theme-name}}
+# Mode:     {{theme-mode}}
+# Source:   {{theme-source}}
+
+palette = 0={{normal.black.hex}}
+palette = 1={{normal.red.hex}}
+palette = 2={{normal.green.hex}}
+palette = 3={{normal.yellow.hex}}
+palette = 4={{normal.blue.hex}}
+palette = 5={{normal.magenta.hex}}
+palette = 6={{normal.cyan.hex}}
+palette = 7={{normal.white.hex}}
+palette = 8={{bright.black.hex}}
+palette = 9={{bright.red.hex}}
+palette = 10={{bright.green.hex}}
+palette = 11={{bright.yellow.hex}}
+palette = 12={{bright.blue.hex}}
+palette = 13={{bright.magenta.hex}}
+palette = 14={{bright.cyan.hex}}
+palette = 15={{bright.white.hex}}
+
+background = {{background.hex}}
+foreground = {{foreground.hex}}
+
+cursor-color = {{cursor.hex}}
+cursor-text = {{cursor-text.hex}}
+
+selection-background = {{selection-background.hex}}
+selection-foreground = {{selection-foreground.hex}}

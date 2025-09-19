@@ -1,0 +1,34 @@
+{
+  "shell": {
+    "template": "shell.sh",
+    "directory": "shell",
+    "filename": "{{theme-slug}}.sh"
+  },
+  "alacritty": {
+    "template": "alacritty.toml",
+    "directory": "alacritty",
+    "filename": "{{theme-slug}}.toml"
+  },
+  "ghostty": {
+    "template": "ghostty",
+    "directory": "ghostty",
+    "filename": "{{theme-slug}}"
+  },
+  "iterm": {
+    "template": [ "iterm.itermcolors", "iterm.itermcolors" ],
+    "directory": "itermcolors",
+    "filename": "{{theme-slug}}.itermcolors",
+    "dual_mode": true
+  },
+  "debug": {
+    "template": [ "debug.txt", "debug-dual.txt" ],
+    "directory": "debug-txt",
+    "filename": "{{theme-slug}}.txt",
+    "dual_mode": true
+  },
+  "json": {
+    "template": "json.json",
+    "directory": "json",
+    "filename": "{{theme-slug}}.json"
+  }
+}

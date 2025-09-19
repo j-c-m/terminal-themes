@@ -1,0 +1,48 @@
+name: One Dark
+source: "One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)"
+dark:
+  foreground: "#ABB2BF"
+  background: "#1E2127"
+  cursor: "#5C6370"
+  colors:
+    normal:
+      black: "#1E2127"
+      red: "#E06C75"
+      green: "#98C379"
+      yellow: "#D19A66"
+      blue: "#61AFEF"
+      magenta: "#C678DD"
+      cyan: "#56B6C2"
+      white: "#ABB2BF"
+    bright:
+      black: "#5C6370"
+      red: "#E06C75"
+      green: "#98C379"
+      yellow: "#D19A66"
+      blue: "#61AFEF"
+      magenta: "#C678DD"
+      cyan: "#56B6C2"
+      white: "#FFFFFF"
+light:
+  foreground: "#383A42"
+  background: "#F9F9F9"
+  cursor: "#383A42"
+  colors:
+    normal:
+      black: "#000000"
+      red: "#E45649"
+      green: "#50A14F"
+      yellow: "#986801"
+      blue: "#4078F2"
+      magenta: "#A626A4"
+      cyan: "#0184BC"
+      white: "#A0A1A7"
+    bright:
+      black: "#383A42"
+      red: "#E45649"
+      green: "#50A14F"
+      yellow: "#986801"
+      blue: "#4078F2"
+      magenta: "#A626A4"
+      cyan: "#0184BC"
+      white: "#FFFFFF"

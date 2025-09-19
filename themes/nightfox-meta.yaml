@@ -1,0 +1,4 @@
+name: Nightfox
+source: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+dark: "nightfox.yaml"
+light: "dayfox.yaml"

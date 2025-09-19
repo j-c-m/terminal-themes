@@ -1,0 +1,48 @@
+name: Selenized
+source: "Jan Warchol (https://github.com/jan-warchol/selenized)"
+dark:
+  foreground: '#adbcbc'
+  background: '#103c48'
+  cursor: '#af88eb'
+  colors:
+    normal:
+      black: '#184956'
+      red: '#fa5750'
+      green: '#75b938'
+      yellow: '#dbb32d'
+      blue: '#4695f7'
+      magenta: '#f275be'
+      cyan: '#41c7b9'
+      white: '#72898f'
+    bright:
+      black: '#2d5b69'
+      red: '#ff665c'
+      green: '#84c747'
+      yellow: '#ebc13d'
+      blue: '#58a3ff'
+      magenta: '#ff84cd'
+      cyan: '#53d6c7'
+      white: '#cad8d9'
+light:
+  foreground: '#53676d'
+  background: '#fbf3db'
+  cursor: '#8762c6'
+  colors:
+    normal:
+      black: '#ece3cc'
+      red: '#d2212d'
+      green: '#489100'
+      yellow: '#ad8900'
+      blue: '#0072d4'
+      magenta: '#ca4898'
+      cyan: '#009c8f'
+      white: '#909995'
+    bright:
+      black: '#d5cdb6'
+      red: '#cc1729'
+      green: '#428b00'
+      yellow: '#a78300'
+      blue: '#006dce'
+      magenta: '#c44392'
+      cyan: '#00978a'
+      white: '#3a4d53'

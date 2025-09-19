@@ -1,0 +1,25 @@
+name: Spacegray Oceanic
+source: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+dark:
+  background: "#1B2B34"
+  foreground: "#C0C5CE"
+  cursor: "#C0C5CE"
+  colors:
+    normal:
+      black: "#343D46"
+      red: "#EC5F67"
+      green: "#99C794"
+      yellow: "#AB7967"
+      blue: "#6699CC"
+      magenta: "#C594C5"
+      cyan: "#5FB3B3"
+      white: "#C0C5CE"
+    bright:
+      black: "#65737E"
+      red: "#EC5F67"
+      green: "#99C794"
+      yellow: "#FAC863"
+      blue: "#6699CC"
+      magenta: "#C594C5"
+      cyan: "#5FB3B3"
+      white: "#D8DEE9"

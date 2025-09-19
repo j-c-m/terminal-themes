@@ -1,0 +1,54 @@
+name: "Night Owl"
+source: "Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)"
+dark:
+  foreground: '#d6deeb'
+  background: '#011627'
+  cursor: '#80a4c2'
+  cursor-text: '#011627'
+  selection-background: '#4373c2'
+  selection-foreground: '#011627'
+  colors:
+    normal:
+      black: '#011627'
+      red: '#ef5350'
+      green: '#22da6e'
+      yellow: '#c5e478'
+      blue: '#82aaff'
+      magenta: '#c792ea'
+      cyan: '#21c7a8'
+      white: '#ffffff'
+    bright:
+      black: '#575656'
+      red: '#ef5350'
+      green: '#22da6e'
+      yellow: '#ffeb95'
+      blue: '#82aaff'
+      magenta: '#c792ea'
+      cyan: '#7fdbca'
+      white: '#ffffff'
+light:
+  foreground: '#403f53'
+  background: '#f6f6f6'
+  cursor: '#90a7b2'
+  cursor-text: '#f6f6f6'
+  selection-background: '#7a8181'
+  selection-foreground: '#f6f6f6'
+  colors:
+    normal:
+      black: '#403f53'
+      red: '#de3d3b'
+      green: '#08916a'
+      yellow: '#e0af02'
+      blue: '#288ed7'
+      magenta: '#d6438a'
+      cyan: '#2aa298'
+      white: '#93a1a1'
+    bright:
+      black: '#403f53'
+      red: '#de3d3b'
+      green: '#08916a'
+      yellow: '#daaa01'
+      blue: '#288ed7'
+      magenta: '#d6438a'
+      cyan: '#2aa298'
+      white: '#93a1a1'

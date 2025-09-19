@@ -1,0 +1,48 @@
+name: "Tokyo Night"
+source: Tokyo Night (https://github.com/tokyo-night/)
+
+dark:
+  foreground: "#a9b1d6"
+  background: "#1a1b26"
+  colors:
+    normal:
+      black:   "#414868"
+      red:     "#f7768e"
+      green:   "#9ece6a"
+      yellow:  "#e0af68"
+      blue:    "#7aa2f7"
+      magenta: "#bb9af7"
+      cyan:    "#7dcfff"
+      white:   "#a9b1d6"
+    bright:
+      black:   "#565f89"
+      red:     "#f7768e"
+      green:   "#9ece6a"
+      yellow:  "#e0af68"
+      blue:    "#7aa2f7"
+      magenta: "#bb9af7"
+      cyan:    "#7dcfff"
+      white:   "#c0caf5"
+
+light:
+  foreground: "#343b58"
+  background: "#e6e7ed"
+  colors:
+    normal:
+      black:   "#343b58"
+      red:     "#8c4351"
+      green:   "#385f0d"
+      yellow:  "#8f5e15"
+      blue:    "#2959aa"
+      magenta: "#5a3e8e"
+      cyan:    "#0f4b6e"
+      white:   "#343b58"
+    bright:
+      black:   "#6c6e75"
+      red:     "#8c4351"
+      green:   "#385f0d"
+      yellow:  "#8f5e15"
+      blue:    "#2959aa"
+      magenta: "#5a3e8e"
+      cyan:    "#0f4b6e"
+      white:   "#343b58"

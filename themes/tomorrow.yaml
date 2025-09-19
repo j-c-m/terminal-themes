@@ -1,0 +1,26 @@
+name: Tomorrow
+source: Chris Kempson (http://chriskempson.com)
+light:
+  foreground: '#373b41'
+  background: '#ffffff'
+  cursor: '#373b41'
+  colors:
+    normal:
+      black: '#e0e0e0'
+      red: '#c82829'
+      green: '#718c00'
+      yellow: '#a3685a'
+      blue: '#4271ae'
+      magenta: '#8959a8'
+      cyan: '#3e999f'
+      white: '#373b41'
+    bright:
+      black: '#b4b7b4'
+      red: '#c82829'
+      green: '#718c00'
+      yellow: '#eab700'
+      blue: '#4271ae'
+      magenta: '#8959a8'
+      cyan: '#3e999f'
+      white: '#1d1f21'
+

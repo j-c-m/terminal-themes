@@ -1,0 +1,5 @@
+# meta theme for Kanagawa
+name: "Kanagawa"
+source: "Kanagawa (https://github.com/rebelot/kanagawa)"
+dark: "kanagawa-wave.yaml"
+light: "kanagawa-lotus.yaml"

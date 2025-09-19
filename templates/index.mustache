@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terminal Themes — Index</title>
+  <style>
+    :root{
+      --bg: #f6f7fb;
+      --tile-bg: #ffffff;
+      --muted: #6b7280;
+      --gap: 16px;
+      --thumb-h: 480px; /* doubled */
+      --thumb-w: 840px; /* doubled */
+      --mini-swatch-size: 32px; /* adjusted */
+      --mini-swatch-gap: 0;     /* touching cells */
+      --name-font-size: 15px;
+      --min-w: 585px;
+    }
+
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: #0f172a;
+      -webkit-font-smoothing:antialiased;
+      padding: 20px;
+    }
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:16px;
+    }
+    header h1{margin:0;font-size:18px}
+    header .sub{margin:0;color:var(--muted);font-size:13px}
+
+    .controls{display:flex;gap:8px;align-items:center}
+    .search{padding:8px 10px;border-radius:8px;border:1px solid #e6e9ef;background:#fff;min-width:260px;font-size:13px}
+
+    /* compact grid of clickable mini-terminals */
+    .grid{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--gap);
+    }
+
+    /* each item is just the thumbnail anchor (no surrounding card) */
+    .tile-link{
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      border-radius:10px;
+      overflow:hidden;
+      outline: none;
+    }
+
+    .thumb{
+      display:block;
+      border-radius:8px;
+      overflow:hidden;
+      border:1px solid rgba(12,15,20,0.06);
+      background: var(--tile-bg);
+      height: var(--thumb-h);
+      width: 100%;
+      max-width: var(--thumb-w);
+      min-width: var(--min-w);
+      box-shadow: 0 8px 28px rgba(12,18,24,0.08);
+    }
+
+    /* single pane layout for all themes */
+    .single{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      padding:16px;
+      box-sizing:border-box;
+      font-family: "Menlo", monospace;
+      font-size: 18px;
+      line-height: 1.3;
+      height:100%;
+    }
+
+    .cmd{font-weight:600; opacity:1}
+    .example{opacity:1}
+    .prompt{margin-top:1px; opacity:1}
+    .cursor{display:inline-block;width:12px;height:1em;border-radius:2px;vertical-align:middle}
+
+    .colors-command{margin-top:1px; opacity:1}
+    .colors-output{opacity:1; display: grid; grid-template-columns: repeat(4, 1fr); text-align: left;}
+    .bg-colors-output span { padding: 2px 0 0 3px; }
+    .bg-colors-command{margin-top:4px; opacity:1}
+    .bg-colors-output{opacity:1; display: grid; grid-template-columns: repeat(4, 1fr); text-align: left;}
+    .cat-command{margin-top:1px; opacity:1}
+    .cat-output{margin-top:1px; opacity:1}
+
+
+    /* mini 8x2 swatch grid — touching square cells */
+    .mini-swatch{
+      display:grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-auto-rows: var(--mini-swatch-size);
+      gap: var(--mini-swatch-gap);
+      margin-top:10px;
+      width:100%;
+    }
+    .mini-swatch .cell{
+      width:100%;
+      height:var(--mini-swatch-size);
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+    }
+
+    /* fallback single-pane layout uses same visual structure */
+    .single{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      padding:12px;
+      height:100%;
+      box-sizing:border-box;
+      font-family: "Menlo", monospace;
+      font-size:16px;
+    }
+
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:1200px){
+      :root{ --thumb-h: 360px; --mini-swatch-size: 26px; --min-w: 380px }
+    }
+    @media (max-width:900px){
+      :root{ --thumb-h: 280px; --mini-swatch-size: 20px; --min-w: 280px }
+    }
+    @media (max-width:640px){
+      :root{ --thumb-h: 240px; --mini-swatch-size: 16px; --min-w: 200px }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Terminal Themes</h1>
+      <div class="sub">Clickable mini-terminals — click to open a theme page. Themes shown per mode.</div>
+    </div>
+
+    <div class="controls">
+      <input id="search" class="search" placeholder="Filter themes..." aria-label="Filter themes by name" />
+    </div>
+  </header>
+
+  <main>
+    <section class="grid" id="grid" aria-live="polite">
+      {{#themes}}
+        <a class="tile-link" href="{{theme-slug}}.html#{{theme-mode}}" title="Open {{theme-name}}" data-slug="{{theme-slug}}">
+          <div class="thumb" role="img" aria-label="{{theme-name}} preview">
+            <div class="single" style="background: {{background.hex}}; color: {{foreground.hex}};">
+              <div>
+                <div class="cmd">{{theme-name}}</div>
+                <div class="example"><span style="background: {{selection-background.hex}}; color: {{selection-foreground.hex}}; padding:0 .2ch; border-radius:2px;">Selected Text</span></div>
+                <div class="colors-command">$ colors</div>
+                <div class="colors-output"><span style="color: {{normal.black.hex}}">Black</span> <span style="color: {{normal.red.hex}}">Red</span> <span style="color: {{normal.green.hex}}">Green</span> <span style="color: {{normal.yellow.hex}}">Yellow</span> <span style="color: {{normal.blue.hex}}">Blue</span> <span style="color: {{normal.magenta.hex}}">Magenta</span> <span style="color: {{normal.cyan.hex}}">Cyan</span> <span style="color: {{normal.white.hex}}">White</span> <span style="color: {{bright.black.hex}}">Bright Black</span> <span style="color: {{bright.red.hex}}">Bright Red</span> <span style="color: {{bright.green.hex}}">Bright Green</span> <span style="color: {{bright.yellow.hex}}">Bright Yellow</span> <span style="color: {{bright.blue.hex}}">Bright Blue</span> <span style="color: {{bright.magenta.hex}}">Bright Magenta</span> <span style="color: {{bright.cyan.hex}}">Bright Cyan</span> <span style="color: {{bright.white.hex}}">Bright White</span></div>
+                <div class="bg-colors-command">$ bg-colors</div>
+                <div class="bg-colors-output"><span style="background: {{normal.black.hex}}; color: {{foreground.hex}}">Black</span> <span style="background: {{normal.red.hex}}; color: {{foreground.hex}}">Red</span> <span style="background: {{normal.green.hex}}; color: {{foreground.hex}}">Green</span> <span style="background: {{normal.yellow.hex}}; color: {{foreground.hex}}">Yellow</span> <span style="background: {{normal.blue.hex}}; color: {{foreground.hex}}">Blue</span> <span style="background: {{normal.magenta.hex}}; color: {{foreground.hex}}">Magenta</span> <span style="background: {{normal.cyan.hex}}; color: {{foreground.hex}}">Cyan</span> <span style="background: {{normal.white.hex}}; color: {{foreground.hex}}">White</span> <span style="background: {{bright.black.hex}}; color: {{foreground.hex}}">Bright Black</span> <span style="background: {{bright.red.hex}}; color: {{foreground.hex}}">Bright Red</span> <span style="background: {{bright.green.hex}}; color: {{foreground.hex}}">Bright Green</span> <span style="background: {{bright.yellow.hex}}; color: {{foreground.hex}}">Bright Yellow</span> <span style="background: {{bright.blue.hex}}; color: {{foreground.hex}}">Bright Blue</span> <span style="background: {{bright.magenta.hex}}; color: {{foreground.hex}}">Bright Magenta</span> <span style="background: {{bright.cyan.hex}}; color: {{foreground.hex}}">Bright Cyan</span> <span style="background: {{bright.white.hex}}; color: {{foreground.hex}}">Bright White</span></div>
+                <div class="cat-command">$ cat foreground.txt</div>
+                <div class="cat-output">This is the foreground text color ({{foreground.hex}}).</div>
+                <div class="prompt">$ <span class="cursor" style="background: {{cursor.hex}}"></span></div>
+              </div>
+              <div class="mini-swatch" aria-hidden="true">
+                {{#normal}}
+                  {{#black}}<div class="cell" style="background: {{black.hex}}"></div>{{/black}}
+                  {{#red}}<div class="cell" style="background: {{red.hex}}"></div>{{/red}}
+                  {{#green}}<div class="cell" style="background: {{green.hex}}"></div>{{/green}}
+                  {{#yellow}}<div class="cell" style="background: {{yellow.hex}}"></div>{{/yellow}}
+                  {{#blue}}<div class="cell" style="background: {{blue.hex}}"></div>{{/blue}}
+                  {{#magenta}}<div class="cell" style="background: {{magenta.hex}}"></div>{{/magenta}}
+                  {{#cyan}}<div class="cell" style="background: {{cyan.hex}}"></div>{{/cyan}}
+                  {{#white}}<div class="cell" style="background: {{white.hex}}"></div>{{/white}}
+                {{/normal}}
+                {{#bright}}
+                  {{#black}}<div class="cell" style="background: {{black.hex}}"></div>{{/black}}
+                  {{#red}}<div class="cell" style="background: {{red.hex}}"></div>{{/red}}
+                  {{#green}}<div class="cell" style="background: {{green.hex}}"></div>{{/green}}
+                  {{#yellow}}<div class="cell" style="background: {{yellow.hex}}"></div>{{/yellow}}
+                  {{#blue}}<div class="cell" style="background: {{blue.hex}}"></div>{{/blue}}
+                  {{#magenta}}<div class="cell" style="background: {{magenta.hex}}"></div>{{/magenta}}
+                  {{#cyan}}<div class="cell" style="background: {{cyan.hex}}"></div>{{/cyan}}
+                  {{#white}}<div class="cell" style="background: {{white.hex}}"></div>{{/white}}
+                {{/bright}}
+              </div>
+            </div>
+          </div>
+        </a>
+      {{/themes}}
+    </section>
+
+    <footer>Compact mini-terminal index — click any tile to open theme details.</footer>
+  </main>
+
+  <script>
+    (function () {
+      const grid = document.getElementById('grid');
+      const search = document.getElementById('search');
+
+      // Simple client-side filtering by name
+      search.addEventListener('input', (e) => {
+        const q = (e.target.value || '').toLowerCase().trim();
+        Array.from(grid.querySelectorAll('[data-slug]')).forEach(link => {
+          const title = (link.getAttribute('title') || link.querySelector('.cmd')?.textContent || '').toLowerCase();
+          link.style.display = title.includes(q) ? '' : 'none';
+        });
+      });
+
+      // Allow keyboard activation: Enter on focused tile follows the link
+      grid.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter') {
+          const el = ev.target.closest('.tile-link');
+          if (el) window.location = el.href;
+        }
+      });
+
+      // Make anchors focusable (they already are), but ensure tile items receive focus in grid order
+      Array.from(grid.querySelectorAll('.tile-link')).forEach(a => a.setAttribute('tabindex', '0'));
+    })();
+  </script>
+</body>
+</html>

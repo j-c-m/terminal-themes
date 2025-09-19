@@ -1,0 +1,26 @@
+name: Tomorrow Night Eighties
+source: Chris Kempson (http://chriskempson.com)
+dark:
+  foreground: '#cccccc'
+  background: '#2d2d2d'
+  cursor: '#cccccc'
+  colors:
+    normal:
+      black: '#393939'
+      red: '#f2777a'
+      green: '#99cc99'
+      yellow: '#a3685a'
+      blue: '#6699cc'
+      magenta: '#cc99cc'
+      cyan: '#66cccc'
+      white: '#cccccc'
+    bright:
+      black: '#999999'
+      red: '#f2777a'
+      green: '#99cc99'
+      yellow: '#ffcc66'
+      blue: '#6699cc'
+      magenta: '#cc99cc'
+      cyan: '#66cccc'
+      white: '#ffffff'
+

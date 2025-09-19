@@ -1,0 +1,40 @@
+# Theme:    {{theme-name}}
+# Mode:     {{theme-mode}}
+# Source:   {{theme-source}}
+
+# Default colors
+[colors.primary]
+background  = '{{background.hex}}'
+foreground  = '{{foreground.hex}}'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '{{cursor-text.hex}}'
+cursor      = '{{cursor.hex}}'
+
+# Selection colors
+[colors.selection]
+background  = '{{selection-background.hex}}'
+text        = '{{selection-foreground.hex}}'
+
+# Normal colors
+[colors.normal]
+black       = '{{normal.black.hex}}'
+red         = '{{normal.red.hex}}'
+green       = '{{normal.green.hex}}'
+yellow      = '{{normal.yellow.hex}}'
+blue        = '{{normal.blue.hex}}'
+magenta     = '{{normal.magenta.hex}}'
+cyan        = '{{normal.cyan.hex}}'
+white       = '{{normal.white.hex}}'
+
+# Bright colors
+[colors.bright]
+black       = '{{bright.black.hex}}'
+red         = '{{bright.red.hex}}'
+green       = '{{bright.green.hex}}'
+yellow      = '{{bright.yellow.hex}}'
+blue        = '{{bright.blue.hex}}'
+magenta     = '{{bright.magenta.hex}}'
+cyan        = '{{bright.cyan.hex}}'
+white       = '{{bright.white.hex}}'

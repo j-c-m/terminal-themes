@@ -1,0 +1,25 @@
+name: Spacegray Eighties
+source: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+dark:
+  background: "#2D2D2D"
+  foreground: "#D3D0C8"
+  cursor: "#D3D0C8"
+  colors:
+    normal:
+      black: "#393939"
+      red: "#F2777A"
+      green: "#99CC99"
+      yellow: "#D27B53"
+      blue: "#6699CC"
+      magenta: "#CC99CC"
+      cyan: "#66CCCC"
+      white: "#D3D0C8"
+    bright:
+      black: "#747369"
+      red: "#F2777A"
+      green: "#99CC99"
+      yellow: "#FFCC66"
+      blue: "#6699CC"
+      magenta: "#CC99CC"
+      cyan: "#66CCCC"
+      white: "#F2F0EC"

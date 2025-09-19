@@ -1,0 +1,39 @@
+Theme: {{theme-name}} (slug: {{theme-slug}})
+Mode: {{theme-mode}}
+Modifier: {{theme-modifier}}
+Source: {{theme-source}}
+
+Primaries
+---------
+Foreground: {{#foreground}}{{hex}} ({{hexterm}}){{/foreground}}
+Background: {{#background}}{{hex}} ({{hexterm}}){{/background}}
+Cursor: {{#cursor}}{{hex}} ({{hexterm}}){{/cursor}}
+Cursor Text: {{#cursor-text}}{{hex}} ({{hexterm}}){{/cursor-text}}
+Selection Background: {{#selection-background}}{{hex}} ({{hexterm}}){{/selection-background}}
+Selection Foreground: {{#selection-foreground}}{{hex}} ({{hexterm}}){{/selection-foreground}}
+
+Normal ANSI Colors
+------------------
+black:   {{normal.black.hex}} ({{normal.black.hexterm}})
+red:     {{normal.red.hex}} ({{normal.red.hexterm}})
+green:   {{normal.green.hex}} ({{normal.green.hexterm}})
+yellow:  {{normal.yellow.hex}} ({{normal.yellow.hexterm}})
+blue:    {{normal.blue.hex}} ({{normal.blue.hexterm}})
+magenta: {{normal.magenta.hex}} ({{normal.magenta.hexterm}})
+cyan:    {{normal.cyan.hex}} ({{normal.cyan.hexterm}})
+white:   {{normal.white.hex}} ({{normal.white.hexterm}})
+
+Bright ANSI Colors
+------------------
+black:   {{bright.black.hex}} ({{bright.black.hexterm}})
+red:     {{bright.red.hex}} ({{bright.red.hexterm}})
+green:   {{bright.green.hex}} ({{bright.green.hexterm}})
+yellow:  {{bright.yellow.hex}} ({{bright.yellow.hexterm}})
+blue:    {{bright.blue.hex}} ({{bright.blue.hexterm}})
+magenta: {{bright.magenta.hex}} ({{bright.magenta.hexterm}})
+cyan:    {{bright.cyan.hex}} ({{bright.cyan.hexterm}})
+white:   {{bright.white.hex}} ({{bright.white.hexterm}})
+
+iTerm .itermcolors plist (single or combined)
+---------------------------------------------
+{{{theme-itermcolors-plist}}}

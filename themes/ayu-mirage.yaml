@@ -1,0 +1,33 @@
+name: "Ayu Mirage"
+modifier: ""
+source: "Ayu Theme (https://github.com/ayu-theme)"
+# terminal colors sourced from vscode terminal.*
+# selection background sourced from vscode selection.background
+# cursor color sourced from vscode cursor.color
+
+dark:
+  foreground: "#cccac2"
+  background: "#1f2430"
+  cursor: "#ffcc66"
+  cursor-text: "#1f2430"
+  selection-foreground: "#1f2430"
+  selection-background: "#409fff"
+  colors:
+    normal:
+      black: "#171b24"
+      red: "#ed8274"
+      green: "#87d96c"
+      yellow: "#facc6e"
+      blue: "#6dcbfa"
+      magenta: "#dabafa"
+      cyan: "#90e1c6"
+      white: "#c7c7c7"
+    bright:
+      black: "#686868"
+      red: "#f28779"
+      green: "#d5ff80"
+      yellow: "#ffd173"
+      blue: "#73d0ff"
+      magenta: "#dfbfff"
+      cyan: "#95e6cb"
+      white: "#ffffff"
