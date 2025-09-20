@@ -131,21 +131,21 @@
     footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
 
     @media (max-width:1200px){
-      :root{ --thumb-h: 360px; --mini-swatch-size: 26px; --min-w: 380px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 380px }
     }
     @media (max-width:900px){
-      :root{ --thumb-h: 280px; --mini-swatch-size: 20px; --min-w: 280px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 280px }
     }
     @media (max-width:640px){
-      :root{ --thumb-h: 240px; --mini-swatch-size: 16px; --min-w: 200px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 200px }
     }
   </style>
 </head>
 <body>
   <header>
     <div>
-      <h1>Terminal Themes</h1>
-      <div class="sub">Clickable mini-terminals — click to open a theme page. Themes shown per mode.</div>
+      <h1>Themes</h1>
+      <!-- <div class="sub">Sub text.</div> -->
     </div>
 
     <div class="controls">
@@ -156,7 +156,7 @@
   <main>
     <section class="grid" id="grid" aria-live="polite">
       {{#themes}}
-        <a class="tile-link" href="{{theme-slug}}.html#{{theme-mode}}" title="Open {{theme-name}}" data-slug="{{theme-slug}}">
+        <a class="tile-link" data-slug="{{theme-slug}}">
           <div class="thumb" role="img" aria-label="{{theme-name}} preview">
             <div class="single" style="background: {{background.hex}}; color: {{foreground.hex}};">
               <div>
@@ -198,7 +198,7 @@
       {{/themes}}
     </section>
 
-    <footer>Compact mini-terminal index — click any tile to open theme details.</footer>
+    <!-- <footer>footer text</footer> -->
   </main>
 
   <script>
