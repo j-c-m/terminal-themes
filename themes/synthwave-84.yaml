@@ -1,0 +1,29 @@
+name: Synthwave '84
+source: "Robb Owen (https://github.com/robb0wen/synthwave-vscode/)"
+dark:
+  foreground: '#dddddd'
+  background: '#262335'
+  cursor: '#03edf9'
+  cursor-text: '#262335'
+  selection-background: '#ffffff'
+  selection-foreground: '#262335'
+  colors:
+    normal:
+      black: '#000000'
+      red: '#fe4450'
+      green: '#72f1b8'
+      yellow: '#f3e70f'
+      blue: '#03edf9'
+      magenta: '#ff7edb'
+      cyan: '#03edf9'
+      white: '#eeeeee'
+    bright:
+      black: '#aaaaaa'
+      red: '#fe4450'
+      green: '#72f1b8'
+      yellow: '#fede5d'
+      blue: '#03edf9'
+      magenta: '#ff7edb'
+      cyan: '#03edf9'
+      white: '#ffffff'
+
