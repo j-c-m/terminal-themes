@@ -1,0 +1,29 @@
+name: IBM 5153 CGA
+source: "int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)"
+# 15% brightness increase 0-7 to simulate brightness on monitor
+dark:
+  foreground: '#d6d6d6'
+  background: '#262626'
+  cursor: '#d6d6d6'
+  cursor-text: '#d6d6d6'
+  selection-background: '#d6d6d6'
+  selection-foreground: '#262626'
+  colors:
+    normal:
+      black: '#262626'
+      red: '#db3333'
+      green: '#33db33'
+      yellow: '#db9833'
+      blue: '#3333db'
+      magenta: '#db33db'
+      cyan: '#33dbdb'
+      white: '#d6d6d6'
+    bright:
+      black: '#4e4e4e'
+      red: '#dc4e4e'
+      green: '#4edc4e'
+      yellow: '#f3f34e'
+      blue: '#4e4edc'
+      magenta: '#f34ef3'
+      cyan: '#4ef3f3'
+      white: '#ffffff'
