@@ -30,5 +30,10 @@
     "template": "json.json",
     "directory": "json",
     "filename": "{{theme-slug}}.json"
+  },
+  "iterm2-color-yml": {
+    "template": "iterm2-color.yml",
+    "directory": "iterm2-color-yml",
+    "filename": "{{theme-slug}}.yml"
   }
 }
