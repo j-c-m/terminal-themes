@@ -1,0 +1,29 @@
+# Theme:    Synthwave &#x27;84
+# Mode:     dark
+# Source:   Robb Owen (https://github.com/robb0wen/synthwave-vscode/)
+
+palette = 0=#000000
+palette = 1=#fe4450
+palette = 2=#72f1b8
+palette = 3=#f3e70f
+palette = 4=#03edf9
+palette = 5=#ff7edb
+palette = 6=#03edf9
+palette = 7=#eeeeee
+palette = 8=#aaaaaa
+palette = 9=#fe646e
+palette = 10=#92f4c8
+palette = 11=#fede5d
+palette = 12=#19f1fc
+palette = 13=#ffa4e6
+palette = 14=#19f1fc
+palette = 15=#ffffff
+
+background = #262335
+foreground = #dddddd
+
+cursor-color = #03edf9
+cursor-text = #262335
+
+selection-background = #ffffff
+selection-foreground = #262335

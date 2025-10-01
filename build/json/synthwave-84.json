@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#262335",
+        "hexterm": "26/23/35"
+    },
+    "bright": {
+        "black": {
+            "hex": "#aaaaaa",
+            "hexterm": "aa/aa/aa"
+        },
+        "blue": {
+            "hex": "#19f1fc",
+            "hexterm": "19/f1/fc"
+        },
+        "cyan": {
+            "hex": "#19f1fc",
+            "hexterm": "19/f1/fc"
+        },
+        "green": {
+            "hex": "#92f4c8",
+            "hexterm": "92/f4/c8"
+        },
+        "magenta": {
+            "hex": "#ffa4e6",
+            "hexterm": "ff/a4/e6"
+        },
+        "red": {
+            "hex": "#fe646e",
+            "hexterm": "fe/64/6e"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#fede5d",
+            "hexterm": "fe/de/5d"
+        }
+    },
+    "cursor": {
+        "hex": "#03edf9",
+        "hexterm": "03/ed/f9"
+    },
+    "cursor-text": {
+        "hex": "#262335",
+        "hexterm": "26/23/35"
+    },
+    "foreground": {
+        "hex": "#dddddd",
+        "hexterm": "dd/dd/dd"
+    },
+    "normal": {
+        "black": {
+            "hex": "#000000",
+            "hexterm": "00/00/00"
+        },
+        "blue": {
+            "hex": "#03edf9",
+            "hexterm": "03/ed/f9"
+        },
+        "cyan": {
+            "hex": "#03edf9",
+            "hexterm": "03/ed/f9"
+        },
+        "green": {
+            "hex": "#72f1b8",
+            "hexterm": "72/f1/b8"
+        },
+        "magenta": {
+            "hex": "#ff7edb",
+            "hexterm": "ff/7e/db"
+        },
+        "red": {
+            "hex": "#fe4450",
+            "hexterm": "fe/44/50"
+        },
+        "white": {
+            "hex": "#eeeeee",
+            "hexterm": "ee/ee/ee"
+        },
+        "yellow": {
+            "hex": "#f3e70f",
+            "hexterm": "f3/e7/0f"
+        }
+    },
+    "selection-background": {
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
+    },
+    "selection-foreground": {
+        "hex": "#262335",
+        "hexterm": "26/23/35"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Synthwave '84",
+    "theme-slug": "synthwave-84",
+    "theme-source": "Robb Owen (https://github.com/robb0wen/synthwave-vscode/)"
+}

@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#080808",
+        "hexterm": "08/08/08"
+    },
+    "bright": {
+        "black": {
+            "hex": "#949494",
+            "hexterm": "94/94/94"
+        },
+        "blue": {
+            "hex": "#74b2ff",
+            "hexterm": "74/b2/ff"
+        },
+        "cyan": {
+            "hex": "#85dc85",
+            "hexterm": "85/dc/85"
+        },
+        "green": {
+            "hex": "#36c692",
+            "hexterm": "36/c6/92"
+        },
+        "magenta": {
+            "hex": "#ae81ff",
+            "hexterm": "ae/81/ff"
+        },
+        "red": {
+            "hex": "#ff5189",
+            "hexterm": "ff/51/89"
+        },
+        "white": {
+            "hex": "#e4e4e4",
+            "hexterm": "e4/e4/e4"
+        },
+        "yellow": {
+            "hex": "#c6c684",
+            "hexterm": "c6/c6/84"
+        }
+    },
+    "cursor": {
+        "hex": "#9e9e9e",
+        "hexterm": "9e/9e/9e"
+    },
+    "cursor-text": {
+        "hex": "#080808",
+        "hexterm": "08/08/08"
+    },
+    "foreground": {
+        "hex": "#bdbdbd",
+        "hexterm": "bd/bd/bd"
+    },
+    "normal": {
+        "black": {
+            "hex": "#323437",
+            "hexterm": "32/34/37"
+        },
+        "blue": {
+            "hex": "#80a0ff",
+            "hexterm": "80/a0/ff"
+        },
+        "cyan": {
+            "hex": "#79dac8",
+            "hexterm": "79/da/c8"
+        },
+        "green": {
+            "hex": "#8cc85f",
+            "hexterm": "8c/c8/5f"
+        },
+        "magenta": {
+            "hex": "#cf87e8",
+            "hexterm": "cf/87/e8"
+        },
+        "red": {
+            "hex": "#ff5d5d",
+            "hexterm": "ff/5d/5d"
+        },
+        "white": {
+            "hex": "#c6c6c6",
+            "hexterm": "c6/c6/c6"
+        },
+        "yellow": {
+            "hex": "#e3c78a",
+            "hexterm": "e3/c7/8a"
+        }
+    },
+    "selection-background": {
+        "hex": "#b2ceee",
+        "hexterm": "b2/ce/ee"
+    },
+    "selection-foreground": {
+        "hex": "#080808",
+        "hexterm": "08/08/08"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Moonfly",
+    "theme-slug": "moonfly",
+    "theme-source": "Dennis B (https://github.com/bluz71/vim-moonfly-colors)"
+}

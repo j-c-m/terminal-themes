@@ -131,21 +131,21 @@
     footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
 
     @media (max-width:1200px){
-      :root{ --thumb-h: 360px; --mini-swatch-size: 26px; --min-w: 380px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 380px }
     }
     @media (max-width:900px){
-      :root{ --thumb-h: 280px; --mini-swatch-size: 20px; --min-w: 280px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 280px }
     }
     @media (max-width:640px){
-      :root{ --thumb-h: 240px; --mini-swatch-size: 16px; --min-w: 200px }
+      :root{ --thumb-h: 420px; --mini-swatch-size: 26px; --min-w: 200px }
     }
   </style>
 </head>
 <body>
   <header>
     <div>
-      <h1>Terminal Themes</h1>
-      <div class="sub">Clickable mini-terminals — click to open a theme page. Themes shown per mode.</div>
+      <h1>Themes</h1>
+      <!-- <div class="sub">Sub text.</div> -->
     </div>
 
     <div class="controls">
@@ -155,7 +155,7 @@
 
   <main>
     <section class="grid" id="grid" aria-live="polite">
-        <a class="tile-link" href="apprentice.html#dark" title="Open Apprentice" data-slug="apprentice">
+        <a class="tile-link" data-slug="apprentice">
           <div class="thumb" role="img" aria-label="Apprentice preview">
             <div class="single" style="background: #262626; color: #bcbcbc;">
               <div>
@@ -190,7 +190,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="ayu-dark.html#dark" title="Open Ayu Dark" data-slug="ayu-dark">
+        <a class="tile-link" data-slug="ayu-dark">
           <div class="thumb" role="img" aria-label="Ayu Dark preview">
             <div class="single" style="background: #0b0e14; color: #bfbdb6;">
               <div>
@@ -225,7 +225,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="ayu-light.html#light" title="Open Ayu Light" data-slug="ayu-light">
+        <a class="tile-link" data-slug="ayu-light">
           <div class="thumb" role="img" aria-label="Ayu Light preview">
             <div class="single" style="background: #f8f9fa; color: #5c6166;">
               <div>
@@ -260,7 +260,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="ayu-mirage.html#dark" title="Open Ayu Mirage" data-slug="ayu-mirage">
+        <a class="tile-link" data-slug="ayu-mirage">
           <div class="thumb" role="img" aria-label="Ayu Mirage preview">
             <div class="single" style="background: #1f2430; color: #cccac2;">
               <div>
@@ -295,7 +295,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="catppuccin-frappe.html#dark" title="Open Catppuccin Frappe" data-slug="catppuccin-frappe">
+        <a class="tile-link" data-slug="catppuccin-frappe">
           <div class="thumb" role="img" aria-label="Catppuccin Frappe preview">
             <div class="single" style="background: #303446; color: #c6d0f5;">
               <div>
@@ -330,7 +330,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="catppuccin-latte.html#light" title="Open Catppuccin Latte" data-slug="catppuccin-latte">
+        <a class="tile-link" data-slug="catppuccin-latte">
           <div class="thumb" role="img" aria-label="Catppuccin Latte preview">
             <div class="single" style="background: #eff1f5; color: #4c4f69;">
               <div>
@@ -365,7 +365,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="catppuccin-macchiato.html#dark" title="Open Catppuccin Macchiato" data-slug="catppuccin-macchiato">
+        <a class="tile-link" data-slug="catppuccin-macchiato">
           <div class="thumb" role="img" aria-label="Catppuccin Macchiato preview">
             <div class="single" style="background: #24273a; color: #cad3f5;">
               <div>
@@ -400,7 +400,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="catppuccin-mocha.html#dark" title="Open Catppuccin Mocha" data-slug="catppuccin-mocha">
+        <a class="tile-link" data-slug="catppuccin-mocha">
           <div class="thumb" role="img" aria-label="Catppuccin Mocha preview">
             <div class="single" style="background: #1e1e2e; color: #cdd6f4;">
               <div>
@@ -435,7 +435,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="cobalt2.html#dark" title="Open Cobalt2" data-slug="cobalt2">
+        <a class="tile-link" data-slug="cobalt2">
           <div class="thumb" role="img" aria-label="Cobalt2 preview">
             <div class="single" style="background: #173448; color: #ffffff;">
               <div>
@@ -470,7 +470,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="dayfox.html#light" title="Open Dayfox" data-slug="dayfox">
+        <a class="tile-link" data-slug="dayfox">
           <div class="thumb" role="img" aria-label="Dayfox preview">
             <div class="single" style="background: #f6f2ee; color: #3d2b5a;">
               <div>
@@ -505,7 +505,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="dracula.html#dark" title="Open Dracula" data-slug="dracula">
+        <a class="tile-link" data-slug="dracula">
           <div class="thumb" role="img" aria-label="Dracula preview">
             <div class="single" style="background: #282a36; color: #f8f8f2;">
               <div>
@@ -540,7 +540,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="eighties.html#dark" title="Open Eighties" data-slug="eighties">
+        <a class="tile-link" data-slug="eighties">
           <div class="thumb" role="img" aria-label="Eighties preview">
             <div class="single" style="background: #2d2d2d; color: #d3d0c8;">
               <div>
@@ -575,7 +575,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-dark-hard.html#dark" title="Open Everforest Dark Hard" data-slug="everforest-dark-hard">
+        <a class="tile-link" data-slug="everforest-dark-hard">
           <div class="thumb" role="img" aria-label="Everforest Dark Hard preview">
             <div class="single" style="background: #272e33; color: #d3c6aa;">
               <div>
@@ -610,7 +610,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-dark-medium.html#dark" title="Open Everforest Dark Medium" data-slug="everforest-dark-medium">
+        <a class="tile-link" data-slug="everforest-dark-medium">
           <div class="thumb" role="img" aria-label="Everforest Dark Medium preview">
             <div class="single" style="background: #2d353b; color: #d3c6aa;">
               <div>
@@ -645,7 +645,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-dark-soft.html#dark" title="Open Everforest Dark Soft" data-slug="everforest-dark-soft">
+        <a class="tile-link" data-slug="everforest-dark-soft">
           <div class="thumb" role="img" aria-label="Everforest Dark Soft preview">
             <div class="single" style="background: #333c43; color: #d3c6aa;">
               <div>
@@ -680,7 +680,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-light-hard.html#light" title="Open Everforest Light Hard" data-slug="everforest-light-hard">
+        <a class="tile-link" data-slug="everforest-light-hard">
           <div class="thumb" role="img" aria-label="Everforest Light Hard preview">
             <div class="single" style="background: #fffbef; color: #5c6a72;">
               <div>
@@ -715,7 +715,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-light-medium.html#light" title="Open Everforest Light Medium" data-slug="everforest-light-medium">
+        <a class="tile-link" data-slug="everforest-light-medium">
           <div class="thumb" role="img" aria-label="Everforest Light Medium preview">
             <div class="single" style="background: #fdf6e3; color: #5c6a72;">
               <div>
@@ -750,7 +750,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="everforest-light-soft.html#light" title="Open Everforest Light Soft" data-slug="everforest-light-soft">
+        <a class="tile-link" data-slug="everforest-light-soft">
           <div class="thumb" role="img" aria-label="Everforest Light Soft preview">
             <div class="single" style="background: #f3ead3; color: #5c6a72;">
               <div>
@@ -785,7 +785,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-dark-hard.html#dark" title="Open Gruvbox Dark Hard" data-slug="gruvbox-dark-hard">
+        <a class="tile-link" data-slug="gruvbox-dark-hard">
           <div class="thumb" role="img" aria-label="Gruvbox Dark Hard preview">
             <div class="single" style="background: #1d2021; color: #fbf1c7;">
               <div>
@@ -820,7 +820,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-dark-medium.html#dark" title="Open Gruvbox Dark Medium" data-slug="gruvbox-dark-medium">
+        <a class="tile-link" data-slug="gruvbox-dark-medium">
           <div class="thumb" role="img" aria-label="Gruvbox Dark Medium preview">
             <div class="single" style="background: #282828; color: #ebdbb2;">
               <div>
@@ -855,7 +855,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-dark-soft.html#dark" title="Open Gruvbox Dark Soft" data-slug="gruvbox-dark-soft">
+        <a class="tile-link" data-slug="gruvbox-dark-soft">
           <div class="thumb" role="img" aria-label="Gruvbox Dark Soft preview">
             <div class="single" style="background: #32302f; color: #fbf1c7;">
               <div>
@@ -890,7 +890,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-light-hard.html#light" title="Open Gruvbox Light Hard" data-slug="gruvbox-light-hard">
+        <a class="tile-link" data-slug="gruvbox-light-hard">
           <div class="thumb" role="img" aria-label="Gruvbox Light Hard preview">
             <div class="single" style="background: #f9f5d7; color: #3c3836;">
               <div>
@@ -925,7 +925,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-light-medium.html#light" title="Open Gruvbox Light Medium" data-slug="gruvbox-light-medium">
+        <a class="tile-link" data-slug="gruvbox-light-medium">
           <div class="thumb" role="img" aria-label="Gruvbox Light Medium preview">
             <div class="single" style="background: #fbf1c7; color: #3c3836;">
               <div>
@@ -960,7 +960,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="gruvbox-light-soft.html#light" title="Open Gruvbox Light Soft" data-slug="gruvbox-light-soft">
+        <a class="tile-link" data-slug="gruvbox-light-soft">
           <div class="thumb" role="img" aria-label="Gruvbox Light Soft preview">
             <div class="single" style="background: #f2e5bc; color: #3c3836;">
               <div>
@@ -995,7 +995,77 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="kanagawa-dragon.html#dark" title="Open Kanagawa Dragon" data-slug="kanagawa-dragon">
+        <a class="tile-link" data-slug="ibm-5153-cga">
+          <div class="thumb" role="img" aria-label="IBM 5153 CGA preview">
+            <div class="single" style="background: #262626; color: #d6d6d6;">
+              <div>
+                <div class="cmd">IBM 5153 CGA</div>
+                <div class="example"><span style="background: #d6d6d6; color: #262626; padding:0 .2ch; border-radius:2px;">Selected Text</span></div>
+                <div class="colors-command">$ colors</div>
+                <div class="colors-output"><span style="color: #262626">Black</span> <span style="color: #db3333">Red</span> <span style="color: #33db33">Green</span> <span style="color: #db9833">Yellow</span> <span style="color: #3333db">Blue</span> <span style="color: #db33db">Magenta</span> <span style="color: #33dbdb">Cyan</span> <span style="color: #d6d6d6">White</span> <span style="color: #4e4e4e">Bright Black</span> <span style="color: #dc4e4e">Bright Red</span> <span style="color: #4edc4e">Bright Green</span> <span style="color: #f3f34e">Bright Yellow</span> <span style="color: #4e4edc">Bright Blue</span> <span style="color: #f34ef3">Bright Magenta</span> <span style="color: #4ef3f3">Bright Cyan</span> <span style="color: #ffffff">Bright White</span></div>
+                <div class="bg-colors-command">$ bg-colors</div>
+                <div class="bg-colors-output"><span style="background: #262626; color: #d6d6d6">Black</span> <span style="background: #db3333; color: #d6d6d6">Red</span> <span style="background: #33db33; color: #d6d6d6">Green</span> <span style="background: #db9833; color: #d6d6d6">Yellow</span> <span style="background: #3333db; color: #d6d6d6">Blue</span> <span style="background: #db33db; color: #d6d6d6">Magenta</span> <span style="background: #33dbdb; color: #d6d6d6">Cyan</span> <span style="background: #d6d6d6; color: #d6d6d6">White</span> <span style="background: #4e4e4e; color: #d6d6d6">Bright Black</span> <span style="background: #dc4e4e; color: #d6d6d6">Bright Red</span> <span style="background: #4edc4e; color: #d6d6d6">Bright Green</span> <span style="background: #f3f34e; color: #d6d6d6">Bright Yellow</span> <span style="background: #4e4edc; color: #d6d6d6">Bright Blue</span> <span style="background: #f34ef3; color: #d6d6d6">Bright Magenta</span> <span style="background: #4ef3f3; color: #d6d6d6">Bright Cyan</span> <span style="background: #ffffff; color: #d6d6d6">Bright White</span></div>
+                <div class="cat-command">$ cat foreground.txt</div>
+                <div class="cat-output">This is the foreground text color (#d6d6d6).</div>
+                <div class="prompt">$ <span class="cursor" style="background: #d6d6d6"></span></div>
+              </div>
+              <div class="mini-swatch" aria-hidden="true">
+                  <div class="cell" style="background: #262626"></div>
+                  <div class="cell" style="background: #db3333"></div>
+                  <div class="cell" style="background: #33db33"></div>
+                  <div class="cell" style="background: #db9833"></div>
+                  <div class="cell" style="background: #3333db"></div>
+                  <div class="cell" style="background: #db33db"></div>
+                  <div class="cell" style="background: #33dbdb"></div>
+                  <div class="cell" style="background: #d6d6d6"></div>
+                  <div class="cell" style="background: #4e4e4e"></div>
+                  <div class="cell" style="background: #dc4e4e"></div>
+                  <div class="cell" style="background: #4edc4e"></div>
+                  <div class="cell" style="background: #f3f34e"></div>
+                  <div class="cell" style="background: #4e4edc"></div>
+                  <div class="cell" style="background: #f34ef3"></div>
+                  <div class="cell" style="background: #4ef3f3"></div>
+                  <div class="cell" style="background: #ffffff"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="tile-link" data-slug="ibm-5153-cga-black">
+          <div class="thumb" role="img" aria-label="IBM 5153 CGA Black preview">
+            <div class="single" style="background: #000000; color: #c4c4c4;">
+              <div>
+                <div class="cmd">IBM 5153 CGA Black</div>
+                <div class="example"><span style="background: #c4c4c4; color: #000000; padding:0 .2ch; border-radius:2px;">Selected Text</span></div>
+                <div class="colors-command">$ colors</div>
+                <div class="colors-output"><span style="color: #000000">Black</span> <span style="color: #c40000">Red</span> <span style="color: #00c400">Green</span> <span style="color: #c47e00">Yellow</span> <span style="color: #0000c4">Blue</span> <span style="color: #c400c4">Magenta</span> <span style="color: #00c4c4">Cyan</span> <span style="color: #c4c4c4">White</span> <span style="color: #4e4e4e">Bright Black</span> <span style="color: #dc4e4e">Bright Red</span> <span style="color: #4edc4e">Bright Green</span> <span style="color: #f3f34e">Bright Yellow</span> <span style="color: #4e4edc">Bright Blue</span> <span style="color: #f34ef3">Bright Magenta</span> <span style="color: #4ef3f3">Bright Cyan</span> <span style="color: #ffffff">Bright White</span></div>
+                <div class="bg-colors-command">$ bg-colors</div>
+                <div class="bg-colors-output"><span style="background: #000000; color: #c4c4c4">Black</span> <span style="background: #c40000; color: #c4c4c4">Red</span> <span style="background: #00c400; color: #c4c4c4">Green</span> <span style="background: #c47e00; color: #c4c4c4">Yellow</span> <span style="background: #0000c4; color: #c4c4c4">Blue</span> <span style="background: #c400c4; color: #c4c4c4">Magenta</span> <span style="background: #00c4c4; color: #c4c4c4">Cyan</span> <span style="background: #c4c4c4; color: #c4c4c4">White</span> <span style="background: #4e4e4e; color: #c4c4c4">Bright Black</span> <span style="background: #dc4e4e; color: #c4c4c4">Bright Red</span> <span style="background: #4edc4e; color: #c4c4c4">Bright Green</span> <span style="background: #f3f34e; color: #c4c4c4">Bright Yellow</span> <span style="background: #4e4edc; color: #c4c4c4">Bright Blue</span> <span style="background: #f34ef3; color: #c4c4c4">Bright Magenta</span> <span style="background: #4ef3f3; color: #c4c4c4">Bright Cyan</span> <span style="background: #ffffff; color: #c4c4c4">Bright White</span></div>
+                <div class="cat-command">$ cat foreground.txt</div>
+                <div class="cat-output">This is the foreground text color (#c4c4c4).</div>
+                <div class="prompt">$ <span class="cursor" style="background: #c4c4c4"></span></div>
+              </div>
+              <div class="mini-swatch" aria-hidden="true">
+                  <div class="cell" style="background: #000000"></div>
+                  <div class="cell" style="background: #c40000"></div>
+                  <div class="cell" style="background: #00c400"></div>
+                  <div class="cell" style="background: #c47e00"></div>
+                  <div class="cell" style="background: #0000c4"></div>
+                  <div class="cell" style="background: #c400c4"></div>
+                  <div class="cell" style="background: #00c4c4"></div>
+                  <div class="cell" style="background: #c4c4c4"></div>
+                  <div class="cell" style="background: #4e4e4e"></div>
+                  <div class="cell" style="background: #dc4e4e"></div>
+                  <div class="cell" style="background: #4edc4e"></div>
+                  <div class="cell" style="background: #f3f34e"></div>
+                  <div class="cell" style="background: #4e4edc"></div>
+                  <div class="cell" style="background: #f34ef3"></div>
+                  <div class="cell" style="background: #4ef3f3"></div>
+                  <div class="cell" style="background: #ffffff"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="tile-link" data-slug="kanagawa-dragon">
           <div class="thumb" role="img" aria-label="Kanagawa Dragon preview">
             <div class="single" style="background: #181616; color: #c5c9c5;">
               <div>
@@ -1030,7 +1100,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="kanagawa-lotus.html#light" title="Open Kanagawa Lotus" data-slug="kanagawa-lotus">
+        <a class="tile-link" data-slug="kanagawa-lotus">
           <div class="thumb" role="img" aria-label="Kanagawa Lotus preview">
             <div class="single" style="background: #f2ecbc; color: #545464;">
               <div>
@@ -1065,7 +1135,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="kanagawa-wave.html#dark" title="Open Kanagawa Wave" data-slug="kanagawa-wave">
+        <a class="tile-link" data-slug="kanagawa-wave">
           <div class="thumb" role="img" aria-label="Kanagawa Wave preview">
             <div class="single" style="background: #1f1f28; color: #dcd7ba;">
               <div>
@@ -1100,7 +1170,42 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="night-owl-dark.html#dark" title="Open Night Owl Dark" data-slug="night-owl-dark">
+        <a class="tile-link" data-slug="moonfly">
+          <div class="thumb" role="img" aria-label="Moonfly preview">
+            <div class="single" style="background: #080808; color: #bdbdbd;">
+              <div>
+                <div class="cmd">Moonfly</div>
+                <div class="example"><span style="background: #b2ceee; color: #080808; padding:0 .2ch; border-radius:2px;">Selected Text</span></div>
+                <div class="colors-command">$ colors</div>
+                <div class="colors-output"><span style="color: #323437">Black</span> <span style="color: #ff5d5d">Red</span> <span style="color: #8cc85f">Green</span> <span style="color: #e3c78a">Yellow</span> <span style="color: #80a0ff">Blue</span> <span style="color: #cf87e8">Magenta</span> <span style="color: #79dac8">Cyan</span> <span style="color: #c6c6c6">White</span> <span style="color: #949494">Bright Black</span> <span style="color: #ff5189">Bright Red</span> <span style="color: #36c692">Bright Green</span> <span style="color: #c6c684">Bright Yellow</span> <span style="color: #74b2ff">Bright Blue</span> <span style="color: #ae81ff">Bright Magenta</span> <span style="color: #85dc85">Bright Cyan</span> <span style="color: #e4e4e4">Bright White</span></div>
+                <div class="bg-colors-command">$ bg-colors</div>
+                <div class="bg-colors-output"><span style="background: #323437; color: #bdbdbd">Black</span> <span style="background: #ff5d5d; color: #bdbdbd">Red</span> <span style="background: #8cc85f; color: #bdbdbd">Green</span> <span style="background: #e3c78a; color: #bdbdbd">Yellow</span> <span style="background: #80a0ff; color: #bdbdbd">Blue</span> <span style="background: #cf87e8; color: #bdbdbd">Magenta</span> <span style="background: #79dac8; color: #bdbdbd">Cyan</span> <span style="background: #c6c6c6; color: #bdbdbd">White</span> <span style="background: #949494; color: #bdbdbd">Bright Black</span> <span style="background: #ff5189; color: #bdbdbd">Bright Red</span> <span style="background: #36c692; color: #bdbdbd">Bright Green</span> <span style="background: #c6c684; color: #bdbdbd">Bright Yellow</span> <span style="background: #74b2ff; color: #bdbdbd">Bright Blue</span> <span style="background: #ae81ff; color: #bdbdbd">Bright Magenta</span> <span style="background: #85dc85; color: #bdbdbd">Bright Cyan</span> <span style="background: #e4e4e4; color: #bdbdbd">Bright White</span></div>
+                <div class="cat-command">$ cat foreground.txt</div>
+                <div class="cat-output">This is the foreground text color (#bdbdbd).</div>
+                <div class="prompt">$ <span class="cursor" style="background: #9e9e9e"></span></div>
+              </div>
+              <div class="mini-swatch" aria-hidden="true">
+                  <div class="cell" style="background: #323437"></div>
+                  <div class="cell" style="background: #ff5d5d"></div>
+                  <div class="cell" style="background: #8cc85f"></div>
+                  <div class="cell" style="background: #e3c78a"></div>
+                  <div class="cell" style="background: #80a0ff"></div>
+                  <div class="cell" style="background: #cf87e8"></div>
+                  <div class="cell" style="background: #79dac8"></div>
+                  <div class="cell" style="background: #c6c6c6"></div>
+                  <div class="cell" style="background: #949494"></div>
+                  <div class="cell" style="background: #ff5189"></div>
+                  <div class="cell" style="background: #36c692"></div>
+                  <div class="cell" style="background: #c6c684"></div>
+                  <div class="cell" style="background: #74b2ff"></div>
+                  <div class="cell" style="background: #ae81ff"></div>
+                  <div class="cell" style="background: #85dc85"></div>
+                  <div class="cell" style="background: #e4e4e4"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="tile-link" data-slug="night-owl-dark">
           <div class="thumb" role="img" aria-label="Night Owl Dark preview">
             <div class="single" style="background: #011627; color: #d6deeb;">
               <div>
@@ -1135,7 +1240,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="night-owl-light.html#light" title="Open Night Owl Light" data-slug="night-owl-light">
+        <a class="tile-link" data-slug="night-owl-light">
           <div class="thumb" role="img" aria-label="Night Owl Light preview">
             <div class="single" style="background: #f6f6f6; color: #403f53;">
               <div>
@@ -1170,7 +1275,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="nightfox.html#dark" title="Open Nightfox" data-slug="nightfox">
+        <a class="tile-link" data-slug="nightfox">
           <div class="thumb" role="img" aria-label="Nightfox preview">
             <div class="single" style="background: #192330; color: #cdcecf;">
               <div>
@@ -1205,7 +1310,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="nord.html#dark" title="Open Nord" data-slug="nord">
+        <a class="tile-link" data-slug="nord">
           <div class="thumb" role="img" aria-label="Nord preview">
             <div class="single" style="background: #2e3440; color: #d8dee9;">
               <div>
@@ -1240,7 +1345,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="one-dark-dark.html#dark" title="Open One Dark Dark" data-slug="one-dark-dark">
+        <a class="tile-link" data-slug="one-dark-dark">
           <div class="thumb" role="img" aria-label="One Dark Dark preview">
             <div class="single" style="background: #1e2127; color: #abb2bf;">
               <div>
@@ -1275,7 +1380,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="one-dark-light.html#light" title="Open One Dark Light" data-slug="one-dark-light">
+        <a class="tile-link" data-slug="one-dark-light">
           <div class="thumb" role="img" aria-label="One Dark Light preview">
             <div class="single" style="background: #f9f9f9; color: #383a42;">
               <div>
@@ -1310,7 +1415,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="rose-pine.html#dark" title="Open Rose Pine" data-slug="rose-pine">
+        <a class="tile-link" data-slug="rose-pine">
           <div class="thumb" role="img" aria-label="Rose Pine preview">
             <div class="single" style="background: #191724; color: #e0def4;">
               <div>
@@ -1345,7 +1450,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="rose-pine-dawn.html#light" title="Open Rose Pine Dawn" data-slug="rose-pine-dawn">
+        <a class="tile-link" data-slug="rose-pine-dawn">
           <div class="thumb" role="img" aria-label="Rose Pine Dawn preview">
             <div class="single" style="background: #faf4ed; color: #575279;">
               <div>
@@ -1380,7 +1485,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="rose-pine-moon.html#dark" title="Open Rose Pine Moon" data-slug="rose-pine-moon">
+        <a class="tile-link" data-slug="rose-pine-moon">
           <div class="thumb" role="img" aria-label="Rose Pine Moon preview">
             <div class="single" style="background: #232136; color: #e0def4;">
               <div>
@@ -1415,7 +1520,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="selenized-dark.html#dark" title="Open Selenized Dark" data-slug="selenized-dark">
+        <a class="tile-link" data-slug="selenized-dark">
           <div class="thumb" role="img" aria-label="Selenized Dark preview">
             <div class="single" style="background: #103c48; color: #adbcbc;">
               <div>
@@ -1450,7 +1555,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="selenized-light.html#light" title="Open Selenized Light" data-slug="selenized-light">
+        <a class="tile-link" data-slug="selenized-light">
           <div class="thumb" role="img" aria-label="Selenized Light preview">
             <div class="single" style="background: #fbf3db; color: #53676d;">
               <div>
@@ -1485,7 +1590,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="solarized-dark.html#dark" title="Open Solarized Dark" data-slug="solarized-dark">
+        <a class="tile-link" data-slug="solarized-dark">
           <div class="thumb" role="img" aria-label="Solarized Dark preview">
             <div class="single" style="background: #002b36; color: #839496;">
               <div>
@@ -1520,7 +1625,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="solarized-light.html#light" title="Open Solarized Light" data-slug="solarized-light">
+        <a class="tile-link" data-slug="solarized-light">
           <div class="thumb" role="img" aria-label="Solarized Light preview">
             <div class="single" style="background: #fdf6e3; color: #657b83;">
               <div>
@@ -1555,7 +1660,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="spacegray-dark.html#dark" title="Open Spacegray Dark" data-slug="spacegray-dark">
+        <a class="tile-link" data-slug="spacegray-dark">
           <div class="thumb" role="img" aria-label="Spacegray Dark preview">
             <div class="single" style="background: #2b303b; color: #c0c5ce;">
               <div>
@@ -1590,7 +1695,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="spacegray-eighties.html#dark" title="Open Spacegray Eighties" data-slug="spacegray-eighties">
+        <a class="tile-link" data-slug="spacegray-eighties">
           <div class="thumb" role="img" aria-label="Spacegray Eighties preview">
             <div class="single" style="background: #2d2d2d; color: #d3d0c8;">
               <div>
@@ -1625,7 +1730,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="spacegray-light.html#light" title="Open Spacegray Light" data-slug="spacegray-light">
+        <a class="tile-link" data-slug="spacegray-light">
           <div class="thumb" role="img" aria-label="Spacegray Light preview">
             <div class="single" style="background: #dfe1e8; color: #65737e;">
               <div>
@@ -1660,7 +1765,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="spacegray-mocha.html#dark" title="Open Spacegray Mocha" data-slug="spacegray-mocha">
+        <a class="tile-link" data-slug="spacegray-mocha">
           <div class="thumb" role="img" aria-label="Spacegray Mocha preview">
             <div class="single" style="background: #3b3228; color: #d0c8c6;">
               <div>
@@ -1695,7 +1800,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="spacegray-oceanic.html#dark" title="Open Spacegray Oceanic" data-slug="spacegray-oceanic">
+        <a class="tile-link" data-slug="spacegray-oceanic">
           <div class="thumb" role="img" aria-label="Spacegray Oceanic preview">
             <div class="single" style="background: #1b2b34; color: #c0c5ce;">
               <div>
@@ -1730,7 +1835,42 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="terafox.html#dark" title="Open Terafox" data-slug="terafox">
+        <a class="tile-link" data-slug="synthwave-84">
+          <div class="thumb" role="img" aria-label="Synthwave &#x27;84 preview">
+            <div class="single" style="background: #262335; color: #dddddd;">
+              <div>
+                <div class="cmd">Synthwave &#x27;84</div>
+                <div class="example"><span style="background: #ffffff; color: #262335; padding:0 .2ch; border-radius:2px;">Selected Text</span></div>
+                <div class="colors-command">$ colors</div>
+                <div class="colors-output"><span style="color: #000000">Black</span> <span style="color: #fe4450">Red</span> <span style="color: #72f1b8">Green</span> <span style="color: #f3e70f">Yellow</span> <span style="color: #03edf9">Blue</span> <span style="color: #ff7edb">Magenta</span> <span style="color: #03edf9">Cyan</span> <span style="color: #eeeeee">White</span> <span style="color: #aaaaaa">Bright Black</span> <span style="color: #fe646e">Bright Red</span> <span style="color: #92f4c8">Bright Green</span> <span style="color: #fede5d">Bright Yellow</span> <span style="color: #19f1fc">Bright Blue</span> <span style="color: #ffa4e6">Bright Magenta</span> <span style="color: #19f1fc">Bright Cyan</span> <span style="color: #ffffff">Bright White</span></div>
+                <div class="bg-colors-command">$ bg-colors</div>
+                <div class="bg-colors-output"><span style="background: #000000; color: #dddddd">Black</span> <span style="background: #fe4450; color: #dddddd">Red</span> <span style="background: #72f1b8; color: #dddddd">Green</span> <span style="background: #f3e70f; color: #dddddd">Yellow</span> <span style="background: #03edf9; color: #dddddd">Blue</span> <span style="background: #ff7edb; color: #dddddd">Magenta</span> <span style="background: #03edf9; color: #dddddd">Cyan</span> <span style="background: #eeeeee; color: #dddddd">White</span> <span style="background: #aaaaaa; color: #dddddd">Bright Black</span> <span style="background: #fe646e; color: #dddddd">Bright Red</span> <span style="background: #92f4c8; color: #dddddd">Bright Green</span> <span style="background: #fede5d; color: #dddddd">Bright Yellow</span> <span style="background: #19f1fc; color: #dddddd">Bright Blue</span> <span style="background: #ffa4e6; color: #dddddd">Bright Magenta</span> <span style="background: #19f1fc; color: #dddddd">Bright Cyan</span> <span style="background: #ffffff; color: #dddddd">Bright White</span></div>
+                <div class="cat-command">$ cat foreground.txt</div>
+                <div class="cat-output">This is the foreground text color (#dddddd).</div>
+                <div class="prompt">$ <span class="cursor" style="background: #03edf9"></span></div>
+              </div>
+              <div class="mini-swatch" aria-hidden="true">
+                  <div class="cell" style="background: #000000"></div>
+                  <div class="cell" style="background: #fe4450"></div>
+                  <div class="cell" style="background: #72f1b8"></div>
+                  <div class="cell" style="background: #f3e70f"></div>
+                  <div class="cell" style="background: #03edf9"></div>
+                  <div class="cell" style="background: #ff7edb"></div>
+                  <div class="cell" style="background: #03edf9"></div>
+                  <div class="cell" style="background: #eeeeee"></div>
+                  <div class="cell" style="background: #aaaaaa"></div>
+                  <div class="cell" style="background: #fe646e"></div>
+                  <div class="cell" style="background: #92f4c8"></div>
+                  <div class="cell" style="background: #fede5d"></div>
+                  <div class="cell" style="background: #19f1fc"></div>
+                  <div class="cell" style="background: #ffa4e6"></div>
+                  <div class="cell" style="background: #19f1fc"></div>
+                  <div class="cell" style="background: #ffffff"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="tile-link" data-slug="terafox">
           <div class="thumb" role="img" aria-label="Terafox preview">
             <div class="single" style="background: #152528; color: #e6eaea;">
               <div>
@@ -1765,7 +1905,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tokyo-night-dark.html#dark" title="Open Tokyo Night Dark" data-slug="tokyo-night-dark">
+        <a class="tile-link" data-slug="tokyo-night-dark">
           <div class="thumb" role="img" aria-label="Tokyo Night Dark preview">
             <div class="single" style="background: #1a1b26; color: #a9b1d6;">
               <div>
@@ -1800,7 +1940,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tokyo-night-light.html#light" title="Open Tokyo Night Light" data-slug="tokyo-night-light">
+        <a class="tile-link" data-slug="tokyo-night-light">
           <div class="thumb" role="img" aria-label="Tokyo Night Light preview">
             <div class="single" style="background: #e6e7ed; color: #343b58;">
               <div>
@@ -1835,7 +1975,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tokyo-night-storm.html#dark" title="Open Tokyo Night Storm" data-slug="tokyo-night-storm">
+        <a class="tile-link" data-slug="tokyo-night-storm">
           <div class="thumb" role="img" aria-label="Tokyo Night Storm preview">
             <div class="single" style="background: #24283b; color: #a9b1d6;">
               <div>
@@ -1870,7 +2010,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tomorrow.html#light" title="Open Tomorrow" data-slug="tomorrow">
+        <a class="tile-link" data-slug="tomorrow">
           <div class="thumb" role="img" aria-label="Tomorrow preview">
             <div class="single" style="background: #ffffff; color: #373b41;">
               <div>
@@ -1905,7 +2045,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tomorrow-night.html#dark" title="Open Tomorrow Night" data-slug="tomorrow-night">
+        <a class="tile-link" data-slug="tomorrow-night">
           <div class="thumb" role="img" aria-label="Tomorrow Night preview">
             <div class="single" style="background: #1d1f21; color: #c5c8c6;">
               <div>
@@ -1940,7 +2080,7 @@
             </div>
           </div>
         </a>
-        <a class="tile-link" href="tomorrow-night-eighties.html#dark" title="Open Tomorrow Night Eighties" data-slug="tomorrow-night-eighties">
+        <a class="tile-link" data-slug="tomorrow-night-eighties">
           <div class="thumb" role="img" aria-label="Tomorrow Night Eighties preview">
             <div class="single" style="background: #2d2d2d; color: #cccccc;">
               <div>
@@ -1977,7 +2117,7 @@
         </a>
     </section>
 
-    <footer>Compact mini-terminal index — click any tile to open theme details.</footer>
+    <!-- <footer>footer text</footer> -->
   </main>
 
   <script>

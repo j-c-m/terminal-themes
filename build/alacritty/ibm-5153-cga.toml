@@ -1,0 +1,40 @@
+# Theme:    IBM 5153 CGA
+# Mode:     dark
+# Source:   int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
+
+# Default colors
+[colors.primary]
+background  = '#262626'
+foreground  = '#d6d6d6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#d6d6d6'
+cursor      = '#d6d6d6'
+
+# Selection colors
+[colors.selection]
+background  = '#d6d6d6'
+text        = '#262626'
+
+# Normal colors
+[colors.normal]
+black       = '#262626'
+red         = '#db3333'
+green       = '#33db33'
+yellow      = '#db9833'
+blue        = '#3333db'
+magenta     = '#db33db'
+cyan        = '#33dbdb'
+white       = '#d6d6d6'
+
+# Bright colors
+[colors.bright]
+black       = '#4e4e4e'
+red         = '#dc4e4e'
+green       = '#4edc4e'
+yellow      = '#f3f34e'
+blue        = '#4e4edc'
+magenta     = '#f34ef3'
+cyan        = '#4ef3f3'
+white       = '#ffffff'

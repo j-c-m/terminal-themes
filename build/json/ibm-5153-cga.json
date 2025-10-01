@@ -1,0 +1,99 @@
+{
+    "background": {
+        "hex": "#262626",
+        "hexterm": "26/26/26"
+    },
+    "bright": {
+        "black": {
+            "hex": "#4e4e4e",
+            "hexterm": "4e/4e/4e"
+        },
+        "blue": {
+            "hex": "#4e4edc",
+            "hexterm": "4e/4e/dc"
+        },
+        "cyan": {
+            "hex": "#4ef3f3",
+            "hexterm": "4e/f3/f3"
+        },
+        "green": {
+            "hex": "#4edc4e",
+            "hexterm": "4e/dc/4e"
+        },
+        "magenta": {
+            "hex": "#f34ef3",
+            "hexterm": "f3/4e/f3"
+        },
+        "red": {
+            "hex": "#dc4e4e",
+            "hexterm": "dc/4e/4e"
+        },
+        "white": {
+            "hex": "#ffffff",
+            "hexterm": "ff/ff/ff"
+        },
+        "yellow": {
+            "hex": "#f3f34e",
+            "hexterm": "f3/f3/4e"
+        }
+    },
+    "cursor": {
+        "hex": "#d6d6d6",
+        "hexterm": "d6/d6/d6"
+    },
+    "cursor-text": {
+        "hex": "#d6d6d6",
+        "hexterm": "d6/d6/d6"
+    },
+    "foreground": {
+        "hex": "#d6d6d6",
+        "hexterm": "d6/d6/d6"
+    },
+    "normal": {
+        "black": {
+            "hex": "#262626",
+            "hexterm": "26/26/26"
+        },
+        "blue": {
+            "hex": "#3333db",
+            "hexterm": "33/33/db"
+        },
+        "cyan": {
+            "hex": "#33dbdb",
+            "hexterm": "33/db/db"
+        },
+        "green": {
+            "hex": "#33db33",
+            "hexterm": "33/db/33"
+        },
+        "magenta": {
+            "hex": "#db33db",
+            "hexterm": "db/33/db"
+        },
+        "red": {
+            "hex": "#db3333",
+            "hexterm": "db/33/33"
+        },
+        "white": {
+            "hex": "#d6d6d6",
+            "hexterm": "d6/d6/d6"
+        },
+        "yellow": {
+            "hex": "#db9833",
+            "hexterm": "db/98/33"
+        }
+    },
+    "selection-background": {
+        "hex": "#d6d6d6",
+        "hexterm": "d6/d6/d6"
+    },
+    "selection-foreground": {
+        "hex": "#262626",
+        "hexterm": "26/26/26"
+    },
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "IBM 5153 CGA",
+    "theme-slug": "ibm-5153-cga",
+    "theme-source": "int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)"
+}

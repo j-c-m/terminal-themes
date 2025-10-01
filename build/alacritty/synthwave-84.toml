@@ -1,0 +1,40 @@
+# Theme:    Synthwave &#x27;84
+# Mode:     dark
+# Source:   Robb Owen (https://github.com/robb0wen/synthwave-vscode/)
+
+# Default colors
+[colors.primary]
+background  = '#262335'
+foreground  = '#dddddd'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#262335'
+cursor      = '#03edf9'
+
+# Selection colors
+[colors.selection]
+background  = '#ffffff'
+text        = '#262335'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#fe4450'
+green       = '#72f1b8'
+yellow      = '#f3e70f'
+blue        = '#03edf9'
+magenta     = '#ff7edb'
+cyan        = '#03edf9'
+white       = '#eeeeee'
+
+# Bright colors
+[colors.bright]
+black       = '#aaaaaa'
+red         = '#fe646e'
+green       = '#92f4c8'
+yellow      = '#fede5d'
+blue        = '#19f1fc'
+magenta     = '#ffa4e6'
+cyan        = '#19f1fc'
+white       = '#ffffff'
