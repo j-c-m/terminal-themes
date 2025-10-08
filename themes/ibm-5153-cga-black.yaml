@@ -5,7 +5,7 @@ dark:
   foreground: '#c4c4c4'
   background: '#000000'
   cursor: '#c4c4c4'
-  cursor-text: '#c4c4c4'
+  cursor-text: '#000000'
   selection-background: '#c4c4c4'
   selection-foreground: '#000000'
   colors:
