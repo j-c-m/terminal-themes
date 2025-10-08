@@ -42,8 +42,8 @@
         "hexterm": "c4/c4/c4"
     },
     "cursor-text": {
-        "hex": "#c4c4c4",
-        "hexterm": "c4/c4/c4"
+        "hex": "#000000",
+        "hexterm": "00/00/00"
     },
     "foreground": {
         "hex": "#c4c4c4",

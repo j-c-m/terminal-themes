@@ -1,7 +1,7 @@
 {
     "background": {
-        "hex": "#262626",
-        "hexterm": "26/26/26"
+        "hex": "#141414",
+        "hexterm": "14/14/14"
     },
     "bright": {
         "black": {
@@ -38,58 +38,58 @@
         }
     },
     "cursor": {
-        "hex": "#d6d6d6",
-        "hexterm": "d6/d6/d6"
+        "hex": "#cecece",
+        "hexterm": "ce/ce/ce"
     },
     "cursor-text": {
-        "hex": "#d6d6d6",
-        "hexterm": "d6/d6/d6"
+        "hex": "#141414",
+        "hexterm": "14/14/14"
     },
     "foreground": {
-        "hex": "#d6d6d6",
-        "hexterm": "d6/d6/d6"
+        "hex": "#cecece",
+        "hexterm": "ce/ce/ce"
     },
     "normal": {
         "black": {
-            "hex": "#262626",
-            "hexterm": "26/26/26"
+            "hex": "#141414",
+            "hexterm": "14/14/14"
         },
         "blue": {
-            "hex": "#3333db",
-            "hexterm": "33/33/db"
+            "hex": "#1b1bd0",
+            "hexterm": "1b/1b/d0"
         },
         "cyan": {
-            "hex": "#33dbdb",
-            "hexterm": "33/db/db"
+            "hex": "#1bd0d0",
+            "hexterm": "1b/d0/d0"
         },
         "green": {
-            "hex": "#33db33",
-            "hexterm": "33/db/33"
+            "hex": "#1bd01b",
+            "hexterm": "1b/d0/1b"
         },
         "magenta": {
-            "hex": "#db33db",
-            "hexterm": "db/33/db"
+            "hex": "#d01bd0",
+            "hexterm": "d0/1b/d0"
         },
         "red": {
-            "hex": "#db3333",
-            "hexterm": "db/33/33"
+            "hex": "#d03333",
+            "hexterm": "d0/33/33"
         },
         "white": {
-            "hex": "#d6d6d6",
-            "hexterm": "d6/d6/d6"
+            "hex": "#cecece",
+            "hexterm": "ce/ce/ce"
         },
         "yellow": {
-            "hex": "#db9833",
-            "hexterm": "db/98/33"
+            "hex": "#d08c1b",
+            "hexterm": "d0/8c/1b"
         }
     },
     "selection-background": {
-        "hex": "#d6d6d6",
-        "hexterm": "d6/d6/d6"
+        "hex": "#cecece",
+        "hexterm": "ce/ce/ce"
     },
     "selection-foreground": {
-        "hex": "#262626",
-        "hexterm": "26/26/26"
+        "hex": "#141414",
+        "hexterm": "14/14/14"
     },
     "theme-mode": "dark",
     "theme-modifier": "",

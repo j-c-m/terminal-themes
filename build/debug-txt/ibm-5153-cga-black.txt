@@ -8,7 +8,7 @@ Primaries
 Foreground: #c4c4c4 (c4/c4/c4)
 Background: #000000 (00/00/00)
 Cursor: #c4c4c4 (c4/c4/c4)
-Cursor Text: #c4c4c4 (c4/c4/c4)
+Cursor Text: #000000 (00/00/00)
 Selection Background: #c4c4c4 (c4/c4/c4)
 Selection Foreground: #000000 (00/00/00)
 

@@ -5,8 +5,8 @@
     },
     "bright": {
         "black": {
-            "hex": "#2d5b69",
-            "hexterm": "2d/5b/69"
+            "hex": "#72898f",
+            "hexterm": "72/89/8f"
         },
         "blue": {
             "hex": "#58a3ff",
@@ -75,8 +75,8 @@
             "hexterm": "fa/57/50"
         },
         "white": {
-            "hex": "#72898f",
-            "hexterm": "72/89/8f"
+            "hex": "#adbcbc",
+            "hexterm": "ad/bc/bc"
         },
         "yellow": {
             "hex": "#dbb32d",
