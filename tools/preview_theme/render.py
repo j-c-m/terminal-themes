@@ -120,7 +120,18 @@ def render_preview(theme: Theme, width: int = 80, *, index: int = 0, total: int 
             width,
         )
     )
-    lines.append(fill_line(" ▌ cursor sample ", cursor_text, cursor, width))
+    lines.append(
+        fill_line_segments(
+            width,
+            bg,
+            fg,
+            [
+                (" ", fg, False),
+                (" ", cursor_text, False, cursor),
+                (" cursor sample", fg, False),
+            ],
+        )
+    )
 
     lines.append(fill_line("", fg, bg, width))
     lines.append(fill_line(_hline(width), fg, bg, width))

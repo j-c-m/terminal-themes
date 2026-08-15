@@ -49,14 +49,19 @@ def fill_line_segments(
     width: int,
     bg: Color,
     pad_fg: Color,
-    segments: list[tuple[str, Color, bool]],
+    segments: list[tuple[str, Color, bool] | tuple[str, Color, bool, Color]],
 ) -> str:
-    """Render colored segments on a shared bg, padded to full terminal width."""
+    """Render colored segments on a shared bg, padded to full terminal width.
+
+    Each segment is (text, fg, bold) or (text, fg, bold, cell_bg).
+    """
     out = sgr_bg(bg)
     visible = 0
-    for text, fg, is_bold in segments:
-        out += (BOLD if is_bold else "") + sgr_fg(fg) + text
+    for segment in segments:
+        text, fg, is_bold = segment[0], segment[1], segment[2]
+        cell_bg = segment[3] if len(segment) == 4 else bg
+        out += (BOLD if is_bold else "") + sgr_fg(fg) + sgr_bg(cell_bg) + text
         visible += len(text)
     if visible < width:
-        out += sgr_fg(pad_fg) + (" " * (width - visible))
+        out += sgr_fg(pad_fg) + sgr_bg(bg) + (" " * (width - visible))
     return out + RESET
