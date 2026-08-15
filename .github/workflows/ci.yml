@@ -37,4 +37,5 @@ jobs:
         run: python build-themes.py
 
       - name: Check generated files
+        if: github.event_name == 'pull_request'
         run: git diff --exit-code -- build/
