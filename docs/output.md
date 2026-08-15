@@ -10,8 +10,9 @@ Outputs are written to `build/` based on `templates/config.json`.
 
 ## Index Generation
 
-- **File**: `build/index.html` (aggregated from `index.mustache`).
-- **Content**: Sorted list of themes (merged for dual-mode, per-mode for single).
+- **File**: `build/index.html` (from `index.mustache`).
+- **Content**: One card per mode from non-combined theme files, sorted by `theme-name`. Combined / `-meta` files are omitted; their members appear from their own YAML.
+- Each card is a single-pane preview (not a merged `theme-mode: "both"` entry).
 - Includes `theme-json` for each entry.
 
 ## JSON catalog
@@ -29,11 +30,17 @@ Outputs are written to `build/` based on `templates/config.json`.
 
 ```
 build/
-├── iterm/
-│   ├── oceanic-next-dark.itermcolors
-│   └── oceanic-next-light.itermcolors
-├── vim/
-│   ├── oceanic-next-dual.vim
+├── alacritty/
+│   ├── solarized-dark.toml
+│   └── solarized-light.toml
+├── ghostty/
+├── itermcolors/
+│   └── solarized.itermcolors
+├── json/
+│   ├── solarized-dark.json
+│   └── solarized-light.json
+├── shell/
+├── debug-txt/
 └── index.html
 ```
 

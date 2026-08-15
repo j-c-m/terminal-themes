@@ -60,7 +60,7 @@ Adjusted brights appear in every generated file under `build/` (Alacritty, Ghost
 
 ## References to External Files (Combined Themes)
 
-Modes can reference external YAML files instead of inline objects. If `dark` or `light` is a string (filename), it loads from that file. This is flagged as "combined" for special processing (e.g., in the build tool).
+Modes can reference external YAML files instead of inline objects. If `dark` or `light` is a string (filename), it loads from that file. That file is **combined**: it feeds dual-mode templates only and is omitted from the index. Use a `-meta` suffix only when the family name already exists as a standalone theme (`rose-pine-meta.yaml`). See [Dual-Mode Behavior](dual-mode.md).
 
 ## ANSI Mapping
 
