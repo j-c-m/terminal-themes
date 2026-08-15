@@ -91,6 +91,7 @@
         "hex": "#eff1f5",
         "hexterm": "ef/f1/f5"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "Catppuccin Latte",

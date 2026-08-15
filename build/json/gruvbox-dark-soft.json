@@ -91,6 +91,7 @@
         "hex": "#32302f",
         "hexterm": "32/30/2f"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Soft",
     "theme-name": "Gruvbox Dark Soft",

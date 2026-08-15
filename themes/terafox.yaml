@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Terafox
 source: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+license: MIT
 dark:
   foreground: "#e6eaea"
   background: "#152528"

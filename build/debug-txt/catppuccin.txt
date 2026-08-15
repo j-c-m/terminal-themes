@@ -2,6 +2,7 @@ Theme: Catppuccin (slug: catppuccin)
 Mode: both
 Modifier: 
 Source: Catppuccin (https://github.com/catppuccin/)
+License: MIT
 
 LIGHT MODE
 ----------

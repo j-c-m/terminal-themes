@@ -91,6 +91,7 @@
         "hex": "#2b303b",
         "hexterm": "2b/30/3b"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Spacegray Dark",

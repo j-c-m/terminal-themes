@@ -3,6 +3,7 @@
 # Theme:    Catppuccin Latte
 # Mode:     light
 # Source:   Catppuccin (https://github.com/catppuccin/)
+# License:  MIT
 
 # Exit if not on a tty
 

@@ -91,6 +91,7 @@
         "hex": "#fdf6e3",
         "hexterm": "fd/f6/e3"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "Medium",
     "theme-name": "Everforest Light Medium",

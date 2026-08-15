@@ -1,5 +1,6 @@
 name: "Synthwave &#x27;84"
 author: "Robb Owen (https://github.com/robb0wen/synthwave-vscode/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#000000"

@@ -2,6 +2,7 @@ Theme: Night Owl (slug: night-owl)
 Mode: both
 Modifier: 
 Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
+License: MIT
 
 LIGHT MODE
 ----------

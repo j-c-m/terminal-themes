@@ -3,6 +3,7 @@
 # Theme:    Cobalt2
 # Mode:     dark
 # Source:   Wes Bos(https://github.com/wesbos/Cobalt2-iterm)
+# License:  MIT
 
 # Exit if not on a tty
 

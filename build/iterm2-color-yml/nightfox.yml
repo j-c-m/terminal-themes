@@ -1,5 +1,6 @@
 name: "Nightfox"
 author: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#393b44"

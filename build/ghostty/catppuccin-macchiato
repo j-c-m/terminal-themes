@@ -1,6 +1,7 @@
 # Theme:    Catppuccin Macchiato
 # Mode:     dark
-# Source:   catppuccin-macchiato
+# Source:   Catppuccin (https://github.com/catppuccin/)
+# License:  MIT
 
 palette = 0=#494d64
 palette = 1=#ed8796

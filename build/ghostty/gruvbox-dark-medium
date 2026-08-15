@@ -1,6 +1,7 @@
 # Theme:    Gruvbox Dark Medium
 # Mode:     dark
 # Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# License:  MIT
 
 palette = 0=#282828
 palette = 1=#cc241d

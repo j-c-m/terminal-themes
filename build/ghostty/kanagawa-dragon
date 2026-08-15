@@ -1,6 +1,7 @@
 # Theme:    Kanagawa Dragon
 # Mode:     dark
-# Source:   Kanagawa
+# Source:   Kanagawa (https://github.com/rebelot/kanagawa)
+# License:  MIT
 
 palette = 0=#0d0c0c
 palette = 1=#c4746e

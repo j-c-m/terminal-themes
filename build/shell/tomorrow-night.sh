@@ -3,6 +3,7 @@
 # Theme:    Tomorrow Night
 # Mode:     dark
 # Source:   Chris Kempson (http://chriskempson.com)
+# License:  MIT
 
 # Exit if not on a tty
 

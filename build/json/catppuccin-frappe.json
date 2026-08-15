@@ -91,6 +91,7 @@
         "hex": "#303446",
         "hexterm": "30/34/46"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Catppuccin Frappe",

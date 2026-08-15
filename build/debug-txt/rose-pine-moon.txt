@@ -2,6 +2,7 @@ Theme: Rose Pine Moon (slug: rose-pine-moon)
 Mode: dark
 Modifier: 
 Source: Rose Pine (https://github.com/rose-pine)
+License: MIT
 
 Primaries
 ---------

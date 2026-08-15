@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Catppuccin Mocha"
 source: "Catppuccin (https://github.com/catppuccin/)"
+license: MIT
 dark:
   foreground: "#cdd6f4"
   background: "#1e1e2e"

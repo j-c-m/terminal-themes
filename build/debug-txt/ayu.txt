@@ -2,6 +2,7 @@ Theme: Ayu (slug: ayu)
 Mode: both
 Modifier: 
 Source: Ayu Theme (https://github.com/ayu-theme)
+License: MIT
 
 LIGHT MODE
 ----------

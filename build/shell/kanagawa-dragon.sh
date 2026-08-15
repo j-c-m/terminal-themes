@@ -2,7 +2,8 @@
 
 # Theme:    Kanagawa Dragon
 # Mode:     dark
-# Source:   Kanagawa
+# Source:   Kanagawa (https://github.com/rebelot/kanagawa)
+# License:  MIT
 
 # Exit if not on a tty
 

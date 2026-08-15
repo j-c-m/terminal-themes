@@ -91,6 +91,7 @@
         "hex": "#2d2d2d",
         "hexterm": "2d/2d/2d"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Eighties",

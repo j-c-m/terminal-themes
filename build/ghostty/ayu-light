@@ -1,6 +1,7 @@
 # Theme:    Ayu Light
 # Mode:     light
 # Source:   Ayu Theme (https://github.com/ayu-theme)
+# License:  MIT
 
 palette = 0=#000000
 palette = 1=#ea6c6d

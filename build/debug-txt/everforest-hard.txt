@@ -2,6 +2,7 @@ Theme: Everforest Hard (slug: everforest-hard)
 Mode: both
 Modifier: Hard
 Source: Everforest (https://github.com/sainnhe/everforest)
+License: MIT
 
 LIGHT MODE
 ----------

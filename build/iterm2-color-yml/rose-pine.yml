@@ -1,5 +1,6 @@
 name: "Rose Pine"
 author: "Rose Pine (https://github.com/rose-pine)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#26233a"

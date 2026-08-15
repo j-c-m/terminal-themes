@@ -1,5 +1,6 @@
 name: "Ayu Light"
 author: "Ayu Theme (https://github.com/ayu-theme)"
+license: "MIT"
 variant: "light"
 
 color_01: "#000000"

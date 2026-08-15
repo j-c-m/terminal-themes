@@ -91,6 +91,7 @@
         "hex": "#e6e7ed",
         "hexterm": "e6/e7/ed"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "Tokyo Night Light",

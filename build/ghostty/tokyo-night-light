@@ -1,6 +1,7 @@
 # Theme:    Tokyo Night Light
 # Mode:     light
 # Source:   Tokyo Night (https://github.com/tokyo-night/)
+# License:  MIT
 
 palette = 0=#343b58
 palette = 1=#8c4351

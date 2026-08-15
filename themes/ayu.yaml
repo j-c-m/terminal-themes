@@ -26,6 +26,7 @@ modifier: "" # (optional: default blank)
 # the final name would end up being "Ayu Light Soft"
 
 source: "Ayu Theme (https://github.com/ayu-theme)"
+license: MIT
 # include as much source information as possible in the comment
 # you should try to source directly from the original truth if possible
 # terminal colors sourced from vscode terminal.*

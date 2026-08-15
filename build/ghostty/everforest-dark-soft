@@ -1,6 +1,7 @@
 # Theme:    Everforest Dark Soft
 # Mode:     dark
 # Source:   Everforest (https://github.com/sainnhe/everforest)
+# License:  MIT
 
 palette = 0=#333c43
 palette = 1=#e67e80

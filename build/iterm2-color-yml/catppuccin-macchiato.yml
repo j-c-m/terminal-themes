@@ -1,5 +1,6 @@
 name: "Catppuccin Macchiato"
-author: "catppuccin-macchiato"
+author: "Catppuccin (https://github.com/catppuccin/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#494d64"

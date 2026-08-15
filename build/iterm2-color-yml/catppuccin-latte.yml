@@ -1,5 +1,6 @@
 name: "Catppuccin Latte"
 author: "Catppuccin (https://github.com/catppuccin/)"
+license: "MIT"
 variant: "light"
 
 color_01: "#bcc0cc"

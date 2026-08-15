@@ -3,6 +3,7 @@
 # Theme:    Kanagawa Wave
 # Mode:     dark
 # Source:   Kanagawa (https://github.com/rebelot/kanagawa)
+# License:  MIT
 
 # Exit if not on a tty
 

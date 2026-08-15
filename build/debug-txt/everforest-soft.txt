@@ -2,6 +2,7 @@ Theme: Everforest Soft (slug: everforest-soft)
 Mode: both
 Modifier: Soft
 Source: Everforest (https://github.com/sainnhe/everforest)
+License: MIT
 
 LIGHT MODE
 ----------

@@ -2,6 +2,7 @@ Theme: Spacegray Mocha (slug: spacegray-mocha)
 Mode: dark
 Modifier: 
 Source: Spacegray (https://github.com/SublimeText/Spacegray/)
+License: MIT
 
 Primaries
 ---------

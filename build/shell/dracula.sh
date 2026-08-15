@@ -3,6 +3,7 @@
 # Theme:    Dracula
 # Mode:     dark
 # Source:   Dracula (https://draculatheme.com/)
+# License:  MIT
 
 # Exit if not on a tty
 

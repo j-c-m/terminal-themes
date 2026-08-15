@@ -1,5 +1,6 @@
 name: "Everforest Light Medium"
 author: "Everforest (https://github.com/sainnhe/everforest)"
+license: "MIT"
 variant: "light"
 
 color_01: "#fdf6e3"

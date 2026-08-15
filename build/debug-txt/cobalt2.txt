@@ -2,6 +2,7 @@ Theme: Cobalt2 (slug: cobalt2)
 Mode: dark
 Modifier: 
 Source: Wes Bos(https://github.com/wesbos/Cobalt2-iterm)
+License: MIT
 
 Primaries
 ---------

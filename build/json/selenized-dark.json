@@ -91,6 +91,7 @@
         "hex": "#103c48",
         "hexterm": "10/3c/48"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Selenized Dark",

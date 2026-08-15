@@ -1,5 +1,6 @@
 name: "Tomorrow"
 author: "Chris Kempson (http://chriskempson.com)"
+license: "MIT"
 variant: "light"
 
 color_01: "#e0e0e0"

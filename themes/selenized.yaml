@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Selenized
 source: "Jan Warchol (https://github.com/jan-warchol/selenized)"
+license: MIT
 dark:
   foreground: '#adbcbc'
   background: '#103c48'

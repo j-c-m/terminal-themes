@@ -2,6 +2,7 @@ Theme: Solarized (slug: solarized)
 Mode: both
 Modifier: 
 Source: Solarized (https://github.com/altercation/solarized/)
+License: MIT
 
 LIGHT MODE
 ----------

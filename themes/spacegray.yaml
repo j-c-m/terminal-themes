@@ -20,6 +20,7 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 name: Spacegray
 source: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+license: MIT
 dark:
   background: "#2B303B"
   foreground: "#C0C5CE"

@@ -91,6 +91,7 @@
         "hex": "#080808",
         "hexterm": "08/08/08"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Moonfly",

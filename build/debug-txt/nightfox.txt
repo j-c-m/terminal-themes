@@ -2,6 +2,7 @@ Theme: Nightfox (slug: nightfox)
 Mode: both
 Modifier: 
 Source: Eden East (https://github.com/EdenEast/nightfox.nvim)
+License: MIT
 
 LIGHT MODE
 ----------

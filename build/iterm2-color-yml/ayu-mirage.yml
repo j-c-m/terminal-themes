@@ -1,5 +1,6 @@
 name: "Ayu Mirage"
 author: "Ayu Theme (https://github.com/ayu-theme)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#171b24"

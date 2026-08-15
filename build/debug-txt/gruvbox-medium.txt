@@ -2,6 +2,7 @@ Theme: Gruvbox Medium (slug: gruvbox-medium)
 Mode: both
 Modifier: Medium
 Source: Gruvbox (https://github.com/morhetz/gruvbox)
+License: MIT
 
 LIGHT MODE
 ----------

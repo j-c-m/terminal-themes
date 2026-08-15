@@ -1,6 +1,7 @@
 # Theme:    Tomorrow
 # Mode:     light
 # Source:   Chris Kempson (http://chriskempson.com)
+# License:  MIT
 
 palette = 0=#e0e0e0
 palette = 1=#c82829

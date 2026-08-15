@@ -1,5 +1,6 @@
 name: "Everforest Light Soft"
 author: "Everforest (https://github.com/sainnhe/everforest)"
+license: "MIT"
 variant: "light"
 
 color_01: "#f3ead3"

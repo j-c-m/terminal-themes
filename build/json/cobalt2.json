@@ -91,6 +91,7 @@
         "hex": "#c2c2c2",
         "hexterm": "c2/c2/c2"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Cobalt2",

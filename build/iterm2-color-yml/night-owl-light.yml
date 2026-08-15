@@ -1,5 +1,6 @@
 name: "Night Owl Light"
 author: "Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)"
+license: "MIT"
 variant: "light"
 
 color_01: "#403f53"

@@ -91,6 +91,7 @@
         "hex": "#1e1e2e",
         "hexterm": "1e/1e/2e"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Catppuccin Mocha",

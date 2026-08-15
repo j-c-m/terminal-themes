@@ -2,6 +2,7 @@ Theme: Spacegray Eighties (slug: spacegray-eighties)
 Mode: dark
 Modifier: 
 Source: Spacegray (https://github.com/SublimeText/Spacegray/)
+License: MIT
 
 Primaries
 ---------

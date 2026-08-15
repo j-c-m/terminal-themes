@@ -2,6 +2,7 @@ Theme: Catppuccin Mocha (slug: catppuccin-mocha)
 Mode: dark
 Modifier: 
 Source: Catppuccin (https://github.com/catppuccin/)
+License: MIT
 
 Primaries
 ---------

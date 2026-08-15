@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Rose Pine Dawn"
 source: "Rose Pine (https://github.com/rose-pine)"
+license: MIT
 light:
   foreground: "#575279"
   background: "#faf4ed"

@@ -1,5 +1,6 @@
 name: "IBM 5153 CGA Black"
 author: "int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#000000"

@@ -91,6 +91,7 @@
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "Tomorrow",

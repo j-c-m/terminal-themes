@@ -46,6 +46,33 @@ import colorsys
 
 COLOR_NAMES = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
+# SPDX ids that allow free redistribution (permissive, public-domain, and copyleft).
+ALLOWED_LICENSES = frozenset({
+    '0BSD',
+    'AGPL-3.0-only',
+    'AGPL-3.0-or-later',
+    'Apache-2.0',
+    'BlueOak-1.0.0',
+    'BSD-2-Clause',
+    'BSD-3-Clause',
+    'CC0-1.0',
+    'GPL-2.0-only',
+    'GPL-2.0-or-later',
+    'GPL-3.0-only',
+    'GPL-3.0-or-later',
+    'ISC',
+    'LGPL-2.1-only',
+    'LGPL-2.1-or-later',
+    'LGPL-3.0-only',
+    'LGPL-3.0-or-later',
+    'MIT',
+    'MIT-0',
+    'MPL-2.0',
+    'PostgreSQL',
+    'Unlicense',
+    'Zlib',
+})
+
 # Simple in-module cache for template contents
 _TEMPLATE_CACHE: dict[str, Optional[str]] = {}
 
@@ -150,11 +177,20 @@ def validate_theme_top_level(theme_data: dict, theme_path: Path):
         raise ValueError(f"{theme_path}: theme top-level must be a mapping")
     if not theme_data.get('name'):
         missing.append('name')
+    license_id = str(theme_data.get('license') or '').strip()
+    if not license_id:
+        missing.append('license')
     modes = [k for k in ('dark', 'light') if k in theme_data]
     if not modes:
         missing.append('dark|light (at least one required)')
     if missing:
         raise ValueError(f"{theme_path}: missing required top-level fields: {', '.join(missing)}")
+    if license_id and license_id not in ALLOWED_LICENSES:
+        allowed = ', '.join(sorted(ALLOWED_LICENSES))
+        raise ValueError(
+            f"{theme_path}: license {license_id!r} is not allowed; "
+            f"must be an SPDX id that allows free redistribution: {allowed}"
+        )
 
 
 def validate_mode(mode_map: dict, theme_path: Path, mode_name: str):
@@ -187,7 +223,7 @@ def validate_mode(mode_map: dict, theme_path: Path, mode_name: str):
 
 
 def build_context_for_mode(base_name: str, modifier: str, source: str, mode_name: str, mode_map: dict,
-                           theme_path: Path, include_mode: bool = True) -> Dict[str, Any]:
+                           theme_path: Path, include_mode: bool = True, license_id: str = '') -> Dict[str, Any]:
     validate_mode(mode_map, theme_path, mode_name)
 
     normal: Dict[str, Dict[str, str]] = {}
@@ -240,6 +276,7 @@ def build_context_for_mode(base_name: str, modifier: str, source: str, mode_name
 
     context = {
         'theme-source': source or '',
+        'theme-license': license_id or '',
         'theme-slug': theme_slug,
         'theme-name': theme_name,
         'theme-mode': mode_name,
@@ -263,6 +300,7 @@ def build_contexts_from_yaml(theme_data: dict, source_name: str, theme_path: Pat
         raise ValueError(f"{theme_path}: invalid theme 'name' value")
     modifier = (theme_data.get('modifier') or '').strip()
     source = theme_data.get('source') or source_name or ''
+    license_id = str(theme_data.get('license') or '').strip()
 
     is_combined = False  # Flag to detect if theme references external files
     # NEW: Resolve any string references to external YAML files for modes
@@ -284,7 +322,8 @@ def build_contexts_from_yaml(theme_data: dict, source_name: str, theme_path: Pat
         if mode not in theme_data:
             continue
         mode_map = theme_data[mode]
-        ctx = build_context_for_mode(base_name, modifier, source, mode, mode_map, theme_path, include_mode=include_mode)
+        ctx = build_context_for_mode(base_name, modifier, source, mode, mode_map, theme_path,
+                                     include_mode=include_mode, license_id=license_id)
         contexts.append(ctx)
 
     if not contexts:
@@ -506,6 +545,7 @@ def build_merged_context(base_name: str, base_modifier: str, base_slug: str, the
     merged['theme-mode'] = 'both'
     merged['theme-modifier'] = base_modifier or ''
     merged['theme-source'] = theme_data.get('source') or source_name or ''
+    merged['theme-license'] = str(theme_data.get('license') or '').strip()
     context_for_json = {k: v for k, v in merged.items() if k not in ['theme-itermcolors-plist', 'theme-json']}
     merged['theme-json'] = json.dumps(context_for_json, sort_keys=True, ensure_ascii=False, indent=4)
     merged['theme-itermcolors-plist'] = combined_iterm_plist or ''

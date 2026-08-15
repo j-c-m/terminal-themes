@@ -3,6 +3,7 @@
 # Theme:    Moonfly
 # Mode:     dark
 # Source:   Dennis B (https://github.com/bluz71/vim-moonfly-colors)
+# License:  MIT
 
 # Exit if not on a tty
 

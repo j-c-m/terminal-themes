@@ -1,4 +1,5 @@
 name: "Rose Pine"
 source: "Rose Pine (https://github.com/rose-pine)"
+license: MIT
 dark: "rose-pine.yaml"
 light: "rose-pine-dawn.yaml"

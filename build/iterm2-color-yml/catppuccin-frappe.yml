@@ -1,5 +1,6 @@
 name: "Catppuccin Frappe"
 author: "Catppuccin (https://github.com/catppuccin/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#51576d"

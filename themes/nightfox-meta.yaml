@@ -1,4 +1,5 @@
 name: Nightfox
 source: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+license: MIT
 dark: "nightfox.yaml"
 light: "dayfox.yaml"

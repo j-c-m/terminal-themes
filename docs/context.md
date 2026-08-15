@@ -9,6 +9,7 @@ Templates receive a context object for rendering. This is built from theme YAML 
 - **`theme-mode`**: "dark", "light", or "both" (for merged).
 - **`theme-modifier`**: Modifier string (e.g., "Dimmed") or empty.
 - **`theme-source`**: Source info or empty.
+- **`theme-license`**: Required SPDX license id.
 
 ## Color Maps
 
@@ -42,6 +43,7 @@ For dual-mode:
   "theme-mode": "dark",
   "theme-modifier": "Dark",
   "theme-source": "vscode-themes",
+  "theme-license": "MIT",
   "normal": {
     "black": {"hex": "#000000", "hexterm": "0/0/0"},
     // ...

@@ -2,6 +2,7 @@ Theme: Tokyo Night (slug: tokyo-night)
 Mode: both
 Modifier: 
 Source: Tokyo Night (https://github.com/tokyo-night/)
+License: MIT
 
 LIGHT MODE
 ----------

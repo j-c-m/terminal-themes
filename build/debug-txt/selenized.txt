@@ -2,6 +2,7 @@ Theme: Selenized (slug: selenized)
 Mode: both
 Modifier: 
 Source: Jan Warchol (https://github.com/jan-warchol/selenized)
+License: MIT
 
 LIGHT MODE
 ----------

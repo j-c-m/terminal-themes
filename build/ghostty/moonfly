@@ -1,6 +1,7 @@
 # Theme:    Moonfly
 # Mode:     dark
 # Source:   Dennis B (https://github.com/bluz71/vim-moonfly-colors)
+# License:  MIT
 
 palette = 0=#323437
 palette = 1=#ff5d5d

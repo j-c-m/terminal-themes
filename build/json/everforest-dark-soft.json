@@ -91,6 +91,7 @@
         "hex": "#333c43",
         "hexterm": "33/3c/43"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Soft",
     "theme-name": "Everforest Dark Soft",

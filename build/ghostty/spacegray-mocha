@@ -1,6 +1,7 @@
 # Theme:    Spacegray Mocha
 # Mode:     dark
 # Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+# License:  MIT
 
 palette = 0=#534636
 palette = 1=#cb6077

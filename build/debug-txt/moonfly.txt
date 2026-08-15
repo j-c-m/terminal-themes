@@ -2,6 +2,7 @@ Theme: Moonfly (slug: moonfly)
 Mode: dark
 Modifier: 
 Source: Dennis B (https://github.com/bluz71/vim-moonfly-colors)
+License: MIT
 
 Primaries
 ---------

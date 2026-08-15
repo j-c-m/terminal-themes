@@ -1,6 +1,7 @@
 # Theme:    Gruvbox Dark Hard
 # Mode:     dark
 # Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# License:  MIT
 
 # Default colors
 [colors.primary]

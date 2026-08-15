@@ -1,6 +1,7 @@
 # Theme:    Catppuccin Latte
 # Mode:     light
 # Source:   Catppuccin (https://github.com/catppuccin/)
+# License:  MIT
 
 palette = 0=#bcc0cc
 palette = 1=#d20f39

@@ -3,6 +3,7 @@
 # Theme:    Terafox
 # Mode:     dark
 # Source:   Eden East (https://github.com/EdenEast/nightfox.nvim)
+# License:  MIT
 
 # Exit if not on a tty
 

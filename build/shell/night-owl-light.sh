@@ -3,6 +3,7 @@
 # Theme:    Night Owl Light
 # Mode:     light
 # Source:   Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
+# License:  MIT
 
 # Exit if not on a tty
 

@@ -1,5 +1,6 @@
 name: "Tokyo Night Storm"
 author: "Tokyo Night (https://github.com/tokyo-night/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#414868"

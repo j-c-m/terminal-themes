@@ -1,5 +1,6 @@
 name: "Gruvbox Dark Hard"
 author: "Gruvbox (https://github.com/morhetz/gruvbox)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#282828"

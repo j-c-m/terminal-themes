@@ -22,6 +22,7 @@
 name: "Ayu Mirage"
 modifier: ""
 source: "Ayu Theme (https://github.com/ayu-theme)"
+license: MIT
 # terminal colors sourced from vscode terminal.*
 # selection background sourced from vscode selection.background
 # cursor color sourced from vscode cursor.color

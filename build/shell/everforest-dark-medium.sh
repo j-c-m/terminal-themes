@@ -3,6 +3,7 @@
 # Theme:    Everforest Dark Medium
 # Mode:     dark
 # Source:   Everforest (https://github.com/sainnhe/everforest)
+# License:  MIT
 
 # Exit if not on a tty
 

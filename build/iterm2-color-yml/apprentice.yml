@@ -1,5 +1,6 @@
 name: "Apprentice"
 author: "(https://github.com/romainl/Apprentice)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#1c1c1c"

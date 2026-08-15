@@ -91,6 +91,7 @@
         "hex": "#f9f9f9",
         "hexterm": "f9/f9/f9"
     },
+    "theme-license": "ISC",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "One Dark Light",

@@ -1,6 +1,7 @@
 # Theme:    Spacegray Eighties
 # Mode:     dark
 # Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+# License:  MIT
 
 palette = 0=#393939
 palette = 1=#f2777a

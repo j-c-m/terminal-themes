@@ -1,5 +1,6 @@
 name: "Spacegray Oceanic"
 author: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#343d46"

@@ -3,6 +3,7 @@
 # Theme:    Spacegray Dark
 # Mode:     dark
 # Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+# License:  MIT
 
 # Exit if not on a tty
 

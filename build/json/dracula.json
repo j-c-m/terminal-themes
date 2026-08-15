@@ -91,6 +91,7 @@
         "hex": "#f8f8f2",
         "hexterm": "f8/f8/f2"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Dracula",

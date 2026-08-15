@@ -2,6 +2,7 @@ Theme: Tomorrow (slug: tomorrow)
 Mode: both
 Modifier: 
 Source: Chris Kempson (http://chriskempson.com)
+License: MIT
 
 LIGHT MODE
 ----------

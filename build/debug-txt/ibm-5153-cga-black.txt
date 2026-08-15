@@ -2,6 +2,7 @@ Theme: IBM 5153 CGA Black (slug: ibm-5153-cga-black)
 Mode: dark
 Modifier: Black
 Source: int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
+License: MIT
 
 Primaries
 ---------

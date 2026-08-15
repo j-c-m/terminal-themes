@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Dayfox
 source: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+license: MIT
 light:
   foreground: "#3d2b5a"
   background: "#f6f2ee"

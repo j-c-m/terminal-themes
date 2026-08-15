@@ -2,6 +2,7 @@ Theme: Kanagawa (slug: kanagawa)
 Mode: both
 Modifier: 
 Source: Kanagawa (https://github.com/rebelot/kanagawa)
+License: MIT
 
 LIGHT MODE
 ----------

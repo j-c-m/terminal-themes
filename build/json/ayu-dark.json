@@ -91,6 +91,7 @@
         "hex": "#0b0e14",
         "hexterm": "0b/0e/14"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Ayu Dark",

@@ -1,5 +1,6 @@
 name: "Selenized Dark"
 author: "Jan Warchol (https://github.com/jan-warchol/selenized)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#184956"

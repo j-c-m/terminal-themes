@@ -3,6 +3,7 @@
 # Theme:    Tokyo Night Storm
 # Mode:     dark
 # Source:   Tokyo Night (https://github.com/tokyo-night/)
+# License:  MIT
 
 # Exit if not on a tty
 

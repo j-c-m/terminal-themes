@@ -1,5 +1,6 @@
 name: "One Dark Dark"
 author: "One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)"
+license: "ISC"
 variant: "dark"
 
 color_01: "#1e2127"

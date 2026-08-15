@@ -3,6 +3,7 @@
 # Theme:    Synthwave &#x27;84
 # Mode:     dark
 # Source:   Robb Owen (https://github.com/robb0wen/synthwave-vscode/)
+# License:  MIT
 
 # Exit if not on a tty
 

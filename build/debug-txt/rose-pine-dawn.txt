@@ -2,6 +2,7 @@ Theme: Rose Pine Dawn (slug: rose-pine-dawn)
 Mode: light
 Modifier: 
 Source: Rose Pine (https://github.com/rose-pine)
+License: MIT
 
 Primaries
 ---------

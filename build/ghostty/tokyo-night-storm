@@ -1,6 +1,7 @@
 # Theme:    Tokyo Night Storm
 # Mode:     dark
 # Source:   Tokyo Night (https://github.com/tokyo-night/)
+# License:  MIT
 
 palette = 0=#414868
 palette = 1=#f7768e

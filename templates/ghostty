@@ -1,6 +1,7 @@
 # Theme:    {{theme-name}}
 # Mode:     {{theme-mode}}
 # Source:   {{theme-source}}
+# License:  {{theme-license}}
 
 palette = 0={{normal.black.hex}}
 palette = 1={{normal.red.hex}}

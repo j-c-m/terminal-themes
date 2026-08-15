@@ -91,6 +91,7 @@
         "hex": "#002b36",
         "hexterm": "00/2b/36"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Solarized Dark",

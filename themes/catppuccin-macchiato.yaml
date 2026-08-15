@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Catppuccin Macchiato"
 source: "Catppuccin (https://github.com/catppuccin/)"
+license: MIT
 dark:
   foreground: "#cad3f5"
   background: "#24273a"

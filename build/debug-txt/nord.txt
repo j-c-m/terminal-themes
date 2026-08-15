@@ -2,6 +2,7 @@ Theme: Nord (slug: nord)
 Mode: dark
 Modifier: 
 Source: Nord (https://www.nordtheme.com/)
+License: MIT
 
 Primaries
 ---------

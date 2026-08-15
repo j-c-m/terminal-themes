@@ -3,6 +3,7 @@
 # Theme:    Gruvbox Light Soft
 # Mode:     light
 # Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# License:  MIT
 
 # Exit if not on a tty
 

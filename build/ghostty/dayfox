@@ -1,6 +1,7 @@
 # Theme:    Dayfox
 # Mode:     light
 # Source:   Eden East (https://github.com/EdenEast/nightfox.nvim)
+# License:  MIT
 
 palette = 0=#352c24
 palette = 1=#a5222f

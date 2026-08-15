@@ -1,5 +1,6 @@
 name: "Selenized Light"
 author: "Jan Warchol (https://github.com/jan-warchol/selenized)"
+license: "MIT"
 variant: "light"
 
 color_01: "#ece3cc"

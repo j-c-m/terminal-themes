@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Catppuccin Frappe"
 source: "Catppuccin (https://github.com/catppuccin/)"
+license: MIT
 dark:
   foreground: "#c6d0f5"
   background: "#303446"

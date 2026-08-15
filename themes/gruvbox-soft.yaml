@@ -3,6 +3,7 @@
 name: "Gruvbox"
 modifier: "Soft"
 source: "Gruvbox (https://github.com/morhetz/gruvbox)"
+license: MIT
 
 # Gruvbox Soft — using bg0_s
 

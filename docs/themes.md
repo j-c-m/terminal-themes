@@ -11,6 +11,10 @@ Themes are defined in YAML files within the `themes/` directory. Each theme file
 ## Required Fields
 
 - **`name` (string)**: The display name of the theme (e.g., "Oceanic Next" or "Ayu").
+- **`license` (string)**: SPDX identifier that allows free redistribution.
+  - Permissive / public domain: `MIT`, `ISC`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `0BSD`, `MIT-0`, `Unlicense`, `CC0-1.0`, `BlueOak-1.0.0`, `PostgreSQL`, `Zlib`.
+  - Copyleft: `GPL-2.0-only`, `GPL-2.0-or-later`, `GPL-3.0-only`, `GPL-3.0-or-later`, `AGPL-3.0-only`, `AGPL-3.0-or-later`, `LGPL-2.1-only`, `LGPL-2.1-or-later`, `LGPL-3.0-only`, `LGPL-3.0-or-later`, `MPL-2.0`.
+  - Shipping an unmodified theme file next to other themes is aggregation, not a derivative of the collection. Generated outputs for that theme (Alacritty, iTerm, etc.) are derivatives of that file and stay under its license. The comment header is still the legal grant.
 - **At least one mode**: Either `dark` or `light` (or both), as top-level keys.
 
 ## Mode Structure
@@ -65,6 +69,7 @@ Typical mapping to terminal ANSI indices:
 
 **Required**:
 - `name` (string)
+- `license` (SPDX id from the allowed list)
 - At least one top-level mode: `dark` or `light`
 - For each mode:
   - `foreground` (hex)
@@ -87,6 +92,7 @@ Typical mapping to terminal ANSI indices:
 name: Oceanic Next
 modifier: Dark
 source: vscode-themes
+license: MIT
 dark:
   foreground: "#ffffff"
   background: "#1e2d31"
@@ -111,6 +117,7 @@ Use this as a starting point:
 name: "MyTheme"
 modifier: ""                # optional
 source: "My Theme (https://example.com/mytheme)"
+license: MIT                # required SPDX id from the allowed list
 
 dark:
   foreground: "#cccccc"
@@ -138,7 +145,7 @@ dark:
 
 ## Best Practices
 
-- Populate `source` for license/provenance clarity.
+- Populate `source` for provenance. `license` is required and must be an allowed SPDX id.
 - Use `modifier` to produce distinct variant names.
 - Specify cursor and selection colors for improved UX.
 - If only one visual style is targeted, include only the corresponding top-level key (`dark` or `light`).

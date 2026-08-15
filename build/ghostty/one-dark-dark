@@ -1,6 +1,7 @@
 # Theme:    One Dark Dark
 # Mode:     dark
 # Source:   One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
+# License:  ISC
 
 palette = 0=#1e2127
 palette = 1=#e06c75

@@ -1,6 +1,7 @@
 # Theme:    Catppuccin Frappe
 # Mode:     dark
 # Source:   Catppuccin (https://github.com/catppuccin/)
+# License:  MIT
 
 palette = 0=#51576d
 palette = 1=#e78284

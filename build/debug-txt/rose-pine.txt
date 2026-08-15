@@ -2,6 +2,7 @@ Theme: Rose Pine (slug: rose-pine)
 Mode: both
 Modifier: 
 Source: Rose Pine (https://github.com/rose-pine)
+License: MIT
 
 LIGHT MODE
 ----------

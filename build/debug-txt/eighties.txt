@@ -2,6 +2,7 @@ Theme: Eighties (slug: eighties)
 Mode: dark
 Modifier: 
 Source: Chris Kempson (http://chriskempson.com)
+License: MIT
 
 Primaries
 ---------

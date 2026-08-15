@@ -1,5 +1,6 @@
 name: "Kanagawa Lotus"
 author: "Kanagawa (https://github.com/rebelot/kanagawa)"
+license: "MIT"
 variant: "light"
 
 color_01: "#1f1f28"

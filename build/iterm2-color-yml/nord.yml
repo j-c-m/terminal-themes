@@ -1,5 +1,6 @@
 name: "Nord"
 author: "Nord (https://www.nordtheme.com/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#3b4252"

@@ -2,6 +2,7 @@ Theme: Gruvbox Soft (slug: gruvbox-soft)
 Mode: both
 Modifier: Soft
 Source: Gruvbox (https://github.com/morhetz/gruvbox)
+License: MIT
 
 LIGHT MODE
 ----------

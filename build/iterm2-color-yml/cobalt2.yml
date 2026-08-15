@@ -1,5 +1,6 @@
 name: "Cobalt2"
 author: "Wes Bos(https://github.com/wesbos/Cobalt2-iterm)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#000000"

@@ -3,6 +3,7 @@
 name: "Gruvbox"
 modifier: "Hard"
 source: "Gruvbox (https://github.com/morhetz/gruvbox)"
+license: MIT
 
 # Gruvbox Hard — using bg0_h.
 

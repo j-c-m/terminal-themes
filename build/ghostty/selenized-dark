@@ -1,6 +1,7 @@
 # Theme:    Selenized Dark
 # Mode:     dark
 # Source:   Jan Warchol (https://github.com/jan-warchol/selenized)
+# License:  MIT
 
 palette = 0=#184956
 palette = 1=#fa5750

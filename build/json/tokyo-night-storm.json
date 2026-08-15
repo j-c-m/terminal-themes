@@ -91,6 +91,7 @@
         "hex": "#24283b",
         "hexterm": "24/28/3b"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Storm",
     "theme-name": "Tokyo Night Storm",

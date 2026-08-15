@@ -1,5 +1,6 @@
 name: "Spacegray Mocha"
 author: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#534636"

@@ -91,6 +91,7 @@
         "hex": "#000000",
         "hexterm": "00/00/00"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Black",
     "theme-name": "IBM 5153 CGA Black",

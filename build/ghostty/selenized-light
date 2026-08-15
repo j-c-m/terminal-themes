@@ -1,6 +1,7 @@
 # Theme:    Selenized Light
 # Mode:     light
 # Source:   Jan Warchol (https://github.com/jan-warchol/selenized)
+# License:  MIT
 
 palette = 0=#ece3cc
 palette = 1=#d2212d

@@ -1,6 +1,7 @@
 # Theme:    Spacegray Light
 # Mode:     light
 # Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+# License:  MIT
 
 palette = 0=#343d46
 palette = 1=#c85863

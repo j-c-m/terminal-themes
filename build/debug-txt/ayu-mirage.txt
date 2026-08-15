@@ -2,6 +2,7 @@ Theme: Ayu Mirage (slug: ayu-mirage)
 Mode: dark
 Modifier: 
 Source: Ayu Theme (https://github.com/ayu-theme)
+License: MIT
 
 Primaries
 ---------

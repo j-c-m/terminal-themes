@@ -2,6 +2,7 @@ Theme: {{theme-name}} (slug: {{theme-slug}})
 Mode: {{theme-mode}}
 Modifier: {{theme-modifier}}
 Source: {{theme-source}}
+License: {{theme-license}}
 
 Primaries
 ---------

@@ -91,9 +91,10 @@
         "hex": "#24273a",
         "hexterm": "24/27/3a"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Catppuccin Macchiato",
     "theme-slug": "catppuccin-macchiato",
-    "theme-source": "catppuccin-macchiato"
+    "theme-source": "Catppuccin (https://github.com/catppuccin/)"
 }

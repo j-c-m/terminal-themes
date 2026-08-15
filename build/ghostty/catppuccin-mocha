@@ -1,6 +1,7 @@
 # Theme:    Catppuccin Mocha
 # Mode:     dark
 # Source:   Catppuccin (https://github.com/catppuccin/)
+# License:  MIT
 
 palette = 0=#45475a
 palette = 1=#f38ba8

@@ -3,6 +3,7 @@
 # Theme:    Solarized Light
 # Mode:     light
 # Source:   Solarized (https://github.com/altercation/solarized/)
+# License:  MIT
 
 # Exit if not on a tty
 

@@ -1,5 +1,6 @@
 name: "{{theme-name}}"
 author: "{{theme-source}}"
+license: "{{theme-license}}"
 variant: "{{theme-mode}}"
 
 color_01: "{{normal.black.hex}}"

@@ -1,7 +1,8 @@
 Theme: Catppuccin Macchiato (slug: catppuccin-macchiato)
 Mode: dark
 Modifier: 
-Source: catppuccin-macchiato
+Source: Catppuccin (https://github.com/catppuccin/)
+License: MIT
 
 Primaries
 ---------

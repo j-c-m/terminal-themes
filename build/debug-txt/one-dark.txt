@@ -2,6 +2,7 @@ Theme: One Dark (slug: one-dark)
 Mode: both
 Modifier: 
 Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
+License: ISC
 
 LIGHT MODE
 ----------

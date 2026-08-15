@@ -3,6 +3,7 @@
 # Theme:    Apprentice
 # Mode:     dark
 # Source:   (https://github.com/romainl/Apprentice)
+# License:  MIT
 
 # Exit if not on a tty
 

@@ -1,5 +1,6 @@
 name: "Dracula"
 author: "Dracula (https://draculatheme.com/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#21222c"

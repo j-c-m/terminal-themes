@@ -91,6 +91,7 @@
         "hex": "#fbf1c7",
         "hexterm": "fb/f1/c7"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "Medium",
     "theme-name": "Gruvbox Light Medium",

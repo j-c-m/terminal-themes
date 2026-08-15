@@ -1,6 +1,7 @@
 # Theme:    Ayu Dark
 # Mode:     dark
 # Source:   Ayu Theme (https://github.com/ayu-theme)
+# License:  MIT
 
 palette = 0=#11151c
 palette = 1=#ea6c73

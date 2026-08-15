@@ -1,6 +1,7 @@
 # Theme:    Dracula
 # Mode:     dark
 # Source:   Dracula (https://draculatheme.com/)
+# License:  MIT
 
 palette = 0=#21222c
 palette = 1=#ff5555

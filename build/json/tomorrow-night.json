@@ -91,6 +91,7 @@
         "hex": "#1d1f21",
         "hexterm": "1d/1f/21"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Tomorrow Night",

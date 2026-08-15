@@ -1,5 +1,6 @@
 name: "Kanagawa Dragon"
-author: "Kanagawa"
+author: "Kanagawa (https://github.com/rebelot/kanagawa)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#0d0c0c"

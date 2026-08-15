@@ -2,6 +2,7 @@ Theme: Spacegray (slug: spacegray)
 Mode: both
 Modifier: 
 Source: Spacegray (https://github.com/SublimeText/Spacegray/)
+License: MIT
 
 LIGHT MODE
 ----------

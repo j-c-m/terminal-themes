@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Catppuccin Latte"
 source: "Catppuccin (https://github.com/catppuccin/)"
+license: MIT
 light:
   foreground: "#4c4f69"
   background: "#eff1f5"

@@ -2,6 +2,7 @@ Theme: Catppuccin Latte (slug: catppuccin-latte)
 Mode: light
 Modifier: 
 Source: Catppuccin (https://github.com/catppuccin/)
+License: MIT
 
 Primaries
 ---------

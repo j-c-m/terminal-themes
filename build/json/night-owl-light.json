@@ -91,6 +91,7 @@
         "hex": "#f6f6f6",
         "hexterm": "f6/f6/f6"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "Night Owl Light",

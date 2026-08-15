@@ -1,6 +1,7 @@
 # Theme:    Terafox
 # Mode:     dark
 # Source:   Eden East (https://github.com/EdenEast/nightfox.nvim)
+# License:  MIT
 
 palette = 0=#2f3239
 palette = 1=#e85c51

@@ -2,6 +2,7 @@ Theme: Everforest Medium (slug: everforest-medium)
 Mode: both
 Modifier: Medium
 Source: Everforest (https://github.com/sainnhe/everforest)
+License: MIT
 
 LIGHT MODE
 ----------

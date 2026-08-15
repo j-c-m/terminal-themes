@@ -22,6 +22,7 @@
 name: "Dracula"
 modifier: "" # (optional: default blank)
 source: "Dracula (https://draculatheme.com/)"
+license: MIT
 # Terminal colors adapted from the Ghostty Dracula formula
 # Cursor, selection and primary colors taken from the provided palette.
 

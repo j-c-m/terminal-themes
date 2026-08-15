@@ -2,6 +2,7 @@
 # https://jmiller.mit-license.org
 name: IBM 5153 CGA
 source: "int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)"
+license: MIT
 modifier: "Black"
 dark:
   foreground: '#c4c4c4'

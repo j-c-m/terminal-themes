@@ -1,5 +1,6 @@
 name: "Spacegray Light"
 author: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+license: "MIT"
 variant: "light"
 
 color_01: "#343d46"

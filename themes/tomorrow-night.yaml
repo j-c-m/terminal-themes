@@ -22,6 +22,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 name: Tomorrow Night
 source: Chris Kempson (http://chriskempson.com)
+license: MIT
 dark:
   foreground: '#c5c8c6'
   background: '#1d1f21'

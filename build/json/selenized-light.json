@@ -91,6 +91,7 @@
         "hex": "#fbf3db",
         "hexterm": "fb/f3/db"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "",
     "theme-name": "Selenized Light",

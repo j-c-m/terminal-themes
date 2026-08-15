@@ -3,6 +3,7 @@
 # Theme:    One Dark Light
 # Mode:     light
 # Source:   One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
+# License:  ISC
 
 # Exit if not on a tty
 

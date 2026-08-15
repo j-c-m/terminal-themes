@@ -3,6 +3,7 @@
 # Theme:    Nord
 # Mode:     dark
 # Source:   Nord (https://www.nordtheme.com/)
+# License:  MIT
 
 # Exit if not on a tty
 

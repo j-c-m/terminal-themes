@@ -3,6 +3,7 @@
 # Theme:    Selenized Dark
 # Mode:     dark
 # Source:   Jan Warchol (https://github.com/jan-warchol/selenized)
+# License:  MIT
 
 # Exit if not on a tty
 

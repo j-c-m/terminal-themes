@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Apprentice
 source: (https://github.com/romainl/Apprentice)
+license: MIT
 dark:
   foreground: '#bcbcbc'
   background: '#262626'

@@ -91,9 +91,10 @@
         "hex": "#c8c093",
         "hexterm": "c8/c0/93"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Kanagawa Dragon",
     "theme-slug": "kanagawa-dragon",
-    "theme-source": "Kanagawa"
+    "theme-source": "Kanagawa (https://github.com/rebelot/kanagawa)"
 }

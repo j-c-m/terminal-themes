@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Cobalt2
 source: "Wes Bos(https://github.com/wesbos/Cobalt2-iterm)"
+license: MIT
 dark:
   foreground: '#ffffff'
   background: '#173448'

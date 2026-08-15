@@ -91,6 +91,7 @@
         "hex": "#cdcecf",
         "hexterm": "cd/ce/cf"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Nightfox",

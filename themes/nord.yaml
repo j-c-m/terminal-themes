@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Nord"
 source: "Nord (https://www.nordtheme.com/)"
+license: MIT
 dark:
   foreground: "#d8dee9"
   background: "#2e3440"

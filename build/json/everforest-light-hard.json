@@ -91,6 +91,7 @@
         "hex": "#fffbef",
         "hexterm": "ff/fb/ef"
     },
+    "theme-license": "MIT",
     "theme-mode": "light",
     "theme-modifier": "Hard",
     "theme-name": "Everforest Light Hard",

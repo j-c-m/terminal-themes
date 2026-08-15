@@ -2,6 +2,7 @@ Theme: Dracula (slug: dracula)
 Mode: dark
 Modifier: 
 Source: Dracula (https://draculatheme.com/)
+License: MIT
 
 Primaries
 ---------

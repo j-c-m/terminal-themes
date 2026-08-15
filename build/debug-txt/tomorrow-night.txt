@@ -2,6 +2,7 @@ Theme: Tomorrow Night (slug: tomorrow-night)
 Mode: dark
 Modifier: 
 Source: Chris Kempson (http://chriskempson.com)
+License: MIT
 
 Primaries
 ---------

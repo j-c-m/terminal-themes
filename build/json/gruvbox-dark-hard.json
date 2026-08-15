@@ -91,6 +91,7 @@
         "hex": "#1d2021",
         "hexterm": "1d/20/21"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Hard",
     "theme-name": "Gruvbox Dark Hard",

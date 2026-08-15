@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Night Owl"
 source: "Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)"
+license: MIT
 dark:
   foreground: '#d6deeb'
   background: '#011627'

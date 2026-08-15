@@ -1,5 +1,6 @@
 name: "Eighties"
 author: "Chris Kempson (http://chriskempson.com)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#393939"

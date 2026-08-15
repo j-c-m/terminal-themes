@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Moonfly
 source: "Dennis B (https://github.com/bluz71/vim-moonfly-colors)"
+license: MIT
 dark:
   foreground: '#bdbdbd'
   background: '#080808'

@@ -3,6 +3,7 @@
 # Theme:    Ayu Light
 # Mode:     light
 # Source:   Ayu Theme (https://github.com/ayu-theme)
+# License:  MIT
 
 # Exit if not on a tty
 

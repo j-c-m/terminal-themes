@@ -1,6 +1,7 @@
 # Theme:    Apprentice
 # Mode:     dark
 # Source:   (https://github.com/romainl/Apprentice)
+# License:  MIT
 
 palette = 0=#1c1c1c
 palette = 1=#af5f5f

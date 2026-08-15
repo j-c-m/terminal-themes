@@ -2,6 +2,7 @@ Theme: Spacegray Oceanic (slug: spacegray-oceanic)
 Mode: dark
 Modifier: 
 Source: Spacegray (https://github.com/SublimeText/Spacegray/)
+License: MIT
 
 Primaries
 ---------

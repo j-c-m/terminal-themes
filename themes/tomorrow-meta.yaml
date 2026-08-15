@@ -1,4 +1,5 @@
 name: Tomorrow
 source: "Chris Kempson (http://chriskempson.com)"
+license: MIT
 dark: "tomorrow-night.yaml"
 light: "tomorrow.yaml"

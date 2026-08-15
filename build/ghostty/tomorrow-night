@@ -1,6 +1,7 @@
 # Theme:    Tomorrow Night
 # Mode:     dark
 # Source:   Chris Kempson (http://chriskempson.com)
+# License:  MIT
 
 palette = 0=#282a2e
 palette = 1=#cc6666

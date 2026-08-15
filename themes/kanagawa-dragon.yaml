@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: "Kanagawa Dragon"
 source: "Kanagawa (https://github.com/rebelot/kanagawa)"
+license: MIT
 
 dark:
   foreground: "#c5c9c5"

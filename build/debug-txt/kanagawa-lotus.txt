@@ -2,6 +2,7 @@ Theme: Kanagawa Lotus (slug: kanagawa-lotus)
 Mode: light
 Modifier: 
 Source: Kanagawa (https://github.com/rebelot/kanagawa)
+License: MIT
 
 Primaries
 ---------

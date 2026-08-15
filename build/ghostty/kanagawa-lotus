@@ -1,6 +1,7 @@
 # Theme:    Kanagawa Lotus
 # Mode:     light
 # Source:   Kanagawa (https://github.com/rebelot/kanagawa)
+# License:  MIT
 
 palette = 0=#1f1f28
 palette = 1=#c84053

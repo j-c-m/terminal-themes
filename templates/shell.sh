@@ -3,6 +3,7 @@
 # Theme:    {{theme-name}}
 # Mode:     {{theme-mode}}
 # Source:   {{theme-source}}
+# License:  {{theme-license}}
 
 # Exit if not on a tty
 

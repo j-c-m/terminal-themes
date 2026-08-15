@@ -3,6 +3,7 @@
 name: "Gruvbox"
 modifier: "Medium"
 source: "Gruvbox (https://github.com/morhetz/gruvbox)"
+license: MIT
 
 # Medium variant with both dark and light modes.
 # Uses bg0 / fg0 convention for medium modifier.

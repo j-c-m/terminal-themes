@@ -1,6 +1,7 @@
 # Theme:    Spacegray Oceanic
 # Mode:     dark
 # Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
+# License:  MIT
 
 palette = 0=#343d46
 palette = 1=#ec5f67

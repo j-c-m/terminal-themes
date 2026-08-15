@@ -2,6 +2,7 @@ Theme: Apprentice (slug: apprentice)
 Mode: dark
 Modifier: 
 Source: (https://github.com/romainl/Apprentice)
+License: MIT
 
 Primaries
 ---------

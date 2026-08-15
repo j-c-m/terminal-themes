@@ -91,6 +91,7 @@
         "hex": "#262626",
         "hexterm": "26/26/26"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "",
     "theme-name": "Apprentice",

@@ -1,5 +1,6 @@
 name: "Catppuccin Mocha"
 author: "Catppuccin (https://github.com/catppuccin/)"
+license: "MIT"
 variant: "dark"
 
 color_01: "#45475a"

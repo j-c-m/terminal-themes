@@ -19,6 +19,7 @@
 # THE SOFTWARE.
 name: Solarized
 source: "Solarized (https://github.com/altercation/solarized/)"
+license: MIT
 # sourced & modified from Xresources above
 dark:
   background: "#002b36"

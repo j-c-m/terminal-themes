@@ -3,6 +3,7 @@
 # Theme:    Rose Pine Dawn
 # Mode:     light
 # Source:   Rose Pine (https://github.com/rose-pine)
+# License:  MIT
 
 # Exit if not on a tty
 

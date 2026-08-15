@@ -3,6 +3,7 @@
 # Theme:    Ayu Dark
 # Mode:     dark
 # Source:   Ayu Theme (https://github.com/ayu-theme)
+# License:  MIT
 
 # Exit if not on a tty
 

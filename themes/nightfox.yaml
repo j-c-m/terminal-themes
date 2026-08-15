@@ -21,6 +21,7 @@
 # SOFTWARE.
 name: Nightfox
 source: "Eden East (https://github.com/EdenEast/nightfox.nvim)"
+license: MIT
 dark:
   foreground: "#cdcecf"
   background: "#192330"

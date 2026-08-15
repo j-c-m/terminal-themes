@@ -2,6 +2,7 @@ Theme: Tokyo Night Storm (slug: tokyo-night-storm)
 Mode: dark
 Modifier: Storm
 Source: Tokyo Night (https://github.com/tokyo-night/)
+License: MIT
 
 Primaries
 ---------

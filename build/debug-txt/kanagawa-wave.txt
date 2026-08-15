@@ -2,6 +2,7 @@ Theme: Kanagawa Wave (slug: kanagawa-wave)
 Mode: dark
 Modifier: 
 Source: Kanagawa (https://github.com/rebelot/kanagawa)
+License: MIT
 
 Primaries
 ---------

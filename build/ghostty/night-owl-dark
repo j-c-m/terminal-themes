@@ -1,6 +1,7 @@
 # Theme:    Night Owl Dark
 # Mode:     dark
 # Source:   Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
+# License:  MIT
 
 palette = 0=#011627
 palette = 1=#ef5350

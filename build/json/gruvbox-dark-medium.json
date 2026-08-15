@@ -91,6 +91,7 @@
         "hex": "#282828",
         "hexterm": "28/28/28"
     },
+    "theme-license": "MIT",
     "theme-mode": "dark",
     "theme-modifier": "Medium",
     "theme-name": "Gruvbox Dark Medium",

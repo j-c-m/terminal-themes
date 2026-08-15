@@ -1,5 +1,6 @@
 name: "Solarized Light"
 author: "Solarized (https://github.com/altercation/solarized/)"
+license: "MIT"
 variant: "light"
 
 color_01: "#073642"
