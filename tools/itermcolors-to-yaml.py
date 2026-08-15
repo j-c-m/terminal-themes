@@ -2,8 +2,16 @@
 # pyright: basic
 """
 Standalone converter to transform iTerm2 .itermcolors themes into the project's YAML theme format.
-Supports sRGB and P3 colorspaces, converting P3 colors to sRGB for output.
-Mode is determined by background color luminance.
+
+YAML hex values are sRGB. iTerm2 color dicts are converted when their Color Space
+is not already sRGB, matching iTerm2's own decoder (NSDictionary+iTerm colorValue):
+
+- sRGB: leave components unchanged
+- P3: Display P3 (sRGB transfer, P3 primaries) to sRGB
+- Calibrated, or missing Color Space: Apple Generic RGB (gamma 1.80078125) to sRGB
+- any other tag: treated as Calibrated, with a warning
+
+Mode is determined by background luminance after conversion.
 
 Usage:
     python tools/itermcolors-to-yaml.py <itermcolors>
@@ -22,47 +30,126 @@ def represent_ordereddict(dumper, data):
 
 yaml.add_representer(OrderedDict, represent_ordereddict)
 
-def gamma_decode(gc):
-    """Decode gamma-encoded value to linear."""
-    if gc <= 0.04045:
-        return gc / 12.92
-    return ((gc + 0.055) / 1.055) ** 2.4
+# Display P3 linear → sRGB linear (D65, CSS Color 4 / Apple Display P3).
+_P3_TO_SRGB = (
+    (1.224940176281, -0.224940176281, 0.0),
+    (-0.042056954710, 1.042056954710, 0.0),
+    (-0.019637554590, -0.078636045551, 1.098273600141),
+)
 
-def gamma_encode(lin):
-    """Encode linear value to gamma."""
-    if lin <= 0.0031308:
-        return lin * 12.92
-    return 1.055 * (lin ** (1/2.4)) - 0.055
+# Apple Generic RGB linear → sRGB linear, from Generic RGB Profile.icc
+# (gamma 1.80078125 TRC, Bradford chad D50→D65, then XYZ→sRGB).
+_GENERIC_RGB_TO_SRGB = (
+    (1.0251724346, -0.0264023654, 0.0012584940),
+    (0.0193907827, 0.9479650235, 0.0325523444),
+    (-0.0017811437, -0.0014217819, 1.0037550832),
+)
+
+_GENERIC_RGB_GAMMA = 1.80078125
+
+_warned_spaces = set()
+
+
+def _clamp01(value):
+    if value < 0.0:
+        return 0.0
+    if value > 1.0:
+        return 1.0
+    return value
+
+
+def _mul3(matrix, vec):
+    return (
+        matrix[0][0] * vec[0] + matrix[0][1] * vec[1] + matrix[0][2] * vec[2],
+        matrix[1][0] * vec[0] + matrix[1][1] * vec[1] + matrix[1][2] * vec[2],
+        matrix[2][0] * vec[0] + matrix[2][1] * vec[1] + matrix[2][2] * vec[2],
+    )
+
+
+def srgb_decode(encoded):
+    """Decode an sRGB (and Display P3) component to linear light."""
+    if encoded <= 0.04045:
+        return encoded / 12.92
+    return ((encoded + 0.055) / 1.055) ** 2.4
+
+
+def srgb_encode(linear):
+    """Encode linear light to an sRGB component."""
+    if linear <= 0.0031308:
+        return linear * 12.92
+    return 1.055 * (linear ** (1 / 2.4)) - 0.055
+
+
+def generic_rgb_decode(encoded):
+    """Decode an Apple Generic RGB / NSCalibratedRGB component to linear light."""
+    if encoded <= 0.0:
+        return 0.0
+    return encoded ** _GENERIC_RGB_GAMMA
+
+
+def _apply_matrix_to_srgb(r, g, b, decode, matrix):
+    linear = _mul3(matrix, (decode(r), decode(g), decode(b)))
+    return (
+        srgb_encode(_clamp01(linear[0])),
+        srgb_encode(_clamp01(linear[1])),
+        srgb_encode(_clamp01(linear[2])),
+    )
+
 
 def convert_p3_to_srgb(r, g, b):
-    """Convert P3 gamma-corrected RGB to sRGB gamma-corrected RGB."""
-    lr = gamma_decode(r)
-    lg = gamma_decode(g)
-    lb = gamma_decode(b)
+    """Convert Display P3 components to sRGB components."""
+    return _apply_matrix_to_srgb(r, g, b, srgb_decode, _P3_TO_SRGB)
 
-    # Matrix from linear P3 to linear sRGB
-    lrs = 1.2249 * lr - 0.2247 * lg + 0.0001 * lb
-    lgs = -0.0420 * lr + 1.0419 * lg + 0.0 * lb
-    lbs = -0.0197 * lr - 0.0786 * lg + 1.0983 * lb
 
-    rs = gamma_encode(max(0, min(1, lrs)))
-    gs = gamma_encode(max(0, min(1, lgs)))
-    bs = gamma_encode(max(0, min(1, lbs)))
+def convert_generic_rgb_to_srgb(r, g, b):
+    """Convert Apple Generic RGB / Calibrated components to sRGB components."""
+    return _apply_matrix_to_srgb(r, g, b, generic_rgb_decode, _GENERIC_RGB_TO_SRGB)
 
-    return rs, gs, bs
+
+def _normalize_color_space(color_space):
+    """Return (canonical_name, converter_or_None). Missing space is Calibrated."""
+    if color_space is None or str(color_space).strip() == '':
+        return 'Calibrated', convert_generic_rgb_to_srgb
+    raw = str(color_space).strip()
+    key = raw.lower().replace(' ', '').replace('_', '').replace('-', '')
+    if key == 'srgb':
+        return 'sRGB', None
+    if key in ('p3', 'displayp3'):
+        return 'P3', convert_p3_to_srgb
+    if key in ('calibrated', 'genericrgb', 'nscalibratedrgbcolorspace'):
+        return 'Calibrated', convert_generic_rgb_to_srgb
+    return raw, convert_generic_rgb_to_srgb
+
+
+def _warn_unknown_color_space(original):
+    if original in _warned_spaces:
+        return
+    _warned_spaces.add(original)
+    print(
+        f"warning: treating Color Space {original!r} as Calibrated (Generic RGB) → sRGB",
+        file=sys.stderr,
+    )
+
+
+def to_srgb(r, g, b, color_space):
+    """Return sRGB components for an iTerm2 color dict's RGB and Color Space."""
+    name, convert = _normalize_color_space(color_space)
+    if convert is None:
+        return r, g, b
+    if name not in ('P3', 'Calibrated'):
+        _warn_unknown_color_space(color_space)
+    return convert(r, g, b)
+
 
 def get_hex(color_dict):
-    """Get hex string from iTerm2 color dict, converting P3 to sRGB."""
+    """Get sRGB hex string from an iTerm2 color dict."""
     if not color_dict:
         return '#000000'
-    r = color_dict.get('Red Component', 0.0)
-    g = color_dict.get('Green Component', 0.0)
-    b = color_dict.get('Blue Component', 0.0)
-    cs = color_dict.get('Color Space', 'sRGB')
-    if cs == 'P3':
-        r, g, b = convert_p3_to_srgb(r, g, b)
-    # Now r,g,b are 0-1 sRGB
-    return f"#{round(r*255):02x}{round(g*255):02x}{round(b*255):02x}".lower()
+    r = float(color_dict.get('Red Component', 0.0))
+    g = float(color_dict.get('Green Component', 0.0))
+    b = float(color_dict.get('Blue Component', 0.0))
+    r, g, b = to_srgb(r, g, b, color_dict.get('Color Space'))
+    return f"#{round(r*255):02x}{round(g*255):02x}{round(b*255):02x}"
 
 def is_light_background(bg_hex):
     """Determine if the background color is light based on luminance."""
