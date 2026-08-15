@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+# The MIT License (MIT)
+# https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
+# SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Light Medium
 # Mode:     light
 # Source:   Gruvbox (https://github.com/morhetz/gruvbox)
-# License:  MIT
 
 # Exit if not on a tty
 

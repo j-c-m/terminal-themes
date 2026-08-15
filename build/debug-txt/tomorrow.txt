@@ -1,8 +1,9 @@
+
+SPDX-License-Identifier: MIT
 Theme: Tomorrow (slug: tomorrow)
 Mode: both
 Modifier: 
 Source: Chris Kempson (http://chriskempson.com)
-License: MIT
 
 LIGHT MODE
 ----------
@@ -73,6 +74,10 @@ white:   #ffffff (ff/ff/ff)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-License-Identifier: MIT
+Source: Chris Kempson (http://chriskempson.com)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

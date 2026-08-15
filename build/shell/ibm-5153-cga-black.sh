@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+# MIT License
+# https://jmiller.mit-license.org
+# SPDX-License-Identifier: MIT
 # Theme:    IBM 5153 CGA Black
 # Mode:     dark
 # Source:   int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
-# License:  MIT
 
 # Exit if not on a tty
 

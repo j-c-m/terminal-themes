@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
+{{{theme-notice-hash}}}# SPDX-License-Identifier: {{theme-license}}
 # Theme:    {{theme-name}}
 # Mode:     {{theme-mode}}
 # Source:   {{theme-source}}
-# License:  {{theme-license}}
 
 # Exit if not on a tty
 

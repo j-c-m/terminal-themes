@@ -95,6 +95,7 @@
     "theme-mode": "dark",
     "theme-modifier": "Black",
     "theme-name": "IBM 5153 CGA Black",
+    "theme-notice": "MIT License\nhttps://jmiller.mit-license.org",
     "theme-slug": "ibm-5153-cga-black",
     "theme-source": "int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)"
 }

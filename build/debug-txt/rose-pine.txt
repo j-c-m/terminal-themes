@@ -1,8 +1,9 @@
+
+SPDX-License-Identifier: MIT
 Theme: Rose Pine (slug: rose-pine)
 Mode: both
 Modifier: 
 Source: Rose Pine (https://github.com/rose-pine)
-License: MIT
 
 LIGHT MODE
 ----------
@@ -73,6 +74,10 @@ white:   #e0def4 (e0/de/f4)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-License-Identifier: MIT
+Source: Rose Pine (https://github.com/rose-pine)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

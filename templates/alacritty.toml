@@ -1,7 +1,7 @@
+{{{theme-notice-hash}}}# SPDX-License-Identifier: {{theme-license}}
 # Theme:    {{theme-name}}
 # Mode:     {{theme-mode}}
 # Source:   {{theme-source}}
-# License:  {{theme-license}}
 
 # Default colors
 [colors.primary]

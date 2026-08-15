@@ -1,3 +1,4 @@
+{{{theme-notice-hash}}}# SPDX-License-Identifier: {{theme-license}}
 name: "{{theme-name}}"
 author: "{{theme-source}}"
 license: "{{theme-license}}"

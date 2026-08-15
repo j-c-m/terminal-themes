@@ -1,7 +1,9 @@
+# The MIT License (MIT)
+# https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
+# SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Dark Soft
 # Mode:     dark
 # Source:   Gruvbox (https://github.com/morhetz/gruvbox)
-# License:  MIT
 
 # Default colors
 [colors.primary]

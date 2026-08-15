@@ -1,7 +1,9 @@
+# MIT License
+# https://jmiller.mit-license.org
+# SPDX-License-Identifier: MIT
 # Theme:    IBM 5153 CGA
 # Mode:     dark
 # Source:   int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
-# License:  MIT
 
 palette = 0=#141414
 palette = 1=#d03333

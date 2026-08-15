@@ -14,7 +14,8 @@ Themes are defined in YAML files within the `themes/` directory. Each theme file
 - **`license` (string)**: SPDX identifier that allows free redistribution.
   - Permissive / public domain: `MIT`, `ISC`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `0BSD`, `MIT-0`, `Unlicense`, `CC0-1.0`, `BlueOak-1.0.0`, `PostgreSQL`, `Zlib`.
   - Copyleft: `GPL-2.0-only`, `GPL-2.0-or-later`, `GPL-3.0-only`, `GPL-3.0-or-later`, `AGPL-3.0-only`, `AGPL-3.0-or-later`, `LGPL-2.1-only`, `LGPL-2.1-or-later`, `LGPL-3.0-only`, `LGPL-3.0-or-later`, `MPL-2.0`.
-  - Shipping an unmodified theme file next to other themes is aggregation, not a derivative of the collection. Generated outputs for that theme (Alacritty, iTerm, etc.) are derivatives of that file and stay under its license. The comment header is still the legal grant.
+  - Shipping an unmodified theme file next to other themes is aggregation, not a derivative of the collection. Generated outputs for that theme (Alacritty, iTerm, etc.) are derivatives of that file and stay under its license.
+  - The leading `#` comment block is the legal grant. The build copies it onto derived files with `SPDX-License-Identifier`.
 - **At least one mode**: Either `dark` or `light` (or both), as top-level keys.
 
 ## Mode Structure
@@ -146,6 +147,7 @@ dark:
 ## Best Practices
 
 - Populate `source` for provenance. `license` is required and must be an allowed SPDX id.
+- Put the license grant in the leading `#` comment block. The build copies that block onto derived files.
 - Use `modifier` to produce distinct variant names.
 - Specify cursor and selection colors for improved UX.
 - If only one visual style is targeted, include only the corresponding top-level key (`dark` or `light`).

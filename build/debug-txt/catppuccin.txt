@@ -1,8 +1,9 @@
+This files combines mocha and latte for dual mode themes.
+SPDX-License-Identifier: MIT
 Theme: Catppuccin (slug: catppuccin)
 Mode: both
 Modifier: 
 Source: Catppuccin (https://github.com/catppuccin/)
-License: MIT
 
 LIGHT MODE
 ----------
@@ -73,6 +74,11 @@ white:   #a6adc8 (a6/ad/c8)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+This files combines mocha and latte for dual mode themes.
+SPDX-License-Identifier: MIT
+Source: Catppuccin (https://github.com/catppuccin/)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

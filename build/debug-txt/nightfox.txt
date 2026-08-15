@@ -1,8 +1,9 @@
+
+SPDX-License-Identifier: MIT
 Theme: Nightfox (slug: nightfox)
 Mode: both
 Modifier: 
 Source: Eden East (https://github.com/EdenEast/nightfox.nvim)
-License: MIT
 
 LIGHT MODE
 ----------
@@ -73,6 +74,10 @@ white:   #e4e4e5 (e4/e4/e5)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-License-Identifier: MIT
+Source: Eden East (https://github.com/EdenEast/nightfox.nvim)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

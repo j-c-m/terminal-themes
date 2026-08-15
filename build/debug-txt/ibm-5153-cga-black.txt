@@ -1,8 +1,10 @@
+MIT License
+https://jmiller.mit-license.org
+SPDX-License-Identifier: MIT
 Theme: IBM 5153 CGA Black (slug: ibm-5153-cga-black)
 Mode: dark
 Modifier: Black
 Source: int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
-License: MIT
 
 Primaries
 ---------
@@ -38,6 +40,12 @@ white:   #ffffff (ff/ff/ff)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+MIT License
+https://jmiller.mit-license.org
+SPDX-License-Identifier: MIT
+Source: int10h.org (https://int10h.org/blog/2022/06/ibm-5153-color-true-cga-palette/)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

@@ -10,6 +10,8 @@ Templates receive a context object for rendering. This is built from theme YAML 
 - **`theme-modifier`**: Modifier string (e.g., "Dimmed") or empty.
 - **`theme-source`**: Source info or empty.
 - **`theme-license`**: Required SPDX license id.
+- **`theme-notice`**: Leading `#` comment block from the theme YAML (the license grant), without `#` prefixes.
+- **`theme-notice-hash`**: Same notice formatted as `#` comments for templates, or empty.
 
 ## Color Maps
 

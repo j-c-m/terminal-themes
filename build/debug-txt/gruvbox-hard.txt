@@ -1,8 +1,10 @@
+The MIT License (MIT)
+https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
+SPDX-License-Identifier: MIT
 Theme: Gruvbox Hard (slug: gruvbox-hard)
 Mode: both
 Modifier: Hard
 Source: Gruvbox (https://github.com/morhetz/gruvbox)
-License: MIT
 
 LIGHT MODE
 ----------
@@ -73,6 +75,12 @@ white:   #ebdbb2 (eb/db/b2)
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License (MIT)
+https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
+SPDX-License-Identifier: MIT
+Source: Gruvbox (https://github.com/morhetz/gruvbox)
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>

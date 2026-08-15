@@ -222,8 +222,62 @@ def validate_mode(mode_map: dict, theme_path: Path, mode_name: str):
         raise ValueError(f"{theme_path} [{mode_name}]: missing required fields: {', '.join(missing)}")
 
 
+def extract_theme_notice(theme_path: Path) -> str:
+    """Return the leading # comment block from a theme YAML file."""
+    try:
+        text = theme_path.read_text(encoding='utf-8')
+    except OSError:
+        return ''
+    lines: List[str] = []
+    for raw in text.splitlines():
+        if raw.startswith('#'):
+            lines.append(raw[2:] if raw.startswith('# ') else raw[1:])
+        elif raw.strip() == '':
+            if lines:
+                lines.append('')
+        else:
+            break
+    while lines and lines[-1] == '':
+        lines.pop()
+    return '\n'.join(lines)
+
+
+def notice_as_hash_comments(notice: str) -> str:
+    """Format a notice as # comments, including a trailing newline when non-empty."""
+    if not notice:
+        return ''
+    out: List[str] = []
+    for line in notice.splitlines():
+        out.append(f'# {line}' if line else '#')
+    return '\n'.join(out) + '\n'
+
+
+def wrap_plist_with_notice(xml: str, context: Dict[str, Any]) -> str:
+    """Prepend an XML comment with the theme notice after the XML declaration."""
+    notice = context.get('theme-notice') or ''
+    license_id = context.get('theme-license') or ''
+    source = context.get('theme-source') or ''
+    body_lines: List[str] = []
+    if notice:
+        body_lines.extend(notice.splitlines())
+    if license_id:
+        body_lines.append(f'SPDX-License-Identifier: {license_id}')
+    if source:
+        body_lines.append(f'Source: {source}')
+    if not body_lines:
+        return xml
+    body = '\n'.join(body_lines).replace('--', '- -')
+    comment = f'<!--\n{body}\n-->\n'
+    if xml.startswith('<?xml'):
+        nl = xml.find('\n')
+        if nl != -1:
+            return xml[:nl + 1] + comment + xml[nl + 1:]
+    return comment + xml
+
+
 def build_context_for_mode(base_name: str, modifier: str, source: str, mode_name: str, mode_map: dict,
-                           theme_path: Path, include_mode: bool = True, license_id: str = '') -> Dict[str, Any]:
+                           theme_path: Path, include_mode: bool = True, license_id: str = '',
+                           notice: str = '') -> Dict[str, Any]:
     validate_mode(mode_map, theme_path, mode_name)
 
     normal: Dict[str, Dict[str, str]] = {}
@@ -277,6 +331,8 @@ def build_context_for_mode(base_name: str, modifier: str, source: str, mode_name
     context = {
         'theme-source': source or '',
         'theme-license': license_id or '',
+        'theme-notice': notice or '',
+        'theme-notice-hash': notice_as_hash_comments(notice),
         'theme-slug': theme_slug,
         'theme-name': theme_name,
         'theme-mode': mode_name,
@@ -301,6 +357,7 @@ def build_contexts_from_yaml(theme_data: dict, source_name: str, theme_path: Pat
     modifier = (theme_data.get('modifier') or '').strip()
     source = theme_data.get('source') or source_name or ''
     license_id = str(theme_data.get('license') or '').strip()
+    notice = extract_theme_notice(theme_path)
 
     is_combined = False  # Flag to detect if theme references external files
     # NEW: Resolve any string references to external YAML files for modes
@@ -323,7 +380,7 @@ def build_contexts_from_yaml(theme_data: dict, source_name: str, theme_path: Pat
             continue
         mode_map = theme_data[mode]
         ctx = build_context_for_mode(base_name, modifier, source, mode, mode_map, theme_path,
-                                     include_mode=include_mode, license_id=license_id)
+                                     include_mode=include_mode, license_id=license_id, notice=notice)
         contexts.append(ctx)
 
     if not contexts:
@@ -371,7 +428,10 @@ def generate_iterm_plist(context: dict) -> str:
             'Alpha Component': 1.0,
             'Color Space': 'sRGB'
         }
-    return plistlib.dumps(plist, fmt=plistlib.FMT_XML).decode('utf-8')
+    return wrap_plist_with_notice(
+        plistlib.dumps(plist, fmt=plistlib.FMT_XML).decode('utf-8'),
+        context,
+    )
 
 
 def prepare_iterm_plists(contexts: List[Dict[str, Any]], dark_ctx: Optional[Dict[str, Any]] = None,
@@ -442,7 +502,10 @@ def generate_dual_iterm_plist(dark_context: dict, light_context: dict) -> str:
         if dark_val:
             set_color(plist, f'{label} (Dark)', dark_val['hex'])
 
-    return plistlib.dumps(plist, fmt=plistlib.FMT_XML).decode('utf-8')
+    return wrap_plist_with_notice(
+        plistlib.dumps(plist, fmt=plistlib.FMT_XML).decode('utf-8'),
+        light_context,
+    )
 
 
 def find_theme_files(themes_base: Path) -> List[str]:
@@ -492,7 +555,7 @@ def ensure_dir(path: Path) -> bool:
 
 
 def prepare_context_json(context: Dict[str, Any]) -> None:
-    context_for_json = {k: v for k, v in context.items() if k not in ['theme-itermcolors-plist', 'theme-json']}
+    context_for_json = {k: v for k, v in context.items() if k not in ['theme-itermcolors-plist', 'theme-json', 'theme-notice-hash']}
     context['theme-json'] = json.dumps(context_for_json, sort_keys=True, ensure_ascii=False, indent=4)
 
 
@@ -546,7 +609,10 @@ def build_merged_context(base_name: str, base_modifier: str, base_slug: str, the
     merged['theme-modifier'] = base_modifier or ''
     merged['theme-source'] = theme_data.get('source') or source_name or ''
     merged['theme-license'] = str(theme_data.get('license') or '').strip()
-    context_for_json = {k: v for k, v in merged.items() if k not in ['theme-itermcolors-plist', 'theme-json']}
+    notice = light_ctx.get('theme-notice') or dark_ctx.get('theme-notice') or ''
+    merged['theme-notice'] = notice
+    merged['theme-notice-hash'] = notice_as_hash_comments(notice)
+    context_for_json = {k: v for k, v in merged.items() if k not in ['theme-itermcolors-plist', 'theme-json', 'theme-notice-hash']}
     merged['theme-json'] = json.dumps(context_for_json, sort_keys=True, ensure_ascii=False, indent=4)
     merged['theme-itermcolors-plist'] = combined_iterm_plist or ''
     return merged

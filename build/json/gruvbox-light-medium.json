@@ -95,6 +95,7 @@
     "theme-mode": "light",
     "theme-modifier": "Medium",
     "theme-name": "Gruvbox Light Medium",
+    "theme-notice": "The MIT License (MIT)\nhttps://github.com/morhetz/gruvbox?tab=readme-ov-file#license",
     "theme-slug": "gruvbox-light-medium",
     "theme-source": "Gruvbox (https://github.com/morhetz/gruvbox)"
 }
