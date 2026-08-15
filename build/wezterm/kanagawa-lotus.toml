@@ -1,0 +1,58 @@
+# MIT License
+#
+# Copyright (c) 2021 Tommaso Laurenzi
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Kanagawa Lotus
+# Mode:     light
+# Source:   Kanagawa (https://github.com/rebelot/kanagawa)
+
+[metadata]
+name = "Kanagawa Lotus"
+
+[colors]
+foreground = "#545464"
+background = "#f2ecbc"
+cursor_bg = "#545464"
+cursor_border = "#545464"
+cursor_fg = "#f2ecbc"
+selection_bg = "#c9cbd1"
+selection_fg = "#43436c"
+
+ansi = [
+  "#1f1f28",
+  "#c84053",
+  "#6f894e",
+  "#77713f",
+  "#4d699b",
+  "#b35b79",
+  "#597b75",
+  "#545464",
+]
+brights = [
+  "#8a8980",
+  "#d7474b",
+  "#6e915f",
+  "#836f4a",
+  "#6693bf",
+  "#624c83",
+  "#5e857a",
+  "#43436c",
+]

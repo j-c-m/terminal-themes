@@ -1,0 +1,52 @@
+# ISC License
+#
+# Copyright (c) 2016, Nathan Buchar
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+# ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+# WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+# ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+# OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+# SPDX-License-Identifier: ISC
+# Theme:    One Dark Light
+# Mode:     light
+# Source:   One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
+
+[metadata]
+name = "One Dark Light"
+
+[colors]
+foreground = "#383a42"
+background = "#f9f9f9"
+cursor_bg = "#383a42"
+cursor_border = "#383a42"
+cursor_fg = "#f9f9f9"
+selection_bg = "#383a42"
+selection_fg = "#f9f9f9"
+
+ansi = [
+  "#000000",
+  "#e45649",
+  "#50a14f",
+  "#986801",
+  "#4078f2",
+  "#a626a4",
+  "#0184bc",
+  "#a0a1a7",
+]
+brights = [
+  "#383a42",
+  "#e86e63",
+  "#5bae5a",
+  "#a77201",
+  "#5d8cf4",
+  "#b72ab4",
+  "#0191cf",
+  "#ffffff",
+]

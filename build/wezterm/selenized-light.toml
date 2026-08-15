@@ -1,0 +1,58 @@
+# MIT License
+#
+# Copyright (c) 2021 Jan Warchoł
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Selenized Light
+# Mode:     light
+# Source:   Jan Warchol (https://github.com/jan-warchol/selenized)
+
+[metadata]
+name = "Selenized Light"
+
+[colors]
+foreground = "#53676d"
+background = "#fbf3db"
+cursor_bg = "#8762c6"
+cursor_border = "#8762c6"
+cursor_fg = "#fbf3db"
+selection_bg = "#53676d"
+selection_fg = "#fbf3db"
+
+ansi = [
+  "#ece3cc",
+  "#d2212d",
+  "#489100",
+  "#ad8900",
+  "#0072d4",
+  "#ca4898",
+  "#009c8f",
+  "#53676d",
+]
+brights = [
+  "#909995",
+  "#cc1729",
+  "#428b00",
+  "#a78300",
+  "#006dce",
+  "#c44392",
+  "#00978a",
+  "#3a4d53",
+]

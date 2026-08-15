@@ -1,0 +1,58 @@
+# MIT License
+#
+# Copyright (c) 2019 sainnhe
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Everforest Light Medium
+# Mode:     light
+# Source:   Everforest (https://github.com/sainnhe/everforest)
+
+[metadata]
+name = "Everforest Light Medium"
+
+[colors]
+foreground = "#5c6a72"
+background = "#fdf6e3"
+cursor_bg = "#d3c6aa"
+cursor_border = "#d3c6aa"
+cursor_fg = "#fdf6e3"
+selection_bg = "#5c6a72"
+selection_fg = "#fdf6e3"
+
+ansi = [
+  "#fdf6e3",
+  "#f85552",
+  "#8da101",
+  "#dfa000",
+  "#3a94c5",
+  "#df69ba",
+  "#35a77c",
+  "#5c6a72",
+]
+brights = [
+  "#a6b0a0",
+  "#f97472",
+  "#9bb101",
+  "#f5b000",
+  "#4e9fcb",
+  "#e584c6",
+  "#3ab888",
+  "#2d353b",
+]

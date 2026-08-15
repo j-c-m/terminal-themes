@@ -1,0 +1,37 @@
+{{{theme-notice-hash}}}# SPDX-License-Identifier: {{theme-license}}
+# Theme:    {{theme-name}}
+# Mode:     {{theme-mode}}
+# Source:   {{theme-source}}
+
+[metadata]
+name = "{{theme-name}}"
+
+[colors]
+foreground = "{{foreground.hex}}"
+background = "{{background.hex}}"
+cursor_bg = "{{cursor.hex}}"
+cursor_border = "{{cursor.hex}}"
+cursor_fg = "{{cursor-text.hex}}"
+selection_bg = "{{selection-background.hex}}"
+selection_fg = "{{selection-foreground.hex}}"
+
+ansi = [
+  "{{normal.black.hex}}",
+  "{{normal.red.hex}}",
+  "{{normal.green.hex}}",
+  "{{normal.yellow.hex}}",
+  "{{normal.blue.hex}}",
+  "{{normal.magenta.hex}}",
+  "{{normal.cyan.hex}}",
+  "{{normal.white.hex}}",
+]
+brights = [
+  "{{bright.black.hex}}",
+  "{{bright.red.hex}}",
+  "{{bright.green.hex}}",
+  "{{bright.yellow.hex}}",
+  "{{bright.blue.hex}}",
+  "{{bright.magenta.hex}}",
+  "{{bright.cyan.hex}}",
+  "{{bright.white.hex}}",
+]

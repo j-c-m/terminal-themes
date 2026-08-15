@@ -1,0 +1,58 @@
+# MIT License
+#
+# Copyright (c) 2023 Rosé Pine
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Rose Pine Moon
+# Mode:     dark
+# Source:   Rose Pine (https://github.com/rose-pine)
+
+[metadata]
+name = "Rose Pine Moon"
+
+[colors]
+foreground = "#e0def4"
+background = "#232136"
+cursor_bg = "#56526e"
+cursor_border = "#56526e"
+cursor_fg = "#e0def4"
+selection_bg = "#44415a"
+selection_fg = "#e0def4"
+
+ansi = [
+  "#393552",
+  "#eb6f92",
+  "#3e8fb0",
+  "#f6c177",
+  "#9ccfd8",
+  "#c4a7e7",
+  "#ea9a97",
+  "#e0def4",
+]
+brights = [
+  "#6e6a86",
+  "#ef8da9",
+  "#479cbe",
+  "#f8d199",
+  "#b7dce3",
+  "#d9c6f0",
+  "#f0b9b7",
+  "#e0def4",
+]

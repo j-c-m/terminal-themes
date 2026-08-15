@@ -34,6 +34,9 @@ build/
 │   ├── solarized-dark.toml
 │   └── solarized-light.toml
 ├── ghostty/
+├── wezterm/
+│   ├── solarized-dark.toml
+│   └── solarized-light.toml
 ├── itermcolors/
 │   └── solarized.itermcolors
 ├── json/

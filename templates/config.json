@@ -14,6 +14,11 @@
     "directory": "ghostty",
     "filename": "{{theme-slug}}"
   },
+  "wezterm": {
+    "template": "wezterm.toml",
+    "directory": "wezterm",
+    "filename": "{{theme-slug}}.toml"
+  },
   "iterm": {
     "template": [ "iterm.itermcolors", "iterm.itermcolors" ],
     "directory": "itermcolors",

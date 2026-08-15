@@ -1,0 +1,39 @@
+# The MIT License (MIT)
+# https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
+# SPDX-License-Identifier: MIT
+# Theme:    Gruvbox Light Soft
+# Mode:     light
+# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+
+[metadata]
+name = "Gruvbox Light Soft"
+
+[colors]
+foreground = "#3c3836"
+background = "#f2e5bc"
+cursor_bg = "#3c3836"
+cursor_border = "#3c3836"
+cursor_fg = "#f2e5bc"
+selection_bg = "#3c3836"
+selection_fg = "#f2e5bc"
+
+ansi = [
+  "#fbf1c7",
+  "#cc241d",
+  "#98971a",
+  "#d79921",
+  "#458588",
+  "#b16286",
+  "#689d6a",
+  "#504945",
+]
+brights = [
+  "#928374",
+  "#9d0006",
+  "#79740e",
+  "#b57614",
+  "#076678",
+  "#8f3f71",
+  "#427b58",
+  "#3c3836",
+]

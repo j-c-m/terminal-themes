@@ -1,0 +1,59 @@
+# The MIT License (MIT)
+#
+# Copyright (c) 2018-present Enkia
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+# LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+# WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Tokyo Night Light
+# Mode:     light
+# Source:   Tokyo Night (https://github.com/tokyo-night/)
+
+[metadata]
+name = "Tokyo Night Light"
+
+[colors]
+foreground = "#343b58"
+background = "#e6e7ed"
+cursor_bg = "#343b58"
+cursor_border = "#343b58"
+cursor_fg = "#e6e7ed"
+selection_bg = "#343b58"
+selection_fg = "#e6e7ed"
+
+ansi = [
+  "#343b58",
+  "#8c4351",
+  "#385f0d",
+  "#8f5e15",
+  "#2959aa",
+  "#5a3e8e",
+  "#0f4b6e",
+  "#343b58",
+]
+brights = [
+  "#6c6e75",
+  "#9a4a59",
+  "#3e690e",
+  "#9d6717",
+  "#2d62bb",
+  "#63449c",
+  "#105279",
+  "#343b58",
+]

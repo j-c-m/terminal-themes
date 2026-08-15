@@ -1,0 +1,58 @@
+# MIT License
+#
+# Copyright (c) 2021 James Simpson
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Dayfox
+# Mode:     light
+# Source:   Eden East (https://github.com/EdenEast/nightfox.nvim)
+
+[metadata]
+name = "Dayfox"
+
+[colors]
+foreground = "#3d2b5a"
+background = "#f6f2ee"
+cursor_bg = "#3d2b5a"
+cursor_border = "#3d2b5a"
+cursor_fg = "#f6f2ee"
+selection_bg = "#e7d2be"
+selection_fg = "#3d2b5a"
+
+ansi = [
+  "#352c24",
+  "#a5222f",
+  "#396847",
+  "#ac5402",
+  "#2848a9",
+  "#6e33ce",
+  "#287980",
+  "#f2e9e1",
+]
+brights = [
+  "#534c45",
+  "#b3434e",
+  "#577f63",
+  "#b86e28",
+  "#4863b6",
+  "#8452d5",
+  "#488d93",
+  "#f4ece6",
+]
