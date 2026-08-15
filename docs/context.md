@@ -15,9 +15,9 @@ Templates receive a context object for rendering. This is built from theme YAML 
 
 ## Color Maps
 
-- **`normal` / `bright`**: Objects with keys `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`. Each is `{hex: "#ffffff", hexterm: "255/255/255"}`.
-  - `hex`: Original hex value.
-  - `hexterm`: Decimal RGB for terminals (e.g., "255/255/255").
+- **`normal` / `bright`**: Objects with keys `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`. Each is `{hex: "#ffffff", hexterm: "ff/ff/ff"}`.
+  - `hex`: Six-digit lowercase hex. For `bright`, this is the post-adjustment value when the YAML pair was identical (see [Identical normal and bright colors](themes.md#identical-normal-and-bright-colors)).
+  - `hexterm`: The same color as `rr/gg/bb` hex pairs for OSC 4 / OSC 10 (e.g., `"00/2b/36"`).
 
 ## Primary Colors
 
@@ -47,12 +47,12 @@ For dual-mode:
   "theme-source": "vscode-themes",
   "theme-license": "MIT",
   "normal": {
-    "black": {"hex": "#000000", "hexterm": "0/0/0"},
+    "black": {"hex": "#000000", "hexterm": "00/00/00"},
     // ...
   },
   "bright": { /* similar */ },
-  "foreground": {"hex": "#ffffff", "hexterm": "255/255/255"},
-  "background": {"hex": "#1e2d31", "hexterm": "30/45/49"},
+  "foreground": {"hex": "#ffffff", "hexterm": "ff/ff/ff"},
+  "background": {"hex": "#1e2d31", "hexterm": "1e/2d/31"},
   // ... others
   "theme-itermcolors-plist": "<?xml version=\"1.0\"...>",
   "theme-json": "{...}"

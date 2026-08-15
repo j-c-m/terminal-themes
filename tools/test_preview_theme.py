@@ -40,12 +40,17 @@ class PreviewThemeTests(unittest.TestCase):
         self.assertNotIn("\033]10;", result.stdout)
         self.assertNotIn("\033]11;", result.stdout)
 
-    def test_yaml_source(self) -> None:
+    def test_json_source(self) -> None:
+        result = run_preview("build/json/dracula.json")
+        self.assertEqual(result.returncode, 0, msg=result.stderr)
+        self.assertIn("Dracula", result.stdout)
+
+    def test_yaml_path_resolves_generated_json(self) -> None:
         result = run_preview("themes/dracula.yaml")
         self.assertEqual(result.returncode, 0, msg=result.stderr)
         self.assertIn("Dracula", result.stdout)
 
-    def test_dual_mode_yaml_renders_both(self) -> None:
+    def test_dual_mode_family_renders_both(self) -> None:
         result = run_preview("-s", "solarized")
         self.assertEqual(result.returncode, 0, msg=result.stderr)
         self.assertIn("Solarized · dark", result.stdout)
@@ -53,11 +58,17 @@ class PreviewThemeTests(unittest.TestCase):
         self.assertIn("48;2;0;43;54m", result.stdout)
         self.assertIn("48;2;253;246;227m", result.stdout)
 
-    def test_combined_theme_resolves_refs(self) -> None:
-        result = run_preview("-s", "catppuccin")
+    def test_preview_uses_generated_bright_hex(self) -> None:
+        result = run_preview("-s", "solarized-dark")
         self.assertEqual(result.returncode, 0, msg=result.stderr)
-        self.assertIn("Catppuccin · dark", result.stdout)
-        self.assertIn("Catppuccin · light", result.stdout)
+        # YAML bright red is #dc322f; build/json adjusts it to #e04946.
+        self.assertIn("#E04946", result.stdout)
+
+    def test_json_slugs_select_variants(self) -> None:
+        result = run_preview("-s", "catppuccin-mocha", "catppuccin-latte")
+        self.assertEqual(result.returncode, 0, msg=result.stderr)
+        self.assertIn("Catppuccin Mocha · dark", result.stdout)
+        self.assertIn("Catppuccin Latte · light", result.stdout)
         self.assertIn("48;2;30;30;46m", result.stdout)
         self.assertIn("48;2;239;241;245m", result.stdout)
 
@@ -69,8 +80,8 @@ class PreviewThemeTests(unittest.TestCase):
         self.assertIn("48;2;253;246;227m", result.stdout)
         self.assertNotIn("48;2;0;43;54m", result.stdout)
 
-    def test_every_theme_yaml_loads(self) -> None:
-        result = run_preview("themes")
+    def test_every_generated_theme_loads(self) -> None:
+        result = run_preview("build/json")
         self.assertEqual(result.returncode, 0, msg=result.stderr)
         self.assertIn("Display-only preview", result.stdout)
 

@@ -29,6 +29,23 @@ Each mode (`dark` or `light`) must include:
 
 Hex values can be 3-digit (`#rgb`) or 6-digit (`#rrggbb`). Invalid hex will cause an error.
 
+## Identical normal and bright colors
+
+Many palettes use the same hex for a `normal` color and its `bright` pair (Solarized red, Catppuccin accents, and others). The YAML keeps that pair as the author wrote it.
+
+The build invents a distinct bright so ANSI 8–15 are not a copy of 0–7. `white` is never rewritten, even when it matches.
+
+After hex normalize (`#rgb` / `#rrggbb` → lowercase `#rrggbb`):
+
+- If `colors.normal.<name>` and `colors.bright.<name>` differ, both are used as written.
+- If they are the same and `<name>` is not `white`, the bright color is derived from the normal color in HLS:
+  - If lightness `L < 0.8`: `L *= 1.10` (hue and saturation unchanged).
+  - If `L >= 0.8`: `L *= 0.90` and saturation `S *= 1.10`.
+
+This is a ~10% HLS-lightness change, not a 10% change in perceived luminance. Typical rewritten accents land around 1.2× relative luminance; already-light colors on the second path get darker.
+
+Adjusted brights appear in every generated file under `build/` (Alacritty, Ghostty, iTerm, JSON, shell, index). `tools/preview_theme` reads `build/json/`, so preview matches those files. Rebuild after editing YAML before previewing.
+
 ## Optional Fields per Mode
 
 - **`cursor`** (hex string): Cursor color (defaults to `foreground` if missing).
@@ -152,6 +169,7 @@ dark:
 - Specify cursor and selection colors for improved UX.
 - If only one visual style is targeted, include only the corresponding top-level key (`dark` or `light`).
 - Confirm downstream tools expect the ANSI mapping above.
+- Rebuild (`./do-build-themes.sh`) after YAML edits. Preview and other outputs read `build/`, not the YAML colors directly.
 - For invalid YAML, missing fields, or incorrect hex, tools will log errors and skip the theme.
 
 ## Next Steps (Optional)

@@ -1,16 +1,15 @@
-"""Load themes from this repo's YAML files under themes/."""
+"""Load themes from generated JSON under build/json/."""
 
 from __future__ import annotations
 
+import json
 import pathlib
 from typing import Iterable
-
-import yaml
 
 from preview_theme.model import Color, Theme
 
 REPO_PATH = pathlib.Path(__file__).resolve().parent.parent.parent
-THEMES_PATH = REPO_PATH / "themes"
+JSON_PATH = REPO_PATH / "build" / "json"
 
 COLOR_NAMES = ("black", "red", "green", "yellow", "blue", "magenta", "cyan", "white")
 
@@ -22,21 +21,36 @@ _FALLBACKS = {
     "Bold Color": "Foreground Color",
 }
 
+_OPTIONAL = {
+    "Cursor Color": "cursor",
+    "Cursor Text Color": "cursor-text",
+    "Selection Color": "selection-background",
+    "Selected Text Color": "selection-foreground",
+}
 
-def _read_yaml(path: pathlib.Path) -> dict:
+_MISSING_JSON = (
+    f"No generated themes in {JSON_PATH}/. Run ./do-build-themes.sh first."
+)
+
+
+def _read_json(path: pathlib.Path) -> dict:
     try:
         with path.open("r", encoding="utf-8") as handle:
-            data = yaml.safe_load(handle)
+            data = json.load(handle)
     except OSError as exc:
-        raise ValueError(f"{path}: failed to read YAML: {exc}") from exc
-    except yaml.YAMLError as exc:
-        raise ValueError(f"{path}: invalid YAML: {exc}") from exc
+        raise ValueError(f"{path}: failed to read JSON: {exc}") from exc
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"{path}: invalid JSON: {exc}") from exc
     if not isinstance(data, dict):
         raise ValueError(f"{path}: theme top-level must be a mapping")
     return data
 
 
-def _hex_color(value: object, *, label: str) -> Color:
+def _hex_color(entry: object, *, label: str) -> Color:
+    if isinstance(entry, dict):
+        value = entry.get("hex")
+    else:
+        value = entry
     if not isinstance(value, str):
         raise ValueError(f"{label}: expected hex string, got {value!r}")
     try:
@@ -45,78 +59,65 @@ def _hex_color(value: object, *, label: str) -> Color:
         raise ValueError(f"{label}: {exc}") from exc
 
 
-def _resolve_mode_map(theme_data: dict, theme_path: pathlib.Path, mode: str) -> dict:
-    raw = theme_data[mode]
-    if isinstance(raw, str):
-        ref_path = theme_path.parent / raw
-        if not ref_path.is_file():
-            raise ValueError(
-                f"{theme_path}: referenced file {raw!r} for {mode!r} does not exist"
-            )
-        ref_data = _read_yaml(ref_path)
-        if mode not in ref_data:
-            raise ValueError(
-                f"{theme_path}: referenced file {raw!r} for {mode!r} "
-                f"does not contain a {mode!r} mode"
-            )
-        raw = ref_data[mode]
-    if not isinstance(raw, dict):
-        raise ValueError(f"{theme_path}: mode {mode!r} must be a mapping")
-    return raw
+def _strip_word(text: str, word: str) -> str:
+    if not word:
+        return text
+    parts = text.split()
+    try:
+        idx = parts.index(word)
+    except ValueError:
+        return text
+    return " ".join(parts[:idx] + parts[idx + 1 :]).strip()
 
 
-def _colors_from_mode(mode_map: dict, theme_path: pathlib.Path, mode: str) -> dict[str, Color]:
+def _family_slug(slug: str, mode: str) -> str:
+    parts = slug.split("-")
+    if mode not in parts:
+        return slug
+    idx = len(parts) - 1 - parts[::-1].index(mode)
+    return "-".join(parts[:idx] + parts[idx + 1 :])
+
+
+def _colors_from_json(data: dict, path: pathlib.Path) -> dict[str, Color]:
     missing: list[str] = []
     for primary in ("foreground", "background"):
-        if primary not in mode_map:
+        if primary not in data:
             missing.append(primary)
-    colors = mode_map.get("colors")
-    if not isinstance(colors, dict):
-        missing.append("colors")
-        colors = {}
-    normal = colors.get("normal")
-    bright = colors.get("bright")
+    normal = data.get("normal")
+    bright = data.get("bright")
     if not isinstance(normal, dict):
-        missing.append("colors.normal")
+        missing.append("normal")
         normal = {}
     else:
         for name in COLOR_NAMES:
             if name not in normal:
-                missing.append(f"colors.normal.{name}")
+                missing.append(f"normal.{name}")
     if not isinstance(bright, dict):
-        missing.append("colors.bright")
+        missing.append("bright")
         bright = {}
     else:
         for name in COLOR_NAMES:
             if name not in bright:
-                missing.append(f"colors.bright.{name}")
+                missing.append(f"bright.{name}")
     if missing:
-        raise ValueError(
-            f"{theme_path} [{mode}]: missing required fields: {', '.join(missing)}"
-        )
+        raise ValueError(f"{path}: missing required fields: {', '.join(missing)}")
 
-    label = f"{theme_path} [{mode}]"
+    label = str(path)
     out: dict[str, Color] = {
-        "Foreground Color": _hex_color(mode_map["foreground"], label=f"{label} foreground"),
-        "Background Color": _hex_color(mode_map["background"], label=f"{label} background"),
+        "Foreground Color": _hex_color(data["foreground"], label=f"{label} foreground"),
+        "Background Color": _hex_color(data["background"], label=f"{label} background"),
     }
     for index, name in enumerate(COLOR_NAMES):
         out[f"Ansi {index} Color"] = _hex_color(
-            normal[name], label=f"{label} colors.normal.{name}"
+            normal[name], label=f"{label} normal.{name}"
         )
         out[f"Ansi {index + 8} Color"] = _hex_color(
-            bright[name], label=f"{label} colors.bright.{name}"
+            bright[name], label=f"{label} bright.{name}"
         )
 
-    optional = {
-        "Cursor Color": "cursor",
-        "Cursor Text Color": "cursor-text",
-        "Selection Color": "selection-background",
-        "Selected Text Color": "selection-foreground",
-    }
-    for dest, key in optional.items():
-        if key in mode_map and mode_map[key] is not None:
-            out[dest] = _hex_color(mode_map[key], label=f"{label} {key}")
+    for dest, key in _OPTIONAL.items():
+        if key in data and data[key] is not None:
+            out[dest] = _hex_color(data[key], label=f"{label} {key}")
 
     for dest, src in _FALLBACKS.items():
         if dest not in out:
@@ -124,23 +125,18 @@ def _colors_from_mode(mode_map: dict, theme_path: pathlib.Path, mode: str) -> di
     return out
 
 
-def _display_name(base_name: str, modifier: str) -> str:
-    if modifier:
-        return f"{base_name} {modifier}"
-    return base_name
-
-
-def _theme_from_mode(
-    theme_data: dict,
-    theme_path: pathlib.Path,
-    mode: str,
-) -> Theme:
-    base_name = str(theme_data.get("name") or theme_path.stem)
-    modifier = str(theme_data.get("modifier") or "").strip()
+def _theme_from_json(data: dict, path: pathlib.Path) -> Theme:
+    mode = str(data.get("theme-mode") or "").strip()
+    if mode not in {"dark", "light"}:
+        raise ValueError(f"{path}: theme-mode must be 'dark' or 'light', got {mode!r}")
+    theme_name = str(data.get("theme-name") or path.stem)
+    modifier = str(data.get("theme-modifier") or "").strip()
+    display = _strip_word(theme_name, mode.capitalize()) or theme_name
+    base_name = _strip_word(display, modifier) if modifier else display
     return Theme(
-        source_path=theme_path,
-        name=_display_name(base_name, modifier),
-        colors=_colors_from_mode(_resolve_mode_map(theme_data, theme_path, mode), theme_path, mode),
+        source_path=path,
+        name=display,
+        colors=_colors_from_json(data, path),
         variant=mode,
         base_name=base_name,
         modifier=modifier,
@@ -148,39 +144,45 @@ def _theme_from_mode(
 
 
 def load_theme_file(path: pathlib.Path) -> list[Theme]:
-    data = _read_yaml(path)
-    modes = [mode for mode in ("dark", "light") if mode in data]
-    if not modes:
-        raise ValueError(f"{path}: no modes found (expected 'dark' and/or 'light')")
-    return [_theme_from_mode(data, path, mode) for mode in modes]
+    return [_theme_from_json(_read_json(path), path)]
+
+
+def theme_files() -> list[pathlib.Path]:
+    if not JSON_PATH.is_dir():
+        return []
+    return sorted(JSON_PATH.glob("*.json"))
+
+
+def load_all_themes() -> list[Theme]:
+    paths = theme_files()
+    if not paths:
+        raise FileNotFoundError(_MISSING_JSON)
+    themes: list[Theme] = []
+    for path in paths:
+        themes.extend(load_theme_file(path))
+    return themes
 
 
 def load_theme_path(path: pathlib.Path) -> list[Theme]:
     resolved = path.expanduser().resolve()
     if resolved.is_dir():
         themes: list[Theme] = []
-        for yaml_path in sorted(resolved.glob("*.yaml")):
-            themes.extend(load_theme_file(yaml_path))
+        for json_path in sorted(resolved.glob("*.json")):
+            themes.extend(load_theme_file(json_path))
         if not themes:
-            raise ValueError(f"No theme YAML files in {resolved}")
+            raise ValueError(
+                f"No generated theme JSON files in {resolved}. "
+                f"Preview reads build/json/. Run ./do-build-themes.sh first."
+            )
         return themes
     if not resolved.is_file():
         raise FileNotFoundError(f"Theme file not found: {path}")
     suffix = resolved.suffix.lower()
-    if suffix not in {".yaml", ".yml"}:
-        raise ValueError(f"Unsupported theme file type: {path}")
-    return load_theme_file(resolved)
-
-
-def theme_files() -> list[pathlib.Path]:
-    return sorted(THEMES_PATH.glob("*.yaml"))
-
-
-def load_all_themes() -> list[Theme]:
-    themes: list[Theme] = []
-    for path in theme_files():
-        themes.extend(load_theme_file(path))
-    return themes
+    if suffix == ".json":
+        return load_theme_file(resolved)
+    if suffix in {".yaml", ".yml"}:
+        return lookup_catalog(resolved.stem)
+    raise ValueError(f"Unsupported theme file type: {path}")
 
 
 def _composed_names(theme: Theme) -> Iterable[str]:
@@ -195,21 +197,19 @@ def _composed_names(theme: Theme) -> Iterable[str]:
             yield f"{theme.name} {theme.variant.capitalize()}"
 
 
-def resolve_theme_name(name: str) -> list[Theme]:
+def lookup_catalog(name: str) -> list[Theme]:
     key = name.strip()
     if not key:
-        raise FileNotFoundError(f'Theme "{name}" not found in {THEMES_PATH}/.')
-
-    as_path = pathlib.Path(key).expanduser()
-    if as_path.exists():
-        return load_theme_path(as_path)
+        raise FileNotFoundError(f'Theme "{name}" not found in {JSON_PATH}/.')
 
     catalog = load_all_themes()
     lowered = key.lower()
 
-    stem_hits = [theme for theme in catalog if theme.source_path.stem.lower() == lowered]
-    if stem_hits:
-        return stem_hits
+    slug_hits = [
+        theme for theme in catalog if theme.source_path.stem.lower() == lowered
+    ]
+    if slug_hits:
+        return slug_hits
 
     name_hits = [
         theme
@@ -219,6 +219,14 @@ def resolve_theme_name(name: str) -> list[Theme]:
     if name_hits:
         return name_hits
 
+    family_hits = [
+        theme
+        for theme in catalog
+        if _family_slug(theme.source_path.stem, theme.variant).lower() == lowered
+    ]
+    if family_hits:
+        return family_hits
+
     composed_hits = [
         theme
         for theme in catalog
@@ -227,7 +235,19 @@ def resolve_theme_name(name: str) -> list[Theme]:
     if composed_hits:
         return composed_hits
 
-    raise FileNotFoundError(f'Theme "{name}" not found in {THEMES_PATH}/.')
+    raise FileNotFoundError(f'Theme "{name}" not found in {JSON_PATH}/.')
+
+
+def resolve_theme_name(name: str) -> list[Theme]:
+    key = name.strip()
+    if not key:
+        raise FileNotFoundError(f'Theme "{name}" not found in {JSON_PATH}/.')
+
+    as_path = pathlib.Path(key).expanduser()
+    if as_path.exists():
+        return load_theme_path(as_path)
+
+    return lookup_catalog(key)
 
 
 def _dedupe(themes: list[Theme]) -> list[Theme]:

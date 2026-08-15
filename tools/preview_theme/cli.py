@@ -52,7 +52,7 @@ def main(argv: list[str] | None = None) -> int:
         "paths",
         nargs="*",
         type=pathlib.Path,
-        help="Path to theme YAML files or a directory of them",
+        help="Path to generated theme JSON (build/json/*.json) or a directory of them",
     )
     parser.add_argument(
         "-s",
@@ -60,7 +60,7 @@ def main(argv: list[str] | None = None) -> int:
         nargs="+",
         dest="scheme",
         metavar="NAME",
-        help="Theme name(s) to preview (stem or name of a themes/*.yaml file)",
+        help="Theme name or slug from build/json (rebuild after YAML edits)",
     )
     parser.add_argument(
         "--width",

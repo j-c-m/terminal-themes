@@ -14,6 +14,10 @@ Outputs are written to `build/` based on `templates/config.json`.
 - **Content**: Sorted list of themes (merged for dual-mode, per-mode for single).
 - Includes `theme-json` for each entry.
 
+## JSON catalog
+
+`build/json/{{theme-slug}}.json` is the generated context for one mode. Bright hex values are post-adjustment. `tools/preview_theme` loads this directory, not `themes/*.yaml`.
+
 ## Processing Summary
 
 - Processes all valid themes.
