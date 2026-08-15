@@ -1,0 +1,13 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtualenv (env.sh)
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.ropeproject/
