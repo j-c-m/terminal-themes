@@ -11,6 +11,7 @@ Themes are defined in YAML files within the `themes/` directory. Each theme file
 ## Required Fields
 
 - **`name` (string)**: The display name of the theme (e.g., "Oceanic Next" or "Ayu").
+- **`source` (string)**: Attribution or upstream URL for provenance.
 - **`license` (string)**: SPDX identifier that allows free redistribution.
   - Permissive / public domain: `MIT`, `ISC`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `0BSD`, `MIT-0`, `Unlicense`, `CC0-1.0`, `BlueOak-1.0.0`, `PostgreSQL`, `Zlib`.
   - Copyleft: `GPL-2.0-only`, `GPL-2.0-or-later`, `GPL-3.0-only`, `GPL-3.0-or-later`, `AGPL-3.0-only`, `AGPL-3.0-or-later`, `LGPL-2.1-only`, `LGPL-2.1-or-later`, `LGPL-3.0-only`, `LGPL-3.0-or-later`, `MPL-2.0`.
@@ -56,7 +57,6 @@ Adjusted brights appear in every generated file under `build/` (Alacritty, Ghost
 ## Additional Top-Level Fields
 
 - **`modifier`** (string, optional): Appended to theme name/slug (e.g., "Dimmed" or "Soft").
-- **`source`** (string, optional but recommended): Attribution or upstream URL for provenance.
 
 ## References to External Files (Combined Themes)
 
@@ -87,6 +87,7 @@ Typical mapping to terminal ANSI indices:
 
 **Required**:
 - `name` (string)
+- `source` (string)
 - `license` (SPDX id from the allowed list)
 - At least one top-level mode: `dark` or `light`
 - For each mode:
@@ -96,7 +97,7 @@ Typical mapping to terminal ANSI indices:
   - `colors.bright` with all eight keys
 
 **Optional (Recommended)**:
-- `modifier`, `source`
+- `modifier`
 - `cursor`, `cursor-text`, `selection-foreground`, `selection-background`
 
 **Color Format**:
@@ -163,7 +164,7 @@ dark:
 
 ## Best Practices
 
-- Populate `source` for provenance. `license` is required and must be an allowed SPDX id.
+- `source` is required (attribution or upstream URL). `license` is required and must be an allowed SPDX id.
 - Put the license grant in the leading `#` comment block. The build copies that block onto derived files.
 - Use `modifier` to produce distinct variant names.
 - Specify cursor and selection colors for improved UX.

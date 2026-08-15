@@ -39,6 +39,7 @@ import pystache
 import os
 import re
 import glob
+import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
 from unidecode import unidecode
@@ -75,6 +76,19 @@ ALLOWED_LICENSES = frozenset({
 
 # Simple in-module cache for template contents
 _TEMPLATE_CACHE: dict[str, Optional[str]] = {}
+_errors: List[str] = []
+
+
+def record_error(message: str) -> None:
+    print(message)
+    _errors.append(message)
+
+
+def exit_status() -> int:
+    if not _errors:
+        return 0
+    print(f"Build failed with {len(_errors)} error(s).", file=sys.stderr)
+    return 1
 
 # Brightness/saturation adjustment constants
 # If normal lightness >= BRIGHTNESS_THRESHOLD it's considered "already bright"
@@ -95,7 +109,7 @@ def load_yaml(path: Path) -> Optional[Dict[str, Any]]:
         with open(path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f) or {}
     except Exception as e:
-        print(f"Error loading YAML {path}: {e}")
+        record_error(f"Error loading YAML {path}: {e}")
         return None
 
 
@@ -177,6 +191,8 @@ def validate_theme_top_level(theme_data: dict, theme_path: Path):
         raise ValueError(f"{theme_path}: theme top-level must be a mapping")
     if not theme_data.get('name'):
         missing.append('name')
+    if not str(theme_data.get('source') or '').strip():
+        missing.append('source')
     license_id = str(theme_data.get('license') or '').strip()
     if not license_id:
         missing.append('license')
@@ -441,13 +457,13 @@ def prepare_iterm_plists(contexts: List[Dict[str, Any]], dark_ctx: Optional[Dict
         try:
             c['theme-itermcolors-plist'] = generate_iterm_plist(c)
         except Exception as e:
-            print(f"Error generating iTerm plist for {c.get('theme-slug')}: {e}")
+            record_error(f"Error generating iTerm plist for {c.get('theme-slug')}: {e}")
             c['theme-itermcolors-plist'] = ''
     if dark_ctx and light_ctx:
         try:
             combined = generate_dual_iterm_plist(dark_ctx, light_ctx)
         except Exception as e:
-            print(f"Error generating combined iTerm plist: {e}")
+            record_error(f"Error generating combined iTerm plist: {e}")
             combined = ''
     return combined
 
@@ -524,13 +540,13 @@ def find_theme_files(themes_base: Path) -> List[str]:
 def read_template_file(template_filename: str) -> Optional[str]:
     template_path = Path('templates') / template_filename
     if not template_path.exists():
-        print(f"Template {template_path} not found.")
+        record_error(f"Template {template_path} not found.")
         return None
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
             return f.read()
     except Exception as e:
-        print(f"Error reading template {template_path}: {e}")
+        record_error(f"Error reading template {template_path}: {e}")
         return None
 
 
@@ -550,7 +566,7 @@ def ensure_dir(path: Path) -> bool:
         os.makedirs(path, exist_ok=True)
         return True
     except Exception as e:
-        print(f"Error creating directory {path}: {e}")
+        record_error(f"Error creating directory {path}: {e}")
         return False
 
 
@@ -570,27 +586,30 @@ def safe_write_rendered(out_dir: Path, out_name: str, rendered: str, log_label: 
         print(f"Generated{label} -> {out_path}")
         return True
     except Exception as e:
-        print(f"Error writing file {out_path}: {e}")
+        record_error(f"Error writing file {out_path}: {e}")
         return False
 
 
 def render_single_context_to_template(context: Dict[str, Any], template_text: str, filename_tmpl: str,
-                                      directory: str, template_key: Optional[str] = None) -> None:
+                                      directory: str, template_key: Optional[str] = None) -> bool:
     prepare_context_json(context)
     out_dir = Path('build') / Path(directory)
     out_name = pystache.render(filename_tmpl, context)
     try:
         rendered = pystache.render(template_text, context)
     except Exception as e:
-        print(f"Error rendering template for {context.get('theme-name')}: {e}")
-        return
-    safe_write_rendered(out_dir, out_name, rendered, log_label=template_key)
+        record_error(f"Error rendering template for {context.get('theme-name')}: {e}")
+        return False
+    return safe_write_rendered(out_dir, out_name, rendered, log_label=template_key)
 
 
 def render_contexts_to_template(contexts: List[Dict[str, Any]], template_text: str, filename_tmpl: str,
-                                directory: str, template_key: Optional[str] = None) -> None:
+                                directory: str, template_key: Optional[str] = None) -> bool:
+    ok = True
     for context in contexts:
-        render_single_context_to_template(context, template_text, filename_tmpl, directory, template_key=template_key)
+        if not render_single_context_to_template(context, template_text, filename_tmpl, directory, template_key=template_key):
+            ok = False
+    return ok
 
 
 def build_merged_context(base_name: str, base_modifier: str, base_slug: str, theme_data: dict,
@@ -619,17 +638,18 @@ def build_merged_context(base_name: str, base_modifier: str, base_slug: str, the
 
 
 def render_merged_dual_template(merged: Dict[str, Any], dual_template_text: str, filename_tmpl: str,
-                                directory: str, template_key: Optional[str] = None) -> None:
+                                directory: str, template_key: Optional[str] = None) -> bool:
     out_dir = Path('build') / Path(directory)
     out_name = pystache.render(filename_tmpl, merged)
     try:
         rendered = pystache.render(dual_template_text, merged)
     except Exception as e:
-        print(f"Error rendering dual template for {merged.get('theme-name')}: {e}")
-        return
+        record_error(f"Error rendering dual template for {merged.get('theme-name')}: {e}")
+        return False
     success = safe_write_rendered(out_dir, out_name, rendered, log_label=f"dual:{template_key}")
     if success:
         print(f"Generated [dual:{template_key}] combined for {merged.get('theme-name')} -> {out_dir / out_name}")
+    return success
 
 
 def process_template_entry(template_key: str, template_conf: Dict[str, Any], contexts: List[Dict[str, Any]],
@@ -638,7 +658,6 @@ def process_template_entry(template_key: str, template_conf: Dict[str, Any], con
                            combined_iterm_plist: Optional[str], base_name: str, base_modifier: str, base_slug: str,
                            is_combined: bool) -> None:
     if 'template' not in template_conf:
-        print(f"Config entry '{template_key}' missing required 'template' field. Skipping.")
         return
 
     tpl_field = template_conf['template']
@@ -650,7 +669,6 @@ def process_template_entry(template_key: str, template_conf: Dict[str, Any], con
 
     if dual_mode:
         if not isinstance(tpl_field, (list, tuple)) or len(tpl_field) < 2:
-            print(f"Config entry '{template_key}' is 'dual_mode': true but 'template' is not an array of two filenames. Skipping.")
             return
         single_template_name = str(tpl_field[0])
         dual_template_name = str(tpl_field[1])
@@ -658,10 +676,11 @@ def process_template_entry(template_key: str, template_conf: Dict[str, Any], con
         if has_both_modes:
             dual_template = read_template_cached(dual_template_name)
             if dual_template is None:
-                print(f"Dual template '{dual_template_name}' for '{template_key}' missing; skipping merged output.")
                 return
             if dark_ctx is None or light_ctx is None:
-                print(f"Skipping dual-mode output for {template_key} in {tf_path}: missing dark or light context")
+                record_error(
+                    f"Skipping dual-mode output for {template_key} in {tf_path}: missing dark or light context"
+                )
                 return
             merged = build_merged_context(base_name, base_modifier, base_slug, theme_data, source_name,
                                           light_ctx, dark_ctx, combined_iterm_plist)
@@ -669,12 +688,10 @@ def process_template_entry(template_key: str, template_conf: Dict[str, Any], con
         else:
             single_template = read_template_cached(single_template_name)
             if single_template is None:
-                print(f"Single template '{single_template_name}' for '{template_key}' missing; skipping per-context outputs.")
                 return
             render_contexts_to_template(contexts, single_template, template_conf['filename'], template_conf['directory'], template_key=template_key)
     else:
         if not isinstance(tpl_field, str):
-            print(f"Config entry '{template_key}' expected 'template' to be a string for non-dual templates. Skipping.")
             return
         # Skip per-mode rendering for combined dual themes (they only use dual-mode)
         if has_both_modes and is_combined:
@@ -682,31 +699,72 @@ def process_template_entry(template_key: str, template_conf: Dict[str, Any], con
         template_name = str(tpl_field)
         template_text = read_template_cached(template_name)
         if template_text is None:
-            print(f"Template '{template_name}' for '{template_key}' missing; skipping.")
             return
         render_contexts_to_template(contexts, template_text, template_conf['filename'], template_conf['directory'], template_key=template_key)
+
+
+def validate_config(config: Any) -> bool:
+    if not isinstance(config, dict):
+        record_error("templates/config.json must be a mapping of template entries.")
+        return False
+    ok = True
+    for template_key, template_conf in config.items():
+        if not isinstance(template_conf, dict):
+            record_error(f"Config entry '{template_key}' must be an object.")
+            ok = False
+            continue
+        if 'template' not in template_conf:
+            record_error(f"Config entry '{template_key}' missing required 'template' field.")
+            ok = False
+            continue
+        if 'filename' not in template_conf:
+            record_error(f"Config entry '{template_key}' missing required 'filename' field.")
+            ok = False
+        if 'directory' not in template_conf:
+            record_error(f"Config entry '{template_key}' missing required 'directory' field.")
+            ok = False
+        dual_mode = bool(template_conf.get('dual_mode'))
+        tpl_field = template_conf['template']
+        if dual_mode:
+            if not isinstance(tpl_field, (list, tuple)) or len(tpl_field) < 2:
+                record_error(
+                    f"Config entry '{template_key}' is 'dual_mode': true but "
+                    f"'template' is not an array of two filenames."
+                )
+                ok = False
+        elif not isinstance(tpl_field, str):
+            record_error(
+                f"Config entry '{template_key}' expected 'template' to be a string "
+                f"for non-dual templates."
+            )
+            ok = False
+    return ok
 
 
 #
 # Refactored main that delegates work to helpers above
 #
-def main():
+def main() -> int:
+    _errors.clear()
     config_path = Path('templates') / 'config.json'
     try:
         config = load_config(config_path)
     except Exception as e:
-        print(f"Error loading config {config_path}: {e}")
-        return
+        record_error(f"Error loading config {config_path}: {e}")
+        return exit_status()
+
+    if not validate_config(config):
+        return exit_status()
 
     themes_base = Path('themes')
     if not themes_base.exists():
-        print("No themes/ directory found.")
-        return
+        record_error("No themes/ directory found.")
+        return exit_status()
 
     theme_files = find_theme_files(themes_base)
     if not theme_files:
-        print("No YAML theme files found in themes/ directory.")
-        return
+        record_error("No YAML theme files found in themes/ directory.")
+        return exit_status()
 
     # Separate regular and combined themes to process combined last
     regular_themes: List[str] = []
@@ -736,8 +794,11 @@ def main():
 
         try:
             contexts, is_combined = build_contexts_from_yaml(theme_data, source_name, tf_path)
+        except ValueError as e:
+            record_error(str(e))
+            continue
         except Exception as e:
-            print(f"Schema validation error for {tf_path}: {e}")
+            record_error(f"Schema validation error for {tf_path}: {e}")
             continue
 
         has_both_modes = 'dark' in theme_data and 'light' in theme_data
@@ -789,14 +850,12 @@ def main():
             rendered_index = pystache.render(index_template, index_context)
             # write to build/index.html
             out_dir = Path('build')
-            success = safe_write_rendered(out_dir, 'index.html', rendered_index, log_label='index')
-            if not success:
-                print("Failed to write build/index.html")
+            safe_write_rendered(out_dir, 'index.html', rendered_index, log_label='index')
         except Exception as e:
-            print(f"Error rendering index.mustache: {e}")
-    else:
-        print("No index.mustache template found; skipping index generation.")
+            record_error(f"Error rendering index.mustache: {e}")
+
+    return exit_status()
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

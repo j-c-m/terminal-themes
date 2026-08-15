@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 source ./env.sh
-rm -r build
+rm -rf build
 ./build-themes.py

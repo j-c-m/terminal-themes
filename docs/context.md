@@ -8,7 +8,7 @@ Templates receive a context object for rendering. This is built from theme YAML 
 - **`theme-slug`**: URL-safe slug (e.g., "oceanic-next-dark").
 - **`theme-mode`**: "dark", "light", or "both" (for merged).
 - **`theme-modifier`**: Modifier string (e.g., "Dimmed") or empty.
-- **`theme-source`**: Source info or empty.
+- **`theme-source`**: Attribution or upstream URL from the required YAML `source` field.
 - **`theme-license`**: Required SPDX license id.
 - **`theme-notice`**: Leading `#` comment block from the theme YAML (the license grant), without `#` prefixes.
 - **`theme-notice-hash`**: Same notice formatted as `#` comments for templates, or empty.
