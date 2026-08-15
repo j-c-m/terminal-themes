@@ -41,7 +41,6 @@
     .controls{display:flex;gap:8px;align-items:center}
     .search{padding:8px 10px;border-radius:8px;border:1px solid #e6e9ef;background:#fff;min-width:260px;font-size:13px}
 
-    /* compact grid of clickable mini-terminals */
     .grid{
       display: flex;
       flex-wrap: wrap;
@@ -49,14 +48,10 @@
       gap: var(--gap);
     }
 
-    /* each item is just the thumbnail anchor (no surrounding card) */
-    .tile-link{
+    .tile{
       display:block;
-      text-decoration:none;
-      color:inherit;
       border-radius:10px;
       overflow:hidden;
-      outline: none;
     }
 
     .thumb{
@@ -156,7 +151,7 @@
   <main>
     <section class="grid" id="grid" aria-live="polite">
       {{#themes}}
-        <a class="tile-link" data-slug="{{theme-slug}}">
+        <div class="tile" data-slug="{{theme-slug}}">
           <div class="thumb" role="img" aria-label="{{theme-name}} preview">
             <div class="single" style="background: {{background.hex}}; color: {{foreground.hex}};">
               <div>
@@ -194,7 +189,7 @@
               </div>
             </div>
           </div>
-        </a>
+        </div>
       {{/themes}}
     </section>
 
@@ -206,25 +201,14 @@
       const grid = document.getElementById('grid');
       const search = document.getElementById('search');
 
-      // Simple client-side filtering by name
       search.addEventListener('input', (e) => {
         const q = (e.target.value || '').toLowerCase().trim();
-        Array.from(grid.querySelectorAll('[data-slug]')).forEach(link => {
-          const title = (link.getAttribute('title') || link.querySelector('.cmd')?.textContent || '').toLowerCase();
-          link.style.display = title.includes(q) ? '' : 'none';
+        grid.querySelectorAll('[data-slug]').forEach(tile => {
+          const name = (tile.querySelector('.cmd')?.textContent || '').toLowerCase();
+          const slug = (tile.getAttribute('data-slug') || '').toLowerCase();
+          tile.style.display = (!q || name.includes(q) || slug.includes(q)) ? '' : 'none';
         });
       });
-
-      // Allow keyboard activation: Enter on focused tile follows the link
-      grid.addEventListener('keydown', (ev) => {
-        if (ev.key === 'Enter') {
-          const el = ev.target.closest('.tile-link');
-          if (el) window.location = el.href;
-        }
-      });
-
-      // Make anchors focusable (they already are), but ensure tile items receive focus in grid order
-      Array.from(grid.querySelectorAll('.tile-link')).forEach(a => a.setAttribute('tabindex', '0'));
     })();
   </script>
 </body>
