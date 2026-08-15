@@ -2,7 +2,7 @@
 
 A curated set of terminal color themes. Each theme has a license that allows free redistribution and a `source` for provenance.
 
-YAML in `themes/` is the source of truth. The build writes Alacritty, Ghostty, WezTerm, iTerm, shell, and JSON files under `build/`. Open `build/index.html` for a gallery.
+YAML in `themes/` is the source of truth. The build writes Alacritty, Ghostty, WezTerm, Kitty, iTerm, shell, and JSON files under `build/`. Open `build/index.html` for a gallery.
 
 The generator and templates are [MIT](LICENSE.md). Each theme keeps its own SPDX id and leading comment block. Generated files for a theme are derivatives of that theme.
 

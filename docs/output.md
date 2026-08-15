@@ -37,6 +37,9 @@ build/
 ├── wezterm/
 │   ├── solarized-dark.toml
 │   └── solarized-light.toml
+├── kitty/
+│   ├── solarized-dark.conf
+│   └── solarized-light.conf
 ├── itermcolors/
 │   └── solarized.itermcolors
 ├── json/

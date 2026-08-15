@@ -19,6 +19,11 @@
     "directory": "wezterm",
     "filename": "{{theme-slug}}.toml"
   },
+  "kitty": {
+    "template": "kitty.conf",
+    "directory": "kitty",
+    "filename": "{{theme-slug}}.conf"
+  },
   "iterm": {
     "template": [ "iterm.itermcolors", "iterm.itermcolors" ],
     "directory": "itermcolors",

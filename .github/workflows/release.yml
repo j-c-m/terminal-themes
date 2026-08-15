@@ -59,11 +59,11 @@ jobs:
           mkdir -p releases
           (
             cd build
-            for dir in alacritty ghostty wezterm itermcolors iterm2-color-yml json shell; do
+            for dir in alacritty ghostty wezterm kitty itermcolors iterm2-color-yml json shell; do
               7z a "../releases/${dir}.7z" "$dir"
             done
             7z a ../releases/all.7z \
-              alacritty ghostty wezterm itermcolors iterm2-color-yml json shell
+              alacritty ghostty wezterm kitty itermcolors iterm2-color-yml json shell
           )
 
       - name: Publish
@@ -76,7 +76,7 @@ jobs:
           cat > /tmp/notes.md <<EOF
           Commit: ${GITHUB_SHA}
 
-          7z archives: alacritty, ghostty, wezterm, itermcolors, iterm2-color-yml, json, shell, and all.
+          7z archives: alacritty, ghostty, wezterm, kitty, itermcolors, iterm2-color-yml, json, shell, and all.
 
           See the [README](https://github.com/${{ github.repository }}#readme).
           EOF
