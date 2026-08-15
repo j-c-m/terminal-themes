@@ -1,0 +1,87 @@
+name: Release
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          last=$(git tag --list 'release-*' --sort=-creatordate | head -n 1)
+          if [ -z "$last" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if git diff --name-only "$last"..HEAD -- themes/ templates/ build-themes.py build/ | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v7
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        if: steps.changes.outputs.changed == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Build
+        if: steps.changes.outputs.changed == 'true'
+        run: python build-themes.py
+
+      - name: Pack 7z
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          command -v 7z >/dev/null || sudo apt-get install -y p7zip-full
+          mkdir -p releases
+          (
+            cd build
+            for dir in alacritty ghostty itermcolors iterm2-color-yml json shell; do
+              7z a "../releases/${dir}.7z" "$dir"
+            done
+            7z a ../releases/all.7z \
+              alacritty ghostty itermcolors iterm2-color-yml json shell
+          )
+
+      - name: Publish
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="release-$(date -u +%Y%m%d-%H%M%S)"
+          title="Themes $(date -u +%Y-%m-%d)"
+          cat > /tmp/notes.md <<EOF
+          Commit: ${GITHUB_SHA}
+
+          7z archives: alacritty, ghostty, itermcolors, iterm2-color-yml, json, shell, and all.
+
+          See the [README](https://github.com/${{ github.repository }}#readme).
+          EOF
+          gh release create "$tag" \
+            --title "$title" \
+            --notes-file /tmp/notes.md \
+            --latest \
+            releases/*.7z
