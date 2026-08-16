@@ -25,30 +25,25 @@ modifier: "" # (optional: default blank)
 # for example "hard" or "soft", if soft was specified
 # the final name would end up being "Ayu Light Soft"
 
-source: "Ayu Theme (https://github.com/ayu-theme)"
+source: "https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json"
 license: MIT
-# include as much source information as possible in the comment
-# you should try to source directly from the original truth if possible
-# terminal colors sourced from vscode terminal.*
-# selection background sourced from vscode selection.background
-# cursor color sourced from vscode cursor.color
 
 dark:
   foreground: "#bfbdb6"
-  background: "#0b0e14"
-  cursor: "#e6b450"               # (optional: default foreground)
-  cursor-text: "#0b0e14"          # (optional: default background)
-  selection-foreground: "#0b0e14" # (optional: default background)
-  selection-background: "#409fff" # (optional: default foreground)
+  background: "#0d1017"
+  cursor: "#e6b450"
+  cursor-text: "#0d1017"
+  selection-foreground: "#0d1017"
+  selection-background: "#3388ff"
   colors:
     normal:
-      black: "#11151c"
-      red: "#ea6c73"
-      green: "#7fd962"
-      yellow: "#f9af4f"
-      blue: "#53bdfa"
-      magenta: "#cda1fa"
-      cyan: "#90e1c6"
+      black: "#1b1f29"
+      red: "#f06b73"
+      green: "#70bf56"
+      yellow: "#fdb04c"
+      blue: "#4fbfff"
+      magenta: "#d0a1ff"
+      cyan: "#93e2c8"
       white: "#c7c7c7"
     bright:
       black: "#686868"
@@ -63,26 +58,26 @@ dark:
 light:
   foreground: "#5c6166"
   background: "#f8f9fa"
-  cursor: "#ffaa33"               # (optional: default foreground)
-  cursor-text: "#f8f9fa"          # (optional: default background)
-  selection-foreground: "#f8f9fa" # (optional: default background)
-  selection-background: "#035bd6" # (optional: default foreground)
+  cursor: "#f29718"
+  cursor-text: "#f8f9fa"
+  selection-foreground: "#f8f9fa"
+  selection-background: "#035bd6"
   colors:
     normal:
       black: "#000000"
-      red: "#ea6c6d"
+      red: "#f06b6c"
       green: "#6cbf43"
-      yellow: "#eca944"
-      blue: "#3199e1"
-      magenta: "#9e75c7"
-      cyan: "#46ba94"
+      yellow: "#e7a100"
+      blue: "#21a1e2"
+      magenta: "#a176cb"
+      cyan: "#4abc96"
       white: "#c7c7c7"
     bright:
       black: "#686868"
       red: "#f07171"
       green: "#86b300"
-      yellow: "#f2ae49"
-      blue: "#399ee6"
+      yellow: "#eba400"
+      blue: "#22a4e6"
       magenta: "#a37acc"
       cyan: "#4cbf99"
       white: "#d1d1d1"
