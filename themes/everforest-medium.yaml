@@ -21,7 +21,8 @@
 # SOFTWARE.
 name: "Everforest"
 modifier: "Medium"
-source: "Everforest (https://github.com/sainnhe/everforest)"
+# Mapping: docs/everforest-conversion.md
+source: "https://github.com/sainnhe/everforest/blob/master/palette.md"
 license: MIT
 dark:
   foreground: "#d3c6aa"
