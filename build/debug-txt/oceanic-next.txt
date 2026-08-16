@@ -49,12 +49,12 @@ white:   #c0c5ce (c0/c5/ce)
 Bright ANSI Colors
 ------------------
 black:   #65737e (65/73/7e)
-red:     #f07d83 (f0/7d/83)
-green:   #afd3ab (af/d3/ab)
+red:     #ec5f67 (ec/5f/67)
+green:   #99c794 (99/c7/94)
 yellow:  #fac863 (fa/c8/63)
-blue:    #7da8d4 (7d/a8/d4)
-magenta: #d1aad1 (d1/aa/d1)
-cyan:    #72bcbc (72/bc/bc)
+blue:    #6699cc (66/99/cc)
+magenta: #c594c5 (c5/94/c5)
+cyan:    #5fb3b3 (5f/b3/b3)
 white:   #d8dee9 (d8/de/e9)
 
 iTerm .itermcolors plist (single or combined)
@@ -120,13 +120,13 @@ Source: Dmitri Voronianski (https://github.com/voronianski/oceanic-next-color-sc
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6705882352941176</real>
+		<real>0.5803921568627451</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8274509803921568</real>
+		<real>0.7803921568627451</real>
 		<key>Red Component</key>
-		<real>0.6862745098039216</real>
+		<real>0.6</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
@@ -146,39 +146,39 @@ Source: Dmitri Voronianski (https://github.com/voronianski/oceanic-next-color-sc
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8313725490196079</real>
+		<real>0.8</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6588235294117647</real>
+		<real>0.6</real>
 		<key>Red Component</key>
-		<real>0.49019607843137253</real>
+		<real>0.4</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8196078431372549</real>
+		<real>0.7725490196078432</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6666666666666666</real>
+		<real>0.5803921568627451</real>
 		<key>Red Component</key>
-		<real>0.8196078431372549</real>
+		<real>0.7725490196078432</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7372549019607844</real>
+		<real>0.7019607843137254</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7372549019607844</real>
+		<real>0.7019607843137254</real>
 		<key>Red Component</key>
-		<real>0.4470588235294118</real>
+		<real>0.37254901960784315</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -289,13 +289,13 @@ Source: Dmitri Voronianski (https://github.com/voronianski/oceanic-next-color-sc
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5137254901960784</real>
+		<real>0.403921568627451</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.49019607843137253</real>
+		<real>0.37254901960784315</real>
 		<key>Red Component</key>
-		<real>0.9411764705882353</real>
+		<real>0.9254901960784314</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

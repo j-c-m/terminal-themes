@@ -9,24 +9,24 @@
             "hexterm": "aa/aa/aa"
         },
         "blue": {
-            "hex": "#19f1fc",
-            "hexterm": "19/f1/fc"
+            "hex": "#03edf9",
+            "hexterm": "03/ed/f9"
         },
         "cyan": {
-            "hex": "#19f1fc",
-            "hexterm": "19/f1/fc"
+            "hex": "#03edf9",
+            "hexterm": "03/ed/f9"
         },
         "green": {
-            "hex": "#92f4c8",
-            "hexterm": "92/f4/c8"
+            "hex": "#72f1b8",
+            "hexterm": "72/f1/b8"
         },
         "magenta": {
-            "hex": "#ffa4e6",
-            "hexterm": "ff/a4/e6"
+            "hex": "#ff7edb",
+            "hexterm": "ff/7e/db"
         },
         "red": {
-            "hex": "#fe646e",
-            "hexterm": "fe/64/6e"
+            "hex": "#fe4450",
+            "hexterm": "fe/44/50"
         },
         "white": {
             "hex": "#ffffff",

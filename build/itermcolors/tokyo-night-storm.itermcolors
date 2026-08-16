@@ -59,52 +59,52 @@ Source: Tokyo Night (https://github.com/tokyo-night/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5058823529411764</real>
+		<real>0.41568627450980394</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8392156862745098</real>
+		<real>0.807843137254902</real>
 		<key>Red Component</key>
-		<real>0.6784313725490196</real>
+		<real>0.6196078431372549</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5137254901960784</real>
+		<real>0.40784313725490196</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7411764705882353</real>
+		<real>0.6862745098039216</real>
 		<key>Red Component</key>
-		<real>0.9019607843137255</real>
+		<real>0.8784313725490196</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9764705882352941</real>
+		<real>0.9686274509803922</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7294117647058823</real>
+		<real>0.6352941176470588</real>
 		<key>Red Component</key>
-		<real>0.615686274509804</real>
+		<real>0.47843137254901963</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9803921568627451</real>
+		<real>0.9686274509803922</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7490196078431373</real>
+		<real>0.6039215686274509</real>
 		<key>Red Component</key>
-		<real>0.8313725490196079</real>
+		<real>0.7333333333333333</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
@@ -115,9 +115,9 @@ Source: Tokyo Night (https://github.com/tokyo-night/)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8666666666666667</real>
+		<real>0.8117647058823529</real>
 		<key>Red Component</key>
-		<real>0.6392156862745098</real>
+		<real>0.49019607843137253</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -228,13 +228,13 @@ Source: Tokyo Night (https://github.com/tokyo-night/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6666666666666666</real>
+		<real>0.5568627450980392</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.596078431372549</real>
+		<real>0.4627450980392157</real>
 		<key>Red Component</key>
-		<real>0.9764705882352941</real>
+		<real>0.9686274509803922</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

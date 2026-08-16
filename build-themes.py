@@ -21,14 +21,6 @@ Added behavior:
   writing `build/index.html`. For themes that provide both dark and light modes the index
   will include a merged dual-mode context (`theme-mode` == "both"). For single-mode themes
   the individual per-mode contexts are included.
-
-New behavior:
-- When a theme's `normal` and corresponding `bright` color are identical, the bright color
-  will be adjusted:
-    - If the normal color's lightness is below `BRIGHTNESS_THRESHOLD`, the bright color is made
-      `BRIGHTEN_FACTOR` times brighter (increase lightness).
-    - If the normal color is already bright (>= threshold), the bright color is made
-      `DARKEN_FACTOR` times darker and `SATURATION_INCREASE` times more saturated.
 """
 from __future__ import annotations
 
@@ -43,7 +35,6 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
 from unidecode import unidecode
-import colorsys
 
 COLOR_NAMES = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
@@ -89,15 +80,6 @@ def exit_status() -> int:
         return 0
     print(f"Build failed with {len(_errors)} error(s).", file=sys.stderr)
     return 1
-
-# Brightness/saturation adjustment constants
-# If normal lightness >= BRIGHTNESS_THRESHOLD it's considered "already bright"
-BRIGHTNESS_THRESHOLD: float = 0.8
-# Multiplicative adjustments
-BRIGHTEN_FACTOR: float = 1.10  # 10% brighter
-DARKEN_FACTOR: float = 0.90    # 10% darker
-SATURATION_INCREASE: float = 1.10  # 10% more saturated
-
 
 def load_config(path: Path) -> Dict[str, Any]:
     with open(path, 'r', encoding='utf-8') as f:
@@ -147,42 +129,6 @@ def hex_to_rgb(hex_color: str):
     g = int(h[2:4], 16) / 255.0
     b = int(h[4:6], 16) / 255.0
     return r, g, b
-
-
-def rgb_to_hex(r: float, g: float, b: float) -> str:
-    """
-    Convert floats in [0.0, 1.0] to a normalized '#rrggbb' hex string.
-    """
-    def clamp_byte(x: float) -> int:
-        return max(0, min(255, int(round(x * 255))))
-    return '#{0:02x}{1:02x}{2:02x}'.format(clamp_byte(r), clamp_byte(g), clamp_byte(b))
-
-
-def adjust_bright_from_normal(normal_hex: str) -> str:
-    """
-    Given a normalized '#rrggbb' normal color, return an adjusted bright hex.
-    If the normal color is not already bright (lightness < BRIGHTNESS_THRESHOLD),
-    make it BRIGHTEN_FACTOR brighter (increase lightness).
-    If it is already bright, make it DARKEN_FACTOR darker and increase saturation
-    by SATURATION_INCREASE.
-    """
-    try:
-        r, g, b = hex_to_rgb(normal_hex)
-        # colorsys uses H, L, S (hue, lightness, saturation)
-        h, l, s = colorsys.rgb_to_hls(r, g, b)
-        if l >= BRIGHTNESS_THRESHOLD:
-            # Already bright: make bright color slightly darker and more saturated
-            new_l = max(0.0, min(1.0, l * DARKEN_FACTOR))
-            new_s = max(0.0, min(1.0, s * SATURATION_INCREASE))
-        else:
-            # Not bright: make bright color slightly brighter (increase lightness)
-            new_l = max(0.0, min(1.0, l * BRIGHTEN_FACTOR))
-            new_s = s
-        nr, ng, nb = colorsys.hls_to_rgb(h, new_l, new_s)
-        return rgb_to_hex(nr, ng, nb)
-    except Exception:
-        # On any failure, fall back to returning the original normal color
-        return normal_hex
 
 
 def validate_theme_top_level(theme_data: dict, theme_path: Path):
@@ -307,10 +253,6 @@ def build_context_for_mode(base_name: str, modifier: str, source: str, mode_name
         hb = normalize_hex(raw_b)
         if not hn or not hb:
             raise ValueError(f"{theme_path} [{mode_name}]: invalid hex for color '{cn}' in normal/bright; must be '#rgb' or '#rrggbb'")
-
-        # If normal and bright are identical after normalization, adjust the bright variant
-        if hn == hb and cn != 'white':
-            hb = adjust_bright_from_normal(hn)
 
         normal[cn] = {'hex': hn, 'hexterm': hex_to_hexterm(hn)}
         bright[cn] = {'hex': hb, 'hexterm': hex_to_hexterm(hb)}

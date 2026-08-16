@@ -5,28 +5,28 @@
     },
     "bright": {
         "black": {
-            "hex": "#46455b",
-            "hexterm": "46/45/5b"
+            "hex": "#403f53",
+            "hexterm": "40/3f/53"
         },
         "blue": {
-            "hex": "#3e99db",
-            "hexterm": "3e/99/db"
+            "hex": "#288ed7",
+            "hexterm": "28/8e/d7"
         },
         "cyan": {
-            "hex": "#2eb2a7",
-            "hexterm": "2e/b2/a7"
+            "hex": "#2aa298",
+            "hexterm": "2a/a2/98"
         },
         "green": {
-            "hex": "#09a075",
-            "hexterm": "09/a0/75"
+            "hex": "#08916a",
+            "hexterm": "08/91/6a"
         },
         "magenta": {
-            "hex": "#db5a98",
-            "hexterm": "db/5a/98"
+            "hex": "#d6438a",
+            "hexterm": "d6/43/8a"
         },
         "red": {
-            "hex": "#e25553",
-            "hexterm": "e2/55/53"
+            "hex": "#de3d3b",
+            "hexterm": "de/3d/3b"
         },
         "white": {
             "hex": "#93a1a1",

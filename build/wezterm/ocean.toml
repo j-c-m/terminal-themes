@@ -49,11 +49,11 @@ ansi = [
 ]
 brights = [
   "#65737e",
-  "#c7757d",
-  "#b4caa1",
+  "#bf616a",
+  "#a3be8c",
   "#ebcb8b",
-  "#a2b1c0",
-  "#c1a1bb",
-  "#a9c3c2",
+  "#8fa1b3",
+  "#b48ead",
+  "#96b5b4",
   "#eff1f5",
 ]

@@ -17,7 +17,7 @@ Outputs are written to `build/` based on `templates/config.json`.
 
 ## JSON catalog
 
-`build/json/{{theme-slug}}.json` is the generated context for one mode. Bright hex values are post-adjustment. `tools/preview_theme` loads this directory, not `themes/*.yaml`.
+`build/json/{{theme-slug}}.json` is the generated context for one mode. `tools/preview_theme` loads this directory, not `themes/*.yaml`.
 
 ## Processing Summary
 

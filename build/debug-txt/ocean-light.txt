@@ -47,12 +47,12 @@ white:   #4f5b66 (4f/5b/66)
 Bright ANSI Colors
 ------------------
 black:   #a7adba (a7/ad/ba)
-red:     #cf6e77 (cf/6e/77)
-green:   #7aa754 (7a/a7/54)
+red:     #c85863 (c8/58/63)
+green:   #6f984c (6f/98/4c)
 yellow:  #ebcb8b (eb/cb/8b)
-blue:    #6c94be (6c/94/be)
-magenta: #99648f (99/64/8f)
-cyan:    #6db1ae (6d/b1/ae)
+blue:    #5986b6 (59/86/b6)
+magenta: #8b5b82 (8b/5b/82)
+cyan:    #5ca8a5 (5c/a8/a5)
 white:   #2b303b (2b/30/3b)
 
 iTerm .itermcolors plist (single or combined)
@@ -116,13 +116,13 @@ Source: Spacegray (https://github.com/SublimeText/Spacegray/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.32941176470588235</real>
+		<real>0.2980392156862745</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6549019607843137</real>
+		<real>0.596078431372549</real>
 		<key>Red Component</key>
-		<real>0.47843137254901963</real>
+		<real>0.43529411764705883</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
@@ -142,39 +142,39 @@ Source: Spacegray (https://github.com/SublimeText/Spacegray/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7450980392156863</real>
+		<real>0.7137254901960784</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5803921568627451</real>
+		<real>0.5254901960784314</real>
 		<key>Red Component</key>
-		<real>0.4235294117647059</real>
+		<real>0.34901960784313724</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5607843137254902</real>
+		<real>0.5098039215686274</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.39215686274509803</real>
+		<real>0.3568627450980392</real>
 		<key>Red Component</key>
-		<real>0.6</real>
+		<real>0.5450980392156862</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6823529411764706</real>
+		<real>0.6470588235294118</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6941176470588235</real>
+		<real>0.6588235294117647</real>
 		<key>Red Component</key>
-		<real>0.42745098039215684</real>
+		<real>0.3607843137254902</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -285,13 +285,13 @@ Source: Spacegray (https://github.com/SublimeText/Spacegray/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.4666666666666667</real>
+		<real>0.38823529411764707</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.43137254901960786</real>
+		<real>0.34509803921568627</real>
 		<key>Red Component</key>
-		<real>0.8117647058823529</real>
+		<real>0.7843137254901961</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

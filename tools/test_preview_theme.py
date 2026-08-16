@@ -61,8 +61,7 @@ class PreviewThemeTests(unittest.TestCase):
     def test_preview_uses_generated_bright_hex(self) -> None:
         result = run_preview("-s", "solarized-dark")
         self.assertEqual(result.returncode, 0, msg=result.stderr)
-        # YAML bright red is #dc322f; build/json adjusts it to #e04946.
-        self.assertIn("#E04946", result.stdout)
+        self.assertIn("#DC322F", result.stdout)
 
     def test_json_slugs_select_variants(self) -> None:
         result = run_preview("-s", "catppuccin-mocha", "catppuccin-latte")

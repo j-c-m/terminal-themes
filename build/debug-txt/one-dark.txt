@@ -44,12 +44,12 @@ white:   #a0a1a7 (a0/a1/a7)
 Bright ANSI Colors
 ------------------
 black:   #383a42 (38/3a/42)
-red:     #e86e63 (e8/6e/63)
-green:   #5bae5a (5b/ae/5a)
-yellow:  #a77201 (a7/72/01)
-blue:    #5d8cf4 (5d/8c/f4)
-magenta: #b72ab4 (b7/2a/b4)
-cyan:    #0191cf (01/91/cf)
+red:     #e45649 (e4/56/49)
+green:   #50a14f (50/a1/4f)
+yellow:  #986801 (98/68/01)
+blue:    #4078f2 (40/78/f2)
+magenta: #a626a4 (a6/26/a4)
+cyan:    #0184bc (01/84/bc)
 white:   #ffffff (ff/ff/ff)
 
 DARK MODE
@@ -77,12 +77,12 @@ white:   #abb2bf (ab/b2/bf)
 Bright ANSI Colors
 ------------------
 black:   #5c6370 (5c/63/70)
-red:     #e6878f (e6/87/8f)
-green:   #a9cd8f (a9/cd/8f)
-yellow:  #d8aa7e (d8/aa/7e)
-blue:    #80bef2 (80/be/f2)
-magenta: #d293e4 (d2/93/e4)
-cyan:    #6bbfc9 (6b/bf/c9)
+red:     #e06c75 (e0/6c/75)
+green:   #98c379 (98/c3/79)
+yellow:  #d19a66 (d1/9a/66)
+blue:    #61afef (61/af/ef)
+magenta: #c678dd (c6/78/dd)
+cyan:    #56b6c2 (56/b6/c2)
 white:   #ffffff (ff/ff/ff)
 
 iTerm .itermcolors plist (single or combined)
@@ -193,39 +193,39 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.35294117647058826</real>
+		<real>0.30980392156862746</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6823529411764706</real>
+		<real>0.6313725490196078</real>
 		<key>Red Component</key>
-		<real>0.3568627450980392</real>
+		<real>0.3137254901960784</real>
 	</dict>
 	<key>Ansi 10 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5607843137254902</real>
+		<real>0.4745098039215686</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.803921568627451</real>
+		<real>0.7647058823529411</real>
 		<key>Red Component</key>
-		<real>0.6627450980392157</real>
+		<real>0.596078431372549</real>
 	</dict>
 	<key>Ansi 10 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.35294117647058826</real>
+		<real>0.30980392156862746</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6823529411764706</real>
+		<real>0.6313725490196078</real>
 		<key>Red Component</key>
-		<real>0.3568627450980392</real>
+		<real>0.3137254901960784</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
@@ -236,22 +236,22 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.4470588235294118</real>
+		<real>0.40784313725490196</real>
 		<key>Red Component</key>
-		<real>0.6549019607843137</real>
+		<real>0.596078431372549</real>
 	</dict>
 	<key>Ansi 11 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.49411764705882355</real>
+		<real>0.4</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6666666666666666</real>
+		<real>0.6039215686274509</real>
 		<key>Red Component</key>
-		<real>0.8470588235294118</real>
+		<real>0.8196078431372549</real>
 	</dict>
 	<key>Ansi 11 Color (Light)</key>
 	<dict>
@@ -262,24 +262,11 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.4470588235294118</real>
+		<real>0.40784313725490196</real>
 		<key>Red Component</key>
-		<real>0.6549019607843137</real>
+		<real>0.596078431372549</real>
 	</dict>
 	<key>Ansi 12 Color</key>
-	<dict>
-		<key>Alpha Component</key>
-		<real>1.0</real>
-		<key>Blue Component</key>
-		<real>0.9568627450980393</real>
-		<key>Color Space</key>
-		<string>sRGB</string>
-		<key>Green Component</key>
-		<real>0.5490196078431373</real>
-		<key>Red Component</key>
-		<real>0.36470588235294116</real>
-	</dict>
-	<key>Ansi 12 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
@@ -288,72 +275,85 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7450980392156863</real>
+		<real>0.47058823529411764</real>
 		<key>Red Component</key>
-		<real>0.5019607843137255</real>
+		<real>0.25098039215686274</real>
+	</dict>
+	<key>Ansi 12 Color (Dark)</key>
+	<dict>
+		<key>Alpha Component</key>
+		<real>1.0</real>
+		<key>Blue Component</key>
+		<real>0.9372549019607843</real>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Green Component</key>
+		<real>0.6862745098039216</real>
+		<key>Red Component</key>
+		<real>0.3803921568627451</real>
 	</dict>
 	<key>Ansi 12 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9568627450980393</real>
+		<real>0.9490196078431372</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5490196078431373</real>
+		<real>0.47058823529411764</real>
 		<key>Red Component</key>
-		<real>0.36470588235294116</real>
+		<real>0.25098039215686274</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7058823529411765</real>
+		<real>0.6431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.16470588235294117</real>
+		<real>0.14901960784313725</real>
 		<key>Red Component</key>
-		<real>0.7176470588235294</real>
+		<real>0.6509803921568628</real>
 	</dict>
 	<key>Ansi 13 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8941176470588236</real>
+		<real>0.8666666666666667</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5764705882352941</real>
+		<real>0.47058823529411764</real>
 		<key>Red Component</key>
-		<real>0.8235294117647058</real>
+		<real>0.7764705882352941</real>
 	</dict>
 	<key>Ansi 13 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7058823529411765</real>
+		<real>0.6431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.16470588235294117</real>
+		<real>0.14901960784313725</real>
 		<key>Red Component</key>
-		<real>0.7176470588235294</real>
+		<real>0.6509803921568628</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8117647058823529</real>
+		<real>0.7372549019607844</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5686274509803921</real>
+		<real>0.5176470588235295</real>
 		<key>Red Component</key>
 		<real>0.00392156862745098</real>
 	</dict>
@@ -362,24 +362,24 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.788235294117647</real>
+		<real>0.7607843137254902</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7490196078431373</real>
+		<real>0.7137254901960784</real>
 		<key>Red Component</key>
-		<real>0.4196078431372549</real>
+		<real>0.33725490196078434</real>
 	</dict>
 	<key>Ansi 14 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8117647058823529</real>
+		<real>0.7372549019607844</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5686274509803921</real>
+		<real>0.5176470588235295</real>
 		<key>Red Component</key>
 		<real>0.00392156862745098</real>
 	</dict>
@@ -700,39 +700,39 @@ Source: One Dark (https://github.com/nathanbuchar/atom-one-dark-terminal)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.38823529411764707</real>
+		<real>0.28627450980392155</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.43137254901960786</real>
+		<real>0.33725490196078434</real>
 		<key>Red Component</key>
-		<real>0.9098039215686274</real>
+		<real>0.8941176470588236</real>
 	</dict>
 	<key>Ansi 9 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5607843137254902</real>
+		<real>0.4588235294117647</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5294117647058824</real>
+		<real>0.4235294117647059</real>
 		<key>Red Component</key>
-		<real>0.9019607843137255</real>
+		<real>0.8784313725490196</real>
 	</dict>
 	<key>Ansi 9 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.38823529411764707</real>
+		<real>0.28627450980392155</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.43137254901960786</real>
+		<real>0.33725490196078434</real>
 		<key>Red Component</key>
-		<real>0.9098039215686274</real>
+		<real>0.8941176470588236</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

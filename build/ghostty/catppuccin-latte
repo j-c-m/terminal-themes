@@ -33,12 +33,12 @@ palette = 5=#ea76cb
 palette = 6=#179299
 palette = 7=#5c5f77
 palette = 8=#acb0be
-palette = 9=#e7103f
-palette = 10=#46b02f
-palette = 11=#e49931
-palette = 12=#3878f6
-palette = 13=#ef95d7
-palette = 14=#19a1a8
+palette = 9=#d20f39
+palette = 10=#40a02b
+palette = 11=#df8e1d
+palette = 12=#1e66f5
+palette = 13=#ea76cb
+palette = 14=#179299
 palette = 15=#6c6f85
 
 background = #eff1f5

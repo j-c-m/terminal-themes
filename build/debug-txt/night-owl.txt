@@ -49,13 +49,13 @@ white:   #93a1a1 (93/a1/a1)
 
 Bright ANSI Colors
 ------------------
-black:   #46455b (46/45/5b)
-red:     #e25553 (e2/55/53)
-green:   #09a075 (09/a0/75)
+black:   #403f53 (40/3f/53)
+red:     #de3d3b (de/3d/3b)
+green:   #08916a (08/91/6a)
 yellow:  #daaa01 (da/aa/01)
-blue:    #3e99db (3e/99/db)
-magenta: #db5a98 (db/5a/98)
-cyan:    #2eb2a7 (2e/b2/a7)
+blue:    #288ed7 (28/8e/d7)
+magenta: #d6438a (d6/43/8a)
+cyan:    #2aa298 (2a/a2/98)
 white:   #93a1a1 (93/a1/a1)
 
 DARK MODE
@@ -83,11 +83,11 @@ white:   #ffffff (ff/ff/ff)
 Bright ANSI Colors
 ------------------
 black:   #575656 (57/56/56)
-red:     #f2706d (f2/70/6d)
-green:   #36e07c (36/e0/7c)
+red:     #ef5350 (ef/53/50)
+green:   #22da6e (22/da/6e)
 yellow:  #ffeb95 (ff/eb/95)
-blue:    #a9c4ff (a9/c4/ff)
-magenta: #d7b2f0 (d7/b2/f0)
+blue:    #82aaff (82/aa/ff)
+magenta: #c792ea (c7/92/ea)
 cyan:    #7fdbca (7f/db/ca)
 white:   #ffffff (ff/ff/ff)
 
@@ -205,39 +205,39 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.4588235294117647</real>
+		<real>0.41568627450980394</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6274509803921569</real>
+		<real>0.5686274509803921</real>
 		<key>Red Component</key>
-		<real>0.03529411764705882</real>
+		<real>0.03137254901960784</real>
 	</dict>
 	<key>Ansi 10 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.48627450980392156</real>
+		<real>0.43137254901960786</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8784313725490196</real>
+		<real>0.8549019607843137</real>
 		<key>Red Component</key>
-		<real>0.21176470588235294</real>
+		<real>0.13333333333333333</real>
 	</dict>
 	<key>Ansi 10 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.4588235294117647</real>
+		<real>0.41568627450980394</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6274509803921569</real>
+		<real>0.5686274509803921</real>
 		<key>Red Component</key>
-		<real>0.03529411764705882</real>
+		<real>0.03137254901960784</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
@@ -283,13 +283,13 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8588235294117647</real>
+		<real>0.8431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6</real>
+		<real>0.5568627450980392</real>
 		<key>Red Component</key>
-		<real>0.24313725490196078</real>
+		<real>0.1568627450980392</real>
 	</dict>
 	<key>Ansi 12 Color (Dark)</key>
 	<dict>
@@ -300,50 +300,63 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7686274509803922</real>
+		<real>0.6666666666666666</real>
 		<key>Red Component</key>
-		<real>0.6627450980392157</real>
+		<real>0.5098039215686274</real>
 	</dict>
 	<key>Ansi 12 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8588235294117647</real>
+		<real>0.8431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6</real>
+		<real>0.5568627450980392</real>
 		<key>Red Component</key>
-		<real>0.24313725490196078</real>
+		<real>0.1568627450980392</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.596078431372549</real>
+		<real>0.5411764705882353</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.35294117647058826</real>
+		<real>0.2627450980392157</real>
 		<key>Red Component</key>
-		<real>0.8588235294117647</real>
+		<real>0.8392156862745098</real>
 	</dict>
 	<key>Ansi 13 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9411764705882353</real>
+		<real>0.9176470588235294</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6980392156862745</real>
+		<real>0.5725490196078431</real>
 		<key>Red Component</key>
-		<real>0.8431372549019608</real>
+		<real>0.7803921568627451</real>
 	</dict>
 	<key>Ansi 13 Color (Light)</key>
+	<dict>
+		<key>Alpha Component</key>
+		<real>1.0</real>
+		<key>Blue Component</key>
+		<real>0.5411764705882353</real>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Green Component</key>
+		<real>0.2627450980392157</real>
+		<key>Red Component</key>
+		<real>0.8392156862745098</real>
+	</dict>
+	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
@@ -352,22 +365,9 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.35294117647058826</real>
+		<real>0.6352941176470588</real>
 		<key>Red Component</key>
-		<real>0.8588235294117647</real>
-	</dict>
-	<key>Ansi 14 Color</key>
-	<dict>
-		<key>Alpha Component</key>
-		<real>1.0</real>
-		<key>Blue Component</key>
-		<real>0.6549019607843137</real>
-		<key>Color Space</key>
-		<string>sRGB</string>
-		<key>Green Component</key>
-		<real>0.6980392156862745</real>
-		<key>Red Component</key>
-		<real>0.1803921568627451</real>
+		<real>0.16470588235294117</real>
 	</dict>
 	<key>Ansi 14 Color (Dark)</key>
 	<dict>
@@ -387,13 +387,13 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6549019607843137</real>
+		<real>0.596078431372549</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6980392156862745</real>
+		<real>0.6352941176470588</real>
 		<key>Red Component</key>
-		<real>0.1803921568627451</real>
+		<real>0.16470588235294117</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -673,13 +673,13 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.3568627450980392</real>
+		<real>0.3254901960784314</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.24705882352941178</real>
 		<key>Red Component</key>
-		<real>0.27450980392156865</real>
+		<real>0.25098039215686274</real>
 	</dict>
 	<key>Ansi 8 Color (Dark)</key>
 	<dict>
@@ -699,52 +699,52 @@ Source: Sarah Drasner (https://github.com/sdras/night-owl-vscode-theme)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.3568627450980392</real>
+		<real>0.3254901960784314</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.24705882352941178</real>
 		<key>Red Component</key>
-		<real>0.27450980392156865</real>
+		<real>0.25098039215686274</real>
 	</dict>
 	<key>Ansi 9 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.3254901960784314</real>
+		<real>0.23137254901960785</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.3333333333333333</real>
+		<real>0.23921568627450981</real>
 		<key>Red Component</key>
-		<real>0.8862745098039215</real>
+		<real>0.8705882352941177</real>
 	</dict>
 	<key>Ansi 9 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.42745098039215684</real>
+		<real>0.3137254901960784</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.4392156862745098</real>
+		<real>0.3254901960784314</real>
 		<key>Red Component</key>
-		<real>0.9490196078431372</real>
+		<real>0.9372549019607843</real>
 	</dict>
 	<key>Ansi 9 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.3254901960784314</real>
+		<real>0.23137254901960785</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.3333333333333333</real>
+		<real>0.23921568627450981</real>
 		<key>Red Component</key>
-		<real>0.8862745098039215</real>
+		<real>0.8705882352941177</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

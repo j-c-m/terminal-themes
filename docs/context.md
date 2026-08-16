@@ -16,7 +16,7 @@ Templates receive a context object for rendering. This is built from theme YAML 
 ## Color Maps
 
 - **`normal` / `bright`**: Objects with keys `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`. Each is `{hex: "#ffffff", hexterm: "ff/ff/ff"}`.
-  - `hex`: Six-digit lowercase hex. For `bright`, this is the post-adjustment value when the YAML pair was identical (see [Identical normal and bright colors](themes.md#identical-normal-and-bright-colors)).
+  - `hex`: Six-digit lowercase hex.
   - `hexterm`: The same color as `rr/gg/bb` hex pairs for OSC 4 / OSC 10 (e.g., `"00/2b/36"`).
 
 ## Primary Colors

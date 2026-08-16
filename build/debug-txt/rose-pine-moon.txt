@@ -48,12 +48,12 @@ white:   #e0def4 (e0/de/f4)
 Bright ANSI Colors
 ------------------
 black:   #6e6a86 (6e/6a/86)
-red:     #ef8da9 (ef/8d/a9)
-green:   #479cbe (47/9c/be)
-yellow:  #f8d199 (f8/d1/99)
-blue:    #b7dce3 (b7/dc/e3)
-magenta: #d9c6f0 (d9/c6/f0)
-cyan:    #f0b9b7 (f0/b9/b7)
+red:     #eb6f92 (eb/6f/92)
+green:   #3e8fb0 (3e/8f/b0)
+yellow:  #f6c177 (f6/c1/77)
+blue:    #9ccfd8 (9c/cf/d8)
+magenta: #c4a7e7 (c4/a7/e7)
+cyan:    #ea9a97 (ea/9a/97)
 white:   #e0def4 (e0/de/f4)
 
 iTerm .itermcolors plist (single or combined)
@@ -118,65 +118,65 @@ Source: Rose Pine (https://github.com/rose-pine)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7450980392156863</real>
+		<real>0.6901960784313725</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.611764705882353</real>
+		<real>0.5607843137254902</real>
 		<key>Red Component</key>
-		<real>0.2784313725490196</real>
+		<real>0.24313725490196078</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6</real>
+		<real>0.4666666666666667</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8196078431372549</real>
+		<real>0.7568627450980392</real>
 		<key>Red Component</key>
-		<real>0.9725490196078431</real>
+		<real>0.9647058823529412</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8901960784313725</real>
+		<real>0.8470588235294118</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8627450980392157</real>
+		<real>0.8117647058823529</real>
 		<key>Red Component</key>
-		<real>0.7176470588235294</real>
+		<real>0.611764705882353</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9411764705882353</real>
+		<real>0.9058823529411765</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7764705882352941</real>
+		<real>0.6549019607843137</real>
 		<key>Red Component</key>
-		<real>0.8509803921568627</real>
+		<real>0.7686274509803922</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7176470588235294</real>
+		<real>0.592156862745098</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7254901960784313</real>
+		<real>0.6039215686274509</real>
 		<key>Red Component</key>
-		<real>0.9411764705882353</real>
+		<real>0.9176470588235294</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -287,13 +287,13 @@ Source: Rose Pine (https://github.com/rose-pine)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6627450980392157</real>
+		<real>0.5725490196078431</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5529411764705883</real>
+		<real>0.43529411764705883</real>
 		<key>Red Component</key>
-		<real>0.9372549019607843</real>
+		<real>0.9215686274509803</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

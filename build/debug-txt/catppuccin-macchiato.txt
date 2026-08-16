@@ -48,12 +48,12 @@ white:   #b8c0e0 (b8/c0/e0)
 Bright ANSI Colors
 ------------------
 black:   #5b6078 (5b/60/78)
-red:     #f2a7b2 (f2/a7/b2)
-green:   #bde3b0 (bd/e3/b0)
-yellow:  #f4e3c1 (f4/e3/c1)
-blue:    #adc5f7 (ad/c5/f7)
-magenta: #f493da (f4/93/da)
-cyan:    #a5ded6 (a5/de/d6)
+red:     #ed8796 (ed/87/96)
+green:   #a6da95 (a6/da/95)
+yellow:  #eed49f (ee/d4/9f)
+blue:    #8aadf4 (8a/ad/f4)
+magenta: #f5bde6 (f5/bd/e6)
+cyan:    #8bd5ca (8b/d5/ca)
 white:   #a5adcb (a5/ad/cb)
 
 iTerm .itermcolors plist (single or combined)
@@ -118,65 +118,65 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6901960784313725</real>
+		<real>0.5843137254901961</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8901960784313725</real>
+		<real>0.8549019607843137</real>
 		<key>Red Component</key>
-		<real>0.7411764705882353</real>
+		<real>0.6509803921568628</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7568627450980392</real>
+		<real>0.6235294117647059</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8901960784313725</real>
+		<real>0.8313725490196079</real>
 		<key>Red Component</key>
-		<real>0.9568627450980393</real>
+		<real>0.9333333333333333</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9686274509803922</real>
+		<real>0.9568627450980393</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7725490196078432</real>
-		<key>Red Component</key>
 		<real>0.6784313725490196</real>
+		<key>Red Component</key>
+		<real>0.5411764705882353</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8549019607843137</real>
+		<real>0.9019607843137255</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5764705882352941</real>
+		<real>0.7411764705882353</real>
 		<key>Red Component</key>
-		<real>0.9568627450980393</real>
+		<real>0.9607843137254902</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8392156862745098</real>
+		<real>0.792156862745098</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8705882352941177</real>
+		<real>0.8352941176470589</real>
 		<key>Red Component</key>
-		<real>0.6470588235294118</real>
+		<real>0.5450980392156862</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
@@ -287,13 +287,13 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6980392156862745</real>
+		<real>0.5882352941176471</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6549019607843137</real>
+		<real>0.5294117647058824</real>
 		<key>Red Component</key>
-		<real>0.9490196078431372</real>
+		<real>0.9294117647058824</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>

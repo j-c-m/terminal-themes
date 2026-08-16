@@ -52,11 +52,11 @@ white       = '#93a1a1'
 
 # Bright colors
 [colors.bright]
-black       = '#46455b'
-red         = '#e25553'
-green       = '#09a075'
+black       = '#403f53'
+red         = '#de3d3b'
+green       = '#08916a'
 yellow      = '#daaa01'
-blue        = '#3e99db'
-magenta     = '#db5a98'
-cyan        = '#2eb2a7'
+blue        = '#288ed7'
+magenta     = '#d6438a'
+cyan        = '#2aa298'
 white       = '#93a1a1'

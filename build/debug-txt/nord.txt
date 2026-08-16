@@ -48,11 +48,11 @@ white:   #e5e9f0 (e5/e9/f0)
 Bright ANSI Colors
 ------------------
 black:   #4c566a (4c/56/6a)
-red:     #c7757d (c7/75/7d)
-green:   #b4caa1 (b4/ca/a1)
+red:     #bf616a (bf/61/6a)
+green:   #a3be8c (a3/be/8c)
 yellow:  #ebcb8b (eb/cb/8b)
-blue:    #97b1cc (97/b1/cc)
-magenta: #c1a1bb (c1/a1/bb)
+blue:    #81a1c1 (81/a1/c1)
+magenta: #b48ead (b4/8e/ad)
 cyan:    #8fbcbb (8f/bc/bb)
 white:   #eceff4 (ec/ef/f4)
 
@@ -118,13 +118,13 @@ Source: Nord (https://www.nordtheme.com/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6313725490196078</real>
+		<real>0.5490196078431373</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.792156862745098</real>
+		<real>0.7450980392156863</real>
 		<key>Red Component</key>
-		<real>0.7058823529411765</real>
+		<real>0.6392156862745098</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
@@ -144,26 +144,26 @@ Source: Nord (https://www.nordtheme.com/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8</real>
+		<real>0.7568627450980392</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6941176470588235</real>
+		<real>0.6313725490196078</real>
 		<key>Red Component</key>
-		<real>0.592156862745098</real>
+		<real>0.5058823529411764</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7333333333333333</real>
+		<real>0.6784313725490196</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6313725490196078</real>
+		<real>0.5568627450980392</real>
 		<key>Red Component</key>
-		<real>0.7568627450980392</real>
+		<real>0.7058823529411765</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
@@ -287,13 +287,13 @@ Source: Nord (https://www.nordtheme.com/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.49019607843137253</real>
+		<real>0.41568627450980394</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.4588235294117647</real>
+		<real>0.3803921568627451</real>
 		<key>Red Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.7490196078431373</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>
