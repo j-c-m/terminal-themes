@@ -1,0 +1,52 @@
+# MIT License
+#
+# Copyright (C) 2012 Chris Kempson
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+# LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+# WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# SPDX-License-Identifier: MIT
+name: "Eighties Black"
+author: "Chris Kempson (http://chriskempson.com)"
+license: "MIT"
+variant: "dark"
+
+color_01: "#111111"
+color_02: "#ee4549"
+color_03: "#59b259"
+color_04: "#c86131"
+color_05: "#3773af"
+color_06: "#b259b2"
+color_07: "#37afaf"
+color_08: "#cccccc"
+
+color_09: "#888888"
+color_10: "#f2777a"
+color_11: "#99cc99"
+color_12: "#ffcc66"
+color_13: "#6699cc"
+color_14: "#cc99cc"
+color_15: "#66cccc"
+color_16: "#f2f0ec"
+
+background: "#000000"
+foreground: "#cccccc"
+cursor: "#cccccc"
+cursor_text: "#000000"
+selection: "#cccccc"
+selection_text: "#000000"
