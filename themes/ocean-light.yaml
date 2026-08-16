@@ -18,44 +18,29 @@
 # COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-# SPDX-License-Identifier: MIT
-# Theme:    Spacegray Dark
-# Mode:     dark
-# Source:   Spacegray (https://github.com/SublimeText/Spacegray/)
-
-# Default colors
-[colors.primary]
-background  = '#2b303b'
-foreground  = '#c0c5ce'
-
-# Colors the cursor will use if `custom_cursor_colors` is true
-[colors.cursor]
-text        = '#2b303b'
-cursor      = '#c0c5ce'
-
-# Selection colors
-[colors.selection]
-background  = '#c0c5ce'
-text        = '#2b303b'
-
-# Normal colors
-[colors.normal]
-black       = '#343d46'
-red         = '#bf616a'
-green       = '#a3be8c'
-yellow      = '#ab7967'
-blue        = '#8fa1b3'
-magenta     = '#b48ead'
-cyan        = '#96b5b4'
-white       = '#c0c5ce'
-
-# Bright colors
-[colors.bright]
-black       = '#65737e'
-red         = '#c7757d'
-green       = '#b4caa1'
-yellow      = '#ebcb8b'
-blue        = '#a2b1c0'
-magenta     = '#c1a1bb'
-cyan        = '#a9c3c2'
-white       = '#eff1f5'
+name: Ocean Light
+source: "Spacegray (https://github.com/SublimeText/Spacegray/)"
+license: MIT
+light:
+  background: '#eff1f5'
+  foreground: '#4f5b66'
+  cursor: '#4f5b66'
+  colors:
+    normal:
+      black: '#dfe1e8'
+      red: '#c85863'
+      green: '#6f984c'
+      yellow: '#90604f'
+      blue: '#5986b6'
+      magenta: '#8b5b82'
+      cyan: '#5ca8a5'
+      white: '#4f5b66'
+    bright:
+      black: '#a7adba'
+      red: '#c85863'
+      green: '#6f984c'
+      yellow: '#ebcb8b'
+      blue: '#5986b6'
+      magenta: '#8b5b82'
+      cyan: '#5ca8a5'
+      white: '#2b303b'

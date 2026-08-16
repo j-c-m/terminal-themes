@@ -1,0 +1,59 @@
+# MIT License
+#
+# Copyright (C) 2012 Chris Kempson
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+# LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+# WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# SPDX-License-Identifier: MIT
+# Theme:    Ocean
+# Mode:     dark
+# Source:   Chris Kempson (http://chriskempson.com)
+
+[metadata]
+name = "Ocean"
+
+[colors]
+foreground = "#c0c5ce"
+background = "#2b303b"
+cursor_bg = "#c0c5ce"
+cursor_border = "#c0c5ce"
+cursor_fg = "#2b303b"
+selection_bg = "#c0c5ce"
+selection_fg = "#2b303b"
+
+ansi = [
+  "#343d46",
+  "#bf616a",
+  "#a3be8c",
+  "#ab7967",
+  "#8fa1b3",
+  "#b48ead",
+  "#96b5b4",
+  "#c0c5ce",
+]
+brights = [
+  "#65737e",
+  "#c7757d",
+  "#b4caa1",
+  "#ebcb8b",
+  "#a2b1c0",
+  "#c1a1bb",
+  "#a9c3c2",
+  "#eff1f5",
+]

@@ -1,0 +1,101 @@
+{
+    "background": {
+        "hex": "#2b303b",
+        "hexterm": "2b/30/3b"
+    },
+    "bright": {
+        "black": {
+            "hex": "#65737e",
+            "hexterm": "65/73/7e"
+        },
+        "blue": {
+            "hex": "#a2b1c0",
+            "hexterm": "a2/b1/c0"
+        },
+        "cyan": {
+            "hex": "#a9c3c2",
+            "hexterm": "a9/c3/c2"
+        },
+        "green": {
+            "hex": "#b4caa1",
+            "hexterm": "b4/ca/a1"
+        },
+        "magenta": {
+            "hex": "#c1a1bb",
+            "hexterm": "c1/a1/bb"
+        },
+        "red": {
+            "hex": "#c7757d",
+            "hexterm": "c7/75/7d"
+        },
+        "white": {
+            "hex": "#eff1f5",
+            "hexterm": "ef/f1/f5"
+        },
+        "yellow": {
+            "hex": "#ebcb8b",
+            "hexterm": "eb/cb/8b"
+        }
+    },
+    "cursor": {
+        "hex": "#c0c5ce",
+        "hexterm": "c0/c5/ce"
+    },
+    "cursor-text": {
+        "hex": "#2b303b",
+        "hexterm": "2b/30/3b"
+    },
+    "foreground": {
+        "hex": "#c0c5ce",
+        "hexterm": "c0/c5/ce"
+    },
+    "normal": {
+        "black": {
+            "hex": "#343d46",
+            "hexterm": "34/3d/46"
+        },
+        "blue": {
+            "hex": "#8fa1b3",
+            "hexterm": "8f/a1/b3"
+        },
+        "cyan": {
+            "hex": "#96b5b4",
+            "hexterm": "96/b5/b4"
+        },
+        "green": {
+            "hex": "#a3be8c",
+            "hexterm": "a3/be/8c"
+        },
+        "magenta": {
+            "hex": "#b48ead",
+            "hexterm": "b4/8e/ad"
+        },
+        "red": {
+            "hex": "#bf616a",
+            "hexterm": "bf/61/6a"
+        },
+        "white": {
+            "hex": "#c0c5ce",
+            "hexterm": "c0/c5/ce"
+        },
+        "yellow": {
+            "hex": "#ab7967",
+            "hexterm": "ab/79/67"
+        }
+    },
+    "selection-background": {
+        "hex": "#c0c5ce",
+        "hexterm": "c0/c5/ce"
+    },
+    "selection-foreground": {
+        "hex": "#2b303b",
+        "hexterm": "2b/30/3b"
+    },
+    "theme-license": "MIT",
+    "theme-mode": "dark",
+    "theme-modifier": "",
+    "theme-name": "Ocean",
+    "theme-notice": "MIT License\n\nCopyright (C) 2012 Chris Kempson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "theme-slug": "ocean",
+    "theme-source": "Chris Kempson (http://chriskempson.com)"
+}
