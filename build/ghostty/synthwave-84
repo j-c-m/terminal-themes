@@ -44,8 +44,8 @@ palette = 15=#ffffff
 background = #262335
 foreground = #dddddd
 
-cursor-color = #03edf9
-cursor-text = #262335
+cursor-color = cell-foreground
+cursor-text = cell-background
 
-selection-background = #ffffff
-selection-foreground = #262335
+selection-foreground = cell-background
+selection-background = cell-foreground
