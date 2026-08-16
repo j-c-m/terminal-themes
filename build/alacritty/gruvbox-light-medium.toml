@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Light Medium
 # Mode:     light
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 # Default colors
 [colors.primary]
@@ -29,7 +29,7 @@ yellow      = '#d79921'
 blue        = '#458588'
 magenta     = '#b16286'
 cyan        = '#689d6a'
-white       = '#504945'
+white       = '#7c6f64'
 
 # Bright colors
 [colors.bright]

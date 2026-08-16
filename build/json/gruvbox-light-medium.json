@@ -75,8 +75,8 @@
             "hexterm": "cc/24/1d"
         },
         "white": {
-            "hex": "#504945",
-            "hexterm": "50/49/45"
+            "hex": "#7c6f64",
+            "hexterm": "7c/6f/64"
         },
         "yellow": {
             "hex": "#d79921",
@@ -97,5 +97,5 @@
     "theme-name": "Gruvbox Light Medium",
     "theme-notice": "The MIT License (MIT)\nhttps://github.com/morhetz/gruvbox?tab=readme-ov-file#license",
     "theme-slug": "gruvbox-light-medium",
-    "theme-source": "Gruvbox (https://github.com/morhetz/gruvbox)"
+    "theme-source": "https://github.com/morhetz/gruvbox-contrib/blob/master/color.table"
 }

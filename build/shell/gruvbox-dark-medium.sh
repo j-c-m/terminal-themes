@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Dark Medium
 # Mode:     dark
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 # Exit if not on a tty
 
@@ -42,7 +42,7 @@ do_osc() {
     print_osc4 4 "45/85/88"
     print_osc4 5 "b1/62/86"
     print_osc4 6 "68/9d/6a"
-    print_osc4 7 "d5/c4/a1"
+    print_osc4 7 "a8/99/84"
     print_osc4 8 "92/83/74"
     print_osc4 9 "fb/49/34"
     print_osc4 10 "b8/bb/26"
@@ -67,7 +67,7 @@ do_linux() {
     print_linux 4 "#458588"
     print_linux 5 "#b16286"
     print_linux 6 "#689d6a"
-    print_linux 7 "#d5c4a1"
+    print_linux 7 "#a89984"
     print_linux 8 "#928374"
     print_linux 9 "#fb4934"
     print_linux 10 "#b8bb26"

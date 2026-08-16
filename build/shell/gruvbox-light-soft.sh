@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Light Soft
 # Mode:     light
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 # Exit if not on a tty
 
@@ -35,14 +35,14 @@ print_linux() {
 }
 
 do_osc() {
-    print_osc4 0 "fb/f1/c7"
+    print_osc4 0 "f2/e5/bc"
     print_osc4 1 "cc/24/1d"
     print_osc4 2 "98/97/1a"
     print_osc4 3 "d7/99/21"
     print_osc4 4 "45/85/88"
     print_osc4 5 "b1/62/86"
     print_osc4 6 "68/9d/6a"
-    print_osc4 7 "50/49/45"
+    print_osc4 7 "7c/6f/64"
     print_osc4 8 "92/83/74"
     print_osc4 9 "9d/00/06"
     print_osc4 10 "79/74/0e"
@@ -60,14 +60,14 @@ do_osc() {
 }
 
 do_linux() {
-    print_linux 0 "#fbf1c7"
+    print_linux 0 "#f2e5bc"
     print_linux 1 "#cc241d"
     print_linux 2 "#98971a"
     print_linux 3 "#d79921"
     print_linux 4 "#458588"
     print_linux 5 "#b16286"
     print_linux 6 "#689d6a"
-    print_linux 7 "#504945"
+    print_linux 7 "#7c6f64"
     print_linux 8 "#928374"
     print_linux 9 "#9d0006"
     print_linux 10 "#79740e"

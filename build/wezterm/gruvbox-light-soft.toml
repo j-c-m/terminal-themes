@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Light Soft
 # Mode:     light
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 [metadata]
 name = "Gruvbox Light Soft"
@@ -18,14 +18,14 @@ selection_bg = "#3c3836"
 selection_fg = "#f2e5bc"
 
 ansi = [
-  "#fbf1c7",
+  "#f2e5bc",
   "#cc241d",
   "#98971a",
   "#d79921",
   "#458588",
   "#b16286",
   "#689d6a",
-  "#504945",
+  "#7c6f64",
 ]
 brights = [
   "#928374",

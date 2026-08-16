@@ -2,18 +2,18 @@
 # https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
 # SPDX-License-Identifier: MIT
 name: "Gruvbox Light Hard"
-author: "Gruvbox (https://github.com/morhetz/gruvbox)"
+author: "https://github.com/morhetz/gruvbox-contrib/blob/master/color.table"
 license: "MIT"
 variant: "light"
 
-color_01: "#fbf1c7"
+color_01: "#f9f5d7"
 color_02: "#cc241d"
 color_03: "#98971a"
 color_04: "#d79921"
 color_05: "#458588"
 color_06: "#b16286"
 color_07: "#689d6a"
-color_08: "#504945"
+color_08: "#7c6f64"
 
 color_09: "#928374"
 color_10: "#9d0006"

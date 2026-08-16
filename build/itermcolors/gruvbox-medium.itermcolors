@@ -3,7 +3,7 @@
 The MIT License (MIT)
 https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
 SPDX-License-Identifier: MIT
-Source: Gruvbox (https://github.com/morhetz/gruvbox)
+Source: https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -520,39 +520,39 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.39215686274509803</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.28627450980392155</real>
+		<real>0.43529411764705883</real>
 		<key>Red Component</key>
-		<real>0.3137254901960784</real>
+		<real>0.48627450980392156</real>
 	</dict>
 	<key>Ansi 7 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6313725490196078</real>
+		<real>0.5176470588235295</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7686274509803922</real>
+		<real>0.6</real>
 		<key>Red Component</key>
-		<real>0.8352941176470589</real>
+		<real>0.6588235294117647</real>
 	</dict>
 	<key>Ansi 7 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.39215686274509803</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.28627450980392155</real>
+		<real>0.43529411764705883</real>
 		<key>Red Component</key>
-		<real>0.3137254901960784</real>
+		<real>0.48627450980392156</real>
 	</dict>
 	<key>Ansi 8 Color</key>
 	<dict>

@@ -38,21 +38,21 @@
         }
     },
     "cursor": {
-        "hex": "#fbf1c7",
-        "hexterm": "fb/f1/c7"
+        "hex": "#ebdbb2",
+        "hexterm": "eb/db/b2"
     },
     "cursor-text": {
         "hex": "#32302f",
         "hexterm": "32/30/2f"
     },
     "foreground": {
-        "hex": "#fbf1c7",
-        "hexterm": "fb/f1/c7"
+        "hex": "#ebdbb2",
+        "hexterm": "eb/db/b2"
     },
     "normal": {
         "black": {
-            "hex": "#282828",
-            "hexterm": "28/28/28"
+            "hex": "#32302f",
+            "hexterm": "32/30/2f"
         },
         "blue": {
             "hex": "#458588",
@@ -75,8 +75,8 @@
             "hexterm": "cc/24/1d"
         },
         "white": {
-            "hex": "#d5c4a1",
-            "hexterm": "d5/c4/a1"
+            "hex": "#a89984",
+            "hexterm": "a8/99/84"
         },
         "yellow": {
             "hex": "#d79921",
@@ -84,8 +84,8 @@
         }
     },
     "selection-background": {
-        "hex": "#fbf1c7",
-        "hexterm": "fb/f1/c7"
+        "hex": "#ebdbb2",
+        "hexterm": "eb/db/b2"
     },
     "selection-foreground": {
         "hex": "#32302f",
@@ -97,5 +97,5 @@
     "theme-name": "Gruvbox Dark Soft",
     "theme-notice": "The MIT License (MIT)\nhttps://github.com/morhetz/gruvbox?tab=readme-ov-file#license",
     "theme-slug": "gruvbox-dark-soft",
-    "theme-source": "Gruvbox (https://github.com/morhetz/gruvbox)"
+    "theme-source": "https://github.com/morhetz/gruvbox-contrib/blob/master/color.table"
 }

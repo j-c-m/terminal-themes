@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Dark Medium
 # Mode:     dark
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 [metadata]
 name = "Gruvbox Dark Medium"
@@ -25,7 +25,7 @@ ansi = [
   "#458588",
   "#b16286",
   "#689d6a",
-  "#d5c4a1",
+  "#a89984",
 ]
 brights = [
   "#928374",

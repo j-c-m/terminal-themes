@@ -4,7 +4,7 @@ SPDX-License-Identifier: MIT
 Theme: Gruvbox Hard (slug: gruvbox-hard)
 Mode: both
 Modifier: Hard
-Source: Gruvbox (https://github.com/morhetz/gruvbox)
+Source: https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 LIGHT MODE
 ----------
@@ -19,14 +19,14 @@ Selection Foreground: #f9f5d7 (f9/f5/d7)
 
 Normal ANSI Colors
 ------------------
-black:   #fbf1c7 (fb/f1/c7)
+black:   #f9f5d7 (f9/f5/d7)
 red:     #cc241d (cc/24/1d)
 green:   #98971a (98/97/1a)
 yellow:  #d79921 (d7/99/21)
 blue:    #458588 (45/85/88)
 magenta: #b16286 (b1/62/86)
 cyan:    #689d6a (68/9d/6a)
-white:   #504945 (50/49/45)
+white:   #7c6f64 (7c/6f/64)
 
 Bright ANSI Colors
 ------------------
@@ -43,23 +43,23 @@ DARK MODE
 ---------
 Primaries
 ---------
-Foreground: #fbf1c7 (fb/f1/c7)
+Foreground: #ebdbb2 (eb/db/b2)
 Background: #1d2021 (1d/20/21)
-Cursor: #fbf1c7 (fb/f1/c7)
+Cursor: #ebdbb2 (eb/db/b2)
 Cursor Text: #1d2021 (1d/20/21)
-Selection Background: #fbf1c7 (fb/f1/c7)
+Selection Background: #ebdbb2 (eb/db/b2)
 Selection Foreground: #1d2021 (1d/20/21)
 
 Normal ANSI Colors
 ------------------
-black:   #282828 (28/28/28)
+black:   #1d2021 (1d/20/21)
 red:     #cc241d (cc/24/1d)
 green:   #98971a (98/97/1a)
 yellow:  #d79921 (d7/99/21)
 blue:    #458588 (45/85/88)
 magenta: #b16286 (b1/62/86)
 cyan:    #689d6a (68/9d/6a)
-white:   #d5c4a1 (d5/c4/a1)
+white:   #a89984 (a8/99/84)
 
 Bright ANSI Colors
 ------------------
@@ -79,7 +79,7 @@ iTerm .itermcolors plist (single or combined)
 The MIT License (MIT)
 https://github.com/morhetz/gruvbox?tab=readme-ov-file#license
 SPDX-License-Identifier: MIT
-Source: Gruvbox (https://github.com/morhetz/gruvbox)
+Source: https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -89,39 +89,39 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.8431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.9450980392156862</real>
+		<real>0.9607843137254902</real>
 		<key>Red Component</key>
-		<real>0.984313725490196</real>
+		<real>0.9764705882352941</real>
 	</dict>
 	<key>Ansi 0 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.1568627450980392</real>
+		<real>0.12941176470588237</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.1568627450980392</real>
+		<real>0.12549019607843137</real>
 		<key>Red Component</key>
-		<real>0.1568627450980392</real>
+		<real>0.11372549019607843</real>
 	</dict>
 	<key>Ansi 0 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.8431372549019608</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.9450980392156862</real>
+		<real>0.9607843137254902</real>
 		<key>Red Component</key>
-		<real>0.984313725490196</real>
+		<real>0.9764705882352941</real>
 	</dict>
 	<key>Ansi 1 Color</key>
 	<dict>
@@ -596,39 +596,39 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.39215686274509803</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.28627450980392155</real>
+		<real>0.43529411764705883</real>
 		<key>Red Component</key>
-		<real>0.3137254901960784</real>
+		<real>0.48627450980392156</real>
 	</dict>
 	<key>Ansi 7 Color (Dark)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.6313725490196078</real>
+		<real>0.5176470588235295</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7686274509803922</real>
+		<real>0.6</real>
 		<key>Red Component</key>
-		<real>0.8352941176470589</real>
+		<real>0.6588235294117647</real>
 	</dict>
 	<key>Ansi 7 Color (Light)</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.27058823529411763</real>
+		<real>0.39215686274509803</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.28627450980392155</real>
+		<real>0.43529411764705883</real>
 		<key>Red Component</key>
-		<real>0.3137254901960784</real>
+		<real>0.48627450980392156</real>
 	</dict>
 	<key>Ansi 8 Color</key>
 	<dict>
@@ -765,13 +765,13 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.6980392156862745</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.9450980392156862</real>
+		<real>0.8588235294117647</real>
 		<key>Red Component</key>
-		<real>0.984313725490196</real>
+		<real>0.9215686274509803</real>
 	</dict>
 	<key>Cursor Color (Light)</key>
 	<dict>
@@ -804,13 +804,13 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.6980392156862745</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.9450980392156862</real>
+		<real>0.8588235294117647</real>
 		<key>Red Component</key>
-		<real>0.984313725490196</real>
+		<real>0.9215686274509803</real>
 	</dict>
 	<key>Foreground Color (Light)</key>
 	<dict>
@@ -882,13 +882,13 @@ Source: Gruvbox (https://github.com/morhetz/gruvbox)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7803921568627451</real>
+		<real>0.6980392156862745</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.9450980392156862</real>
+		<real>0.8588235294117647</real>
 		<key>Red Component</key>
-		<real>0.984313725490196</real>
+		<real>0.9215686274509803</real>
 	</dict>
 	<key>Selection Color (Light)</key>
 	<dict>

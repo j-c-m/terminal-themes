@@ -3,29 +3,29 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Gruvbox Dark Soft
 # Mode:     dark
-# Source:   Gruvbox (https://github.com/morhetz/gruvbox)
+# Source:   https://github.com/morhetz/gruvbox-contrib/blob/master/color.table
 
 [metadata]
 name = "Gruvbox Dark Soft"
 
 [colors]
-foreground = "#fbf1c7"
+foreground = "#ebdbb2"
 background = "#32302f"
-cursor_bg = "#fbf1c7"
-cursor_border = "#fbf1c7"
+cursor_bg = "#ebdbb2"
+cursor_border = "#ebdbb2"
 cursor_fg = "#32302f"
-selection_bg = "#fbf1c7"
+selection_bg = "#ebdbb2"
 selection_fg = "#32302f"
 
 ansi = [
-  "#282828",
+  "#32302f",
   "#cc241d",
   "#98971a",
   "#d79921",
   "#458588",
   "#b16286",
   "#689d6a",
-  "#d5c4a1",
+  "#a89984",
 ]
 brights = [
   "#928374",
