@@ -1,27 +1,90 @@
+MIT License
+
+Copyright (C) 2012 Chris Kempson
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+SPDX-License-Identifier: MIT
+Theme: Mocha (slug: mocha)
+Mode: dark
+Modifier: 
+Source: Chris Kempson (http://chriskempson.com)
+
+Primaries
+---------
+Foreground: #d0c8c6 (d0/c8/c6)
+Background: #3b3228 (3b/32/28)
+Cursor: #d0c8c6 (d0/c8/c6)
+Cursor Text: #3b3228 (3b/32/28)
+Selection Background: #d0c8c6 (d0/c8/c6)
+Selection Foreground: #3b3228 (3b/32/28)
+
+Normal ANSI Colors
+------------------
+black:   #534636 (53/46/36)
+red:     #cb6077 (cb/60/77)
+green:   #beb55b (be/b5/5b)
+yellow:  #bb9584 (bb/95/84)
+blue:    #8ab3b5 (8a/b3/b5)
+magenta: #a89bb9 (a8/9b/b9)
+cyan:    #7bbda4 (7b/bd/a4)
+white:   #d0c8c6 (d0/c8/c6)
+
+Bright ANSI Colors
+------------------
+black:   #7e705a (7e/70/5a)
+red:     #d2778a (d2/77/8a)
+green:   #c6be6f (c6/be/6f)
+yellow:  #f4bc87 (f4/bc/87)
+blue:    #9ec0c1 (9e/c0/c1)
+magenta: #b9afc7 (b9/af/c7)
+cyan:    #90c7b2 (90/c7/b2)
+white:   #f5eeeb (f5/ee/eb)
+
+iTerm .itermcolors plist (single or combined)
+---------------------------------------------
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2024 Sublime Text Packages
+Copyright (C) 2012 Chris Kempson
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 SPDX-License-Identifier: MIT
-Source: Spacegray (https://github.com/SublimeText/Spacegray/)
+Source: Chris Kempson (http://chriskempson.com)
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
