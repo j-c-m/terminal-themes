@@ -8,7 +8,7 @@ This document guides the conversion of base16 color schemes to the YAML theme fo
 
 Base16 provides 16 colors: `base00` (background) to `base0F`.
 
-The attached `spacegray-eighties.txt` lists these for the Spacegray Eighties theme.
+The attached `eighties.txt` lists these for the Eighties theme.
 
 ## Mapping to Project Theme Format
 
@@ -46,11 +46,11 @@ In this example, bright.red is same as normal.red, bright.yellow uses base0A, an
 
 ## Generated YAML
 
-The resulting YAML for Spacegray Eighties is:
+The resulting YAML for Eighties is:
 
 ```yaml
-name: Spacegray Eighties
-source: "Spacegray Eighties (base16 conversion from spacegray-eighties.txt)"
+name: Eighties
+source: "Eighties (base16 conversion from eighties.txt)"
 dark:
   background: "#2D2D2D"
   foreground: "#D3D0C8"
