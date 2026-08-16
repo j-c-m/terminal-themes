@@ -23,8 +23,8 @@ palette = 15={{bright.white.hex}}
 background = {{background.hex}}
 foreground = {{foreground.hex}}
 
-cursor-color = {{cursor.hex}}
-cursor-text = {{cursor-text.hex}}
+cursor-color = cell-foreground
+cursor-text = cell-background
 
-selection-background = {{selection-background.hex}}
-selection-foreground = {{selection-foreground.hex}}
+selection-foreground = cell-background
+selection-background = cell-foreground
