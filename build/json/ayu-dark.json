@@ -1,7 +1,7 @@
 {
     "background": {
-        "hex": "#0b0e14",
-        "hexterm": "0b/0e/14"
+        "hex": "#0d1017",
+        "hexterm": "0d/10/17"
     },
     "bright": {
         "black": {
@@ -42,8 +42,8 @@
         "hexterm": "e6/b4/50"
     },
     "cursor-text": {
-        "hex": "#0b0e14",
-        "hexterm": "0b/0e/14"
+        "hex": "#0d1017",
+        "hexterm": "0d/10/17"
     },
     "foreground": {
         "hex": "#bfbdb6",
@@ -51,45 +51,45 @@
     },
     "normal": {
         "black": {
-            "hex": "#11151c",
-            "hexterm": "11/15/1c"
+            "hex": "#1b1f29",
+            "hexterm": "1b/1f/29"
         },
         "blue": {
-            "hex": "#53bdfa",
-            "hexterm": "53/bd/fa"
+            "hex": "#4fbfff",
+            "hexterm": "4f/bf/ff"
         },
         "cyan": {
-            "hex": "#90e1c6",
-            "hexterm": "90/e1/c6"
+            "hex": "#93e2c8",
+            "hexterm": "93/e2/c8"
         },
         "green": {
-            "hex": "#7fd962",
-            "hexterm": "7f/d9/62"
+            "hex": "#70bf56",
+            "hexterm": "70/bf/56"
         },
         "magenta": {
-            "hex": "#cda1fa",
-            "hexterm": "cd/a1/fa"
+            "hex": "#d0a1ff",
+            "hexterm": "d0/a1/ff"
         },
         "red": {
-            "hex": "#ea6c73",
-            "hexterm": "ea/6c/73"
+            "hex": "#f06b73",
+            "hexterm": "f0/6b/73"
         },
         "white": {
             "hex": "#c7c7c7",
             "hexterm": "c7/c7/c7"
         },
         "yellow": {
-            "hex": "#f9af4f",
-            "hexterm": "f9/af/4f"
+            "hex": "#fdb04c",
+            "hexterm": "fd/b0/4c"
         }
     },
     "selection-background": {
-        "hex": "#409fff",
-        "hexterm": "40/9f/ff"
+        "hex": "#3388ff",
+        "hexterm": "33/88/ff"
     },
     "selection-foreground": {
-        "hex": "#0b0e14",
-        "hexterm": "0b/0e/14"
+        "hex": "#0d1017",
+        "hexterm": "0d/10/17"
     },
     "theme-license": "MIT",
     "theme-mode": "dark",
@@ -97,5 +97,5 @@
     "theme-name": "Ayu Dark",
     "theme-notice": "MIT License\n\nCopyright (c) 2016 Ike Ku\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "theme-slug": "ayu-dark",
-    "theme-source": "Ayu Theme (https://github.com/ayu-theme)"
+    "theme-source": "https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json"
 }

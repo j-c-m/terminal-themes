@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Mirage
 # Mode:     dark
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-mirage.json
 
 [metadata]
 name = "Ayu Mirage"
@@ -38,19 +38,19 @@ selection_fg = "#1f2430"
 
 ansi = [
   "#171b24",
-  "#ed8274",
+  "#f28273",
   "#87d96c",
-  "#facc6e",
-  "#6dcbfa",
-  "#dabafa",
-  "#90e1c6",
+  "#fcca60",
+  "#6acdff",
+  "#ddbbff",
+  "#93e2c8",
   "#c7c7c7",
 ]
 brights = [
   "#686868",
   "#f28779",
   "#d5ff80",
-  "#ffd173",
+  "#ffcd66",
   "#73d0ff",
   "#dfbfff",
   "#95e6cb",

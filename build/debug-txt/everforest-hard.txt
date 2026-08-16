@@ -23,7 +23,7 @@ SPDX-License-Identifier: MIT
 Theme: Everforest Hard (slug: everforest-hard)
 Mode: both
 Modifier: Hard
-Source: Everforest (https://github.com/sainnhe/everforest)
+Source: https://github.com/sainnhe/everforest/blob/master/palette.md
 
 LIGHT MODE
 ----------
@@ -117,7 +117,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 SPDX-License-Identifier: MIT
-Source: Everforest (https://github.com/sainnhe/everforest)
+Source: https://github.com/sainnhe/everforest/blob/master/palette.md
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">

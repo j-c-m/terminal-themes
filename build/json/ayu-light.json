@@ -9,8 +9,8 @@
             "hexterm": "68/68/68"
         },
         "blue": {
-            "hex": "#399ee6",
-            "hexterm": "39/9e/e6"
+            "hex": "#22a4e6",
+            "hexterm": "22/a4/e6"
         },
         "cyan": {
             "hex": "#4cbf99",
@@ -33,13 +33,13 @@
             "hexterm": "d1/d1/d1"
         },
         "yellow": {
-            "hex": "#f2ae49",
-            "hexterm": "f2/ae/49"
+            "hex": "#eba400",
+            "hexterm": "eb/a4/00"
         }
     },
     "cursor": {
-        "hex": "#ffaa33",
-        "hexterm": "ff/aa/33"
+        "hex": "#f29718",
+        "hexterm": "f2/97/18"
     },
     "cursor-text": {
         "hex": "#f8f9fa",
@@ -55,32 +55,32 @@
             "hexterm": "00/00/00"
         },
         "blue": {
-            "hex": "#3199e1",
-            "hexterm": "31/99/e1"
+            "hex": "#21a1e2",
+            "hexterm": "21/a1/e2"
         },
         "cyan": {
-            "hex": "#46ba94",
-            "hexterm": "46/ba/94"
+            "hex": "#4abc96",
+            "hexterm": "4a/bc/96"
         },
         "green": {
             "hex": "#6cbf43",
             "hexterm": "6c/bf/43"
         },
         "magenta": {
-            "hex": "#9e75c7",
-            "hexterm": "9e/75/c7"
+            "hex": "#a176cb",
+            "hexterm": "a1/76/cb"
         },
         "red": {
-            "hex": "#ea6c6d",
-            "hexterm": "ea/6c/6d"
+            "hex": "#f06b6c",
+            "hexterm": "f0/6b/6c"
         },
         "white": {
             "hex": "#c7c7c7",
             "hexterm": "c7/c7/c7"
         },
         "yellow": {
-            "hex": "#eca944",
-            "hexterm": "ec/a9/44"
+            "hex": "#e7a100",
+            "hexterm": "e7/a1/00"
         }
     },
     "selection-background": {
@@ -97,5 +97,5 @@
     "theme-name": "Ayu Light",
     "theme-notice": "MIT License\n\nCopyright (c) 2016 Ike Ku\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "theme-slug": "ayu-light",
-    "theme-source": "Ayu Theme (https://github.com/ayu-theme)"
+    "theme-source": "https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json"
 }

@@ -22,32 +22,32 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Dark
 # Mode:     dark
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json
 
 # Default colors
 [colors.primary]
-background  = '#0b0e14'
+background  = '#0d1017'
 foreground  = '#bfbdb6'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '#0b0e14'
+text        = '#0d1017'
 cursor      = '#e6b450'
 
 # Selection colors
 [colors.selection]
-background  = '#409fff'
-text        = '#0b0e14'
+background  = '#3388ff'
+text        = '#0d1017'
 
 # Normal colors
 [colors.normal]
-black       = '#11151c'
-red         = '#ea6c73'
-green       = '#7fd962'
-yellow      = '#f9af4f'
-blue        = '#53bdfa'
-magenta     = '#cda1fa'
-cyan        = '#90e1c6'
+black       = '#1b1f29'
+red         = '#f06b73'
+green       = '#70bf56'
+yellow      = '#fdb04c'
+blue        = '#4fbfff'
+magenta     = '#d0a1ff'
+cyan        = '#93e2c8'
 white       = '#c7c7c7'
 
 # Bright colors

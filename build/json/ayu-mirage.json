@@ -33,8 +33,8 @@
             "hexterm": "ff/ff/ff"
         },
         "yellow": {
-            "hex": "#ffd173",
-            "hexterm": "ff/d1/73"
+            "hex": "#ffcd66",
+            "hexterm": "ff/cd/66"
         }
     },
     "cursor": {
@@ -55,32 +55,32 @@
             "hexterm": "17/1b/24"
         },
         "blue": {
-            "hex": "#6dcbfa",
-            "hexterm": "6d/cb/fa"
+            "hex": "#6acdff",
+            "hexterm": "6a/cd/ff"
         },
         "cyan": {
-            "hex": "#90e1c6",
-            "hexterm": "90/e1/c6"
+            "hex": "#93e2c8",
+            "hexterm": "93/e2/c8"
         },
         "green": {
             "hex": "#87d96c",
             "hexterm": "87/d9/6c"
         },
         "magenta": {
-            "hex": "#dabafa",
-            "hexterm": "da/ba/fa"
+            "hex": "#ddbbff",
+            "hexterm": "dd/bb/ff"
         },
         "red": {
-            "hex": "#ed8274",
-            "hexterm": "ed/82/74"
+            "hex": "#f28273",
+            "hexterm": "f2/82/73"
         },
         "white": {
             "hex": "#c7c7c7",
             "hexterm": "c7/c7/c7"
         },
         "yellow": {
-            "hex": "#facc6e",
-            "hexterm": "fa/cc/6e"
+            "hex": "#fcca60",
+            "hexterm": "fc/ca/60"
         }
     },
     "selection-background": {
@@ -97,5 +97,5 @@
     "theme-name": "Ayu Mirage",
     "theme-notice": "MIT License\n\nCopyright (c) 2016 Ike Ku\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "theme-slug": "ayu-mirage",
-    "theme-source": "Ayu Theme (https://github.com/ayu-theme)"
+    "theme-source": "https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-mirage.json"
 }

@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Everforest Light Medium
 # Mode:     light
-# Source:   Everforest (https://github.com/sainnhe/everforest)
+# Source:   https://github.com/sainnhe/everforest/blob/master/palette.md
 
 palette = 0=#fdf6e3
 palette = 1=#f85552

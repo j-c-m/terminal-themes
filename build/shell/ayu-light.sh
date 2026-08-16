@@ -24,7 +24,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Light
 # Mode:     light
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json
 
 # Exit if not on a tty
 
@@ -55,43 +55,43 @@ print_linux() {
 
 do_osc() {
     print_osc4 0 "00/00/00"
-    print_osc4 1 "ea/6c/6d"
+    print_osc4 1 "f0/6b/6c"
     print_osc4 2 "6c/bf/43"
-    print_osc4 3 "ec/a9/44"
-    print_osc4 4 "31/99/e1"
-    print_osc4 5 "9e/75/c7"
-    print_osc4 6 "46/ba/94"
+    print_osc4 3 "e7/a1/00"
+    print_osc4 4 "21/a1/e2"
+    print_osc4 5 "a1/76/cb"
+    print_osc4 6 "4a/bc/96"
     print_osc4 7 "c7/c7/c7"
     print_osc4 8 "68/68/68"
     print_osc4 9 "f0/71/71"
     print_osc4 10 "86/b3/00"
-    print_osc4 11 "f2/ae/49"
-    print_osc4 12 "39/9e/e6"
+    print_osc4 11 "eb/a4/00"
+    print_osc4 12 "22/a4/e6"
     print_osc4 13 "a3/7a/cc"
     print_osc4 14 "4c/bf/99"
     print_osc4 15 "d1/d1/d1"
 
     print_osc_rgb 10 "5c/61/66"
     print_osc_rgb 11 "f8/f9/fa"
-    print_osc_rgb 12 "ff/aa/33"
+    print_osc_rgb 12 "f2/97/18"
     print_osc_rgb 17 "03/5b/d6"
     print_osc_rgb 19 "f8/f9/fa"
 }
 
 do_linux() {
     print_linux 0 "#000000"
-    print_linux 1 "#ea6c6d"
+    print_linux 1 "#f06b6c"
     print_linux 2 "#6cbf43"
-    print_linux 3 "#eca944"
-    print_linux 4 "#3199e1"
-    print_linux 5 "#9e75c7"
-    print_linux 6 "#46ba94"
+    print_linux 3 "#e7a100"
+    print_linux 4 "#21a1e2"
+    print_linux 5 "#a176cb"
+    print_linux 6 "#4abc96"
     print_linux 7 "#c7c7c7"
     print_linux 8 "#686868"
     print_linux 9 "#f07171"
     print_linux 10 "#86b300"
-    print_linux 11 "#f2ae49"
-    print_linux 12 "#399ee6"
+    print_linux 11 "#eba400"
+    print_linux 12 "#22a4e6"
     print_linux 13 "#a37acc"
     print_linux 14 "#4cbf99"
     print_linux 15 "#d1d1d1"

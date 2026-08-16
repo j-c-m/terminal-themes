@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Light
 # Mode:     light
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-dark.json https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-light.json
 
 [metadata]
 name = "Ayu Light"
@@ -30,28 +30,28 @@ name = "Ayu Light"
 [colors]
 foreground = "#5c6166"
 background = "#f8f9fa"
-cursor_bg = "#ffaa33"
-cursor_border = "#ffaa33"
+cursor_bg = "#f29718"
+cursor_border = "#f29718"
 cursor_fg = "#f8f9fa"
 selection_bg = "#035bd6"
 selection_fg = "#f8f9fa"
 
 ansi = [
   "#000000",
-  "#ea6c6d",
+  "#f06b6c",
   "#6cbf43",
-  "#eca944",
-  "#3199e1",
-  "#9e75c7",
-  "#46ba94",
+  "#e7a100",
+  "#21a1e2",
+  "#a176cb",
+  "#4abc96",
   "#c7c7c7",
 ]
 brights = [
   "#686868",
   "#f07171",
   "#86b300",
-  "#f2ae49",
-  "#399ee6",
+  "#eba400",
+  "#22a4e6",
   "#a37acc",
   "#4cbf99",
   "#d1d1d1",

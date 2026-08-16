@@ -24,7 +24,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Mirage
 # Mode:     dark
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-mirage.json
 
 # Exit if not on a tty
 
@@ -55,17 +55,17 @@ print_linux() {
 
 do_osc() {
     print_osc4 0 "17/1b/24"
-    print_osc4 1 "ed/82/74"
+    print_osc4 1 "f2/82/73"
     print_osc4 2 "87/d9/6c"
-    print_osc4 3 "fa/cc/6e"
-    print_osc4 4 "6d/cb/fa"
-    print_osc4 5 "da/ba/fa"
-    print_osc4 6 "90/e1/c6"
+    print_osc4 3 "fc/ca/60"
+    print_osc4 4 "6a/cd/ff"
+    print_osc4 5 "dd/bb/ff"
+    print_osc4 6 "93/e2/c8"
     print_osc4 7 "c7/c7/c7"
     print_osc4 8 "68/68/68"
     print_osc4 9 "f2/87/79"
     print_osc4 10 "d5/ff/80"
-    print_osc4 11 "ff/d1/73"
+    print_osc4 11 "ff/cd/66"
     print_osc4 12 "73/d0/ff"
     print_osc4 13 "df/bf/ff"
     print_osc4 14 "95/e6/cb"
@@ -80,17 +80,17 @@ do_osc() {
 
 do_linux() {
     print_linux 0 "#171b24"
-    print_linux 1 "#ed8274"
+    print_linux 1 "#f28273"
     print_linux 2 "#87d96c"
-    print_linux 3 "#facc6e"
-    print_linux 4 "#6dcbfa"
-    print_linux 5 "#dabafa"
-    print_linux 6 "#90e1c6"
+    print_linux 3 "#fcca60"
+    print_linux 4 "#6acdff"
+    print_linux 5 "#ddbbff"
+    print_linux 6 "#93e2c8"
     print_linux 7 "#c7c7c7"
     print_linux 8 "#686868"
     print_linux 9 "#f28779"
     print_linux 10 "#d5ff80"
-    print_linux 11 "#ffd173"
+    print_linux 11 "#ffcd66"
     print_linux 12 "#73d0ff"
     print_linux 13 "#dfbfff"
     print_linux 14 "#95e6cb"

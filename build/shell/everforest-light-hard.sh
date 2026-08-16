@@ -24,7 +24,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Everforest Light Hard
 # Mode:     light
-# Source:   Everforest (https://github.com/sainnhe/everforest)
+# Source:   https://github.com/sainnhe/everforest/blob/master/palette.md
 
 # Exit if not on a tty
 

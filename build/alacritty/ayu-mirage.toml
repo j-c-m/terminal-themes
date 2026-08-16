@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Ayu Mirage
 # Mode:     dark
-# Source:   Ayu Theme (https://github.com/ayu-theme)
+# Source:   https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-mirage.json
 
 # Default colors
 [colors.primary]
@@ -42,12 +42,12 @@ text        = '#1f2430'
 # Normal colors
 [colors.normal]
 black       = '#171b24'
-red         = '#ed8274'
+red         = '#f28273'
 green       = '#87d96c'
-yellow      = '#facc6e'
-blue        = '#6dcbfa'
-magenta     = '#dabafa'
-cyan        = '#90e1c6'
+yellow      = '#fcca60'
+blue        = '#6acdff'
+magenta     = '#ddbbff'
+cyan        = '#93e2c8'
 white       = '#c7c7c7'
 
 # Bright colors
@@ -55,7 +55,7 @@ white       = '#c7c7c7'
 black       = '#686868'
 red         = '#f28779'
 green       = '#d5ff80'
-yellow      = '#ffd173'
+yellow      = '#ffcd66'
 blue        = '#73d0ff'
 magenta     = '#dfbfff'
 cyan        = '#95e6cb'
