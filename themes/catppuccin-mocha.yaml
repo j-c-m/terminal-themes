@@ -20,15 +20,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 name: "Catppuccin Mocha"
-source: "Catppuccin (https://github.com/catppuccin/)"
+source: "https://github.com/catppuccin/palette/blob/main/palette.json"
 license: MIT
 dark:
   foreground: "#cdd6f4"
   background: "#1e1e2e"
   cursor: "#f5e0dc"
-  cursor-text: "#1e1e2e"
-  selection-background: "#f5e0dc"
-  selection-foreground: "#1e1e2e"
+  cursor-text: "#11111b"
+  selection-background: "#313244"
+  selection-foreground: "#cdd6f4"
   colors:
     normal:
       black: "#45475a"
@@ -38,13 +38,13 @@ dark:
       blue: "#89b4fa"
       magenta: "#f5c2e7"
       cyan: "#94e2d5"
-      white: "#bac2de"
+      white: "#a6adc8"
     bright:
       black: "#585b70"
-      red: "#f38ba8"
-      green: "#a6e3a1"
-      yellow: "#f9e2af"
-      blue: "#89b4fa"
-      magenta: "#f5c2e7"
-      cyan: "#94e2d5"
-      white: "#a6adc8"
+      red: "#f37799"
+      green: "#89d88b"
+      yellow: "#ebd391"
+      blue: "#74a8fc"
+      magenta: "#f2aede"
+      cyan: "#6bd7ca"
+      white: "#bac2de"

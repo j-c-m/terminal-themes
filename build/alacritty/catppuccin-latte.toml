@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Latte
 # Mode:     light
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 # Default colors
 [colors.primary]
@@ -31,32 +31,32 @@ foreground  = '#4c4f69'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '#eff1f5'
+text        = '#dce0e8'
 cursor      = '#dc8a78'
 
 # Selection colors
 [colors.selection]
-background  = '#dc8a78'
-text        = '#eff1f5'
+background  = '#ccd0da'
+text        = '#4c4f69'
 
 # Normal colors
 [colors.normal]
-black       = '#bcc0cc'
+black       = '#5c5f77'
 red         = '#d20f39'
 green       = '#40a02b'
 yellow      = '#df8e1d'
 blue        = '#1e66f5'
 magenta     = '#ea76cb'
 cyan        = '#179299'
-white       = '#5c5f77'
+white       = '#acb0be'
 
 # Bright colors
 [colors.bright]
-black       = '#acb0be'
-red         = '#d20f39'
-green       = '#40a02b'
-yellow      = '#df8e1d'
-blue        = '#1e66f5'
-magenta     = '#ea76cb'
-cyan        = '#179299'
-white       = '#6c6f85'
+black       = '#6c6f85'
+red         = '#de293e'
+green       = '#49af3d'
+yellow      = '#eea02d'
+blue        = '#456eff'
+magenta     = '#fe85d8'
+cyan        = '#2d9fa8'
+white       = '#bcc0cc'

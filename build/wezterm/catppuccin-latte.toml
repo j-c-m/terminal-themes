@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Latte
 # Mode:     light
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 [metadata]
 name = "Catppuccin Latte"
@@ -32,27 +32,27 @@ foreground = "#4c4f69"
 background = "#eff1f5"
 cursor_bg = "#dc8a78"
 cursor_border = "#dc8a78"
-cursor_fg = "#eff1f5"
-selection_bg = "#dc8a78"
-selection_fg = "#eff1f5"
+cursor_fg = "#dce0e8"
+selection_bg = "#ccd0da"
+selection_fg = "#4c4f69"
 
 ansi = [
-  "#bcc0cc",
+  "#5c5f77",
   "#d20f39",
   "#40a02b",
   "#df8e1d",
   "#1e66f5",
   "#ea76cb",
   "#179299",
-  "#5c5f77",
+  "#acb0be",
 ]
 brights = [
-  "#acb0be",
-  "#d20f39",
-  "#40a02b",
-  "#df8e1d",
-  "#1e66f5",
-  "#ea76cb",
-  "#179299",
   "#6c6f85",
+  "#de293e",
+  "#49af3d",
+  "#eea02d",
+  "#456eff",
+  "#fe85d8",
+  "#2d9fa8",
+  "#bcc0cc",
 ]

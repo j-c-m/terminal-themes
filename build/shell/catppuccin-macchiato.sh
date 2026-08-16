@@ -24,7 +24,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Macchiato
 # Mode:     dark
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 # Exit if not on a tty
 
@@ -61,21 +61,21 @@ do_osc() {
     print_osc4 4 "8a/ad/f4"
     print_osc4 5 "f5/bd/e6"
     print_osc4 6 "8b/d5/ca"
-    print_osc4 7 "b8/c0/e0"
+    print_osc4 7 "a5/ad/cb"
     print_osc4 8 "5b/60/78"
-    print_osc4 9 "ed/87/96"
-    print_osc4 10 "a6/da/95"
-    print_osc4 11 "ee/d4/9f"
-    print_osc4 12 "8a/ad/f4"
-    print_osc4 13 "f5/bd/e6"
-    print_osc4 14 "8b/d5/ca"
-    print_osc4 15 "a5/ad/cb"
+    print_osc4 9 "ec/74/86"
+    print_osc4 10 "8c/cf/7f"
+    print_osc4 11 "e1/c6/82"
+    print_osc4 12 "78/a1/f6"
+    print_osc4 13 "f2/a9/dd"
+    print_osc4 14 "63/cb/c0"
+    print_osc4 15 "b8/c0/e0"
 
     print_osc_rgb 10 "ca/d3/f5"
     print_osc_rgb 11 "24/27/3a"
     print_osc_rgb 12 "f4/db/d6"
-    print_osc_rgb 17 "f4/db/d6"
-    print_osc_rgb 19 "24/27/3a"
+    print_osc_rgb 17 "36/3a/4f"
+    print_osc_rgb 19 "ca/d3/f5"
 }
 
 do_linux() {
@@ -86,15 +86,15 @@ do_linux() {
     print_linux 4 "#8aadf4"
     print_linux 5 "#f5bde6"
     print_linux 6 "#8bd5ca"
-    print_linux 7 "#b8c0e0"
+    print_linux 7 "#a5adcb"
     print_linux 8 "#5b6078"
-    print_linux 9 "#ed8796"
-    print_linux 10 "#a6da95"
-    print_linux 11 "#eed49f"
-    print_linux 12 "#8aadf4"
-    print_linux 13 "#f5bde6"
-    print_linux 14 "#8bd5ca"
-    print_linux 15 "#a5adcb"
+    print_linux 9 "#ec7486"
+    print_linux 10 "#8ccf7f"
+    print_linux 11 "#e1c682"
+    print_linux 12 "#78a1f6"
+    print_linux 13 "#f2a9dd"
+    print_linux 14 "#63cbc0"
+    print_linux 15 "#b8c0e0"
 }
 
 case "$TERM" in

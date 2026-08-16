@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Macchiato
 # Mode:     dark
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 [metadata]
 name = "Catppuccin Macchiato"
@@ -32,9 +32,9 @@ foreground = "#cad3f5"
 background = "#24273a"
 cursor_bg = "#f4dbd6"
 cursor_border = "#f4dbd6"
-cursor_fg = "#24273a"
-selection_bg = "#f4dbd6"
-selection_fg = "#24273a"
+cursor_fg = "#181926"
+selection_bg = "#363a4f"
+selection_fg = "#cad3f5"
 
 ansi = [
   "#494d64",
@@ -44,15 +44,15 @@ ansi = [
   "#8aadf4",
   "#f5bde6",
   "#8bd5ca",
-  "#b8c0e0",
+  "#a5adcb",
 ]
 brights = [
   "#5b6078",
-  "#ed8796",
-  "#a6da95",
-  "#eed49f",
-  "#8aadf4",
-  "#f5bde6",
-  "#8bd5ca",
-  "#a5adcb",
+  "#ec7486",
+  "#8ccf7f",
+  "#e1c682",
+  "#78a1f6",
+  "#f2a9dd",
+  "#63cbc0",
+  "#b8c0e0",
 ]

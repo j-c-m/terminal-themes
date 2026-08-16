@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Mocha
 # Mode:     dark
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 # Default colors
 [colors.primary]
@@ -31,13 +31,13 @@ foreground  = '#cdd6f4'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '#1e1e2e'
+text        = '#11111b'
 cursor      = '#f5e0dc'
 
 # Selection colors
 [colors.selection]
-background  = '#f5e0dc'
-text        = '#1e1e2e'
+background  = '#313244'
+text        = '#cdd6f4'
 
 # Normal colors
 [colors.normal]
@@ -48,15 +48,15 @@ yellow      = '#f9e2af'
 blue        = '#89b4fa'
 magenta     = '#f5c2e7'
 cyan        = '#94e2d5'
-white       = '#bac2de'
+white       = '#a6adc8'
 
 # Bright colors
 [colors.bright]
 black       = '#585b70'
-red         = '#f38ba8'
-green       = '#a6e3a1'
-yellow      = '#f9e2af'
-blue        = '#89b4fa'
-magenta     = '#f5c2e7'
-cyan        = '#94e2d5'
-white       = '#a6adc8'
+red         = '#f37799'
+green       = '#89d88b'
+yellow      = '#ebd391'
+blue        = '#74a8fc'
+magenta     = '#f2aede'
+cyan        = '#6bd7ca'
+white       = '#bac2de'

@@ -1,6 +1,6 @@
 # This files combines mocha and latte for dual mode themes.
 name: "Catppuccin"
-source: "Catppuccin (https://github.com/catppuccin/)"
+source: "https://github.com/catppuccin/palette/blob/main/palette.json"
 license: MIT
 dark: "catppuccin-mocha.yaml"
 light: "catppuccin-latte.yaml"

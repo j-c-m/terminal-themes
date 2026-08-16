@@ -22,7 +22,7 @@
 # SPDX-License-Identifier: MIT
 # Theme:    Catppuccin Frappe
 # Mode:     dark
-# Source:   Catppuccin (https://github.com/catppuccin/)
+# Source:   https://github.com/catppuccin/palette/blob/main/palette.json
 
 [metadata]
 name = "Catppuccin Frappe"
@@ -32,9 +32,9 @@ foreground = "#c6d0f5"
 background = "#303446"
 cursor_bg = "#f2d5cf"
 cursor_border = "#f2d5cf"
-cursor_fg = "#303446"
-selection_bg = "#f2d5cf"
-selection_fg = "#303446"
+cursor_fg = "#232634"
+selection_bg = "#414559"
+selection_fg = "#c6d0f5"
 
 ansi = [
   "#51576d",
@@ -44,15 +44,15 @@ ansi = [
   "#8caaee",
   "#f4b8e4",
   "#81c8be",
-  "#b5bfe2",
+  "#a5adce",
 ]
 brights = [
   "#626880",
-  "#e78284",
-  "#a6d189",
-  "#e5c890",
-  "#8caaee",
-  "#f4b8e4",
-  "#81c8be",
-  "#a5adce",
+  "#e67172",
+  "#8ec772",
+  "#d9ba73",
+  "#7b9ef0",
+  "#f2a4db",
+  "#5abfb5",
+  "#b5bfe2",
 ]

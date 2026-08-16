@@ -9,32 +9,32 @@
             "hexterm": "58/5b/70"
         },
         "blue": {
-            "hex": "#89b4fa",
-            "hexterm": "89/b4/fa"
+            "hex": "#74a8fc",
+            "hexterm": "74/a8/fc"
         },
         "cyan": {
-            "hex": "#94e2d5",
-            "hexterm": "94/e2/d5"
+            "hex": "#6bd7ca",
+            "hexterm": "6b/d7/ca"
         },
         "green": {
-            "hex": "#a6e3a1",
-            "hexterm": "a6/e3/a1"
+            "hex": "#89d88b",
+            "hexterm": "89/d8/8b"
         },
         "magenta": {
-            "hex": "#f5c2e7",
-            "hexterm": "f5/c2/e7"
+            "hex": "#f2aede",
+            "hexterm": "f2/ae/de"
         },
         "red": {
-            "hex": "#f38ba8",
-            "hexterm": "f3/8b/a8"
+            "hex": "#f37799",
+            "hexterm": "f3/77/99"
         },
         "white": {
-            "hex": "#a6adc8",
-            "hexterm": "a6/ad/c8"
+            "hex": "#bac2de",
+            "hexterm": "ba/c2/de"
         },
         "yellow": {
-            "hex": "#f9e2af",
-            "hexterm": "f9/e2/af"
+            "hex": "#ebd391",
+            "hexterm": "eb/d3/91"
         }
     },
     "cursor": {
@@ -42,8 +42,8 @@
         "hexterm": "f5/e0/dc"
     },
     "cursor-text": {
-        "hex": "#1e1e2e",
-        "hexterm": "1e/1e/2e"
+        "hex": "#11111b",
+        "hexterm": "11/11/1b"
     },
     "foreground": {
         "hex": "#cdd6f4",
@@ -75,8 +75,8 @@
             "hexterm": "f3/8b/a8"
         },
         "white": {
-            "hex": "#bac2de",
-            "hexterm": "ba/c2/de"
+            "hex": "#a6adc8",
+            "hexterm": "a6/ad/c8"
         },
         "yellow": {
             "hex": "#f9e2af",
@@ -84,12 +84,12 @@
         }
     },
     "selection-background": {
-        "hex": "#f5e0dc",
-        "hexterm": "f5/e0/dc"
+        "hex": "#313244",
+        "hexterm": "31/32/44"
     },
     "selection-foreground": {
-        "hex": "#1e1e2e",
-        "hexterm": "1e/1e/2e"
+        "hex": "#cdd6f4",
+        "hexterm": "cd/d6/f4"
     },
     "theme-license": "MIT",
     "theme-mode": "dark",
@@ -97,5 +97,5 @@
     "theme-name": "Catppuccin Mocha",
     "theme-notice": "MIT License\n\nCopyright (c) 2021 Catppuccin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "theme-slug": "catppuccin-mocha",
-    "theme-source": "Catppuccin (https://github.com/catppuccin/)"
+    "theme-source": "https://github.com/catppuccin/palette/blob/main/palette.json"
 }

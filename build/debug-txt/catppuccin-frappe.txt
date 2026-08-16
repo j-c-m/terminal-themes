@@ -23,16 +23,16 @@ SPDX-License-Identifier: MIT
 Theme: Catppuccin Frappe (slug: catppuccin-frappe)
 Mode: dark
 Modifier: 
-Source: Catppuccin (https://github.com/catppuccin/)
+Source: https://github.com/catppuccin/palette/blob/main/palette.json
 
 Primaries
 ---------
 Foreground: #c6d0f5 (c6/d0/f5)
 Background: #303446 (30/34/46)
 Cursor: #f2d5cf (f2/d5/cf)
-Cursor Text: #303446 (30/34/46)
-Selection Background: #f2d5cf (f2/d5/cf)
-Selection Foreground: #303446 (30/34/46)
+Cursor Text: #232634 (23/26/34)
+Selection Background: #414559 (41/45/59)
+Selection Foreground: #c6d0f5 (c6/d0/f5)
 
 Normal ANSI Colors
 ------------------
@@ -43,18 +43,18 @@ yellow:  #e5c890 (e5/c8/90)
 blue:    #8caaee (8c/aa/ee)
 magenta: #f4b8e4 (f4/b8/e4)
 cyan:    #81c8be (81/c8/be)
-white:   #b5bfe2 (b5/bf/e2)
+white:   #a5adce (a5/ad/ce)
 
 Bright ANSI Colors
 ------------------
 black:   #626880 (62/68/80)
-red:     #e78284 (e7/82/84)
-green:   #a6d189 (a6/d1/89)
-yellow:  #e5c890 (e5/c8/90)
-blue:    #8caaee (8c/aa/ee)
-magenta: #f4b8e4 (f4/b8/e4)
-cyan:    #81c8be (81/c8/be)
-white:   #a5adce (a5/ad/ce)
+red:     #e67172 (e6/71/72)
+green:   #8ec772 (8e/c7/72)
+yellow:  #d9ba73 (d9/ba/73)
+blue:    #7b9ef0 (7b/9e/f0)
+magenta: #f2a4db (f2/a4/db)
+cyan:    #5abfb5 (5a/bf/b5)
+white:   #b5bfe2 (b5/bf/e2)
 
 iTerm .itermcolors plist (single or combined)
 ---------------------------------------------
@@ -82,7 +82,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 SPDX-License-Identifier: MIT
-Source: Catppuccin (https://github.com/catppuccin/)
+Source: https://github.com/catppuccin/palette/blob/main/palette.json
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -118,78 +118,78 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5372549019607843</real>
+		<real>0.4470588235294118</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8196078431372549</real>
+		<real>0.7803921568627451</real>
 		<key>Red Component</key>
-		<real>0.6509803921568628</real>
+		<real>0.5568627450980392</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5647058823529412</real>
+		<real>0.45098039215686275</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7843137254901961</real>
+		<real>0.7294117647058823</real>
 		<key>Red Component</key>
-		<real>0.8980392156862745</real>
+		<real>0.8509803921568627</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.9333333333333333</real>
+		<real>0.9411764705882353</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6666666666666666</real>
+		<real>0.6196078431372549</real>
 		<key>Red Component</key>
-		<real>0.5490196078431373</real>
+		<real>0.4823529411764706</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8941176470588236</real>
+		<real>0.8588235294117647</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7215686274509804</real>
+		<real>0.6431372549019608</real>
 		<key>Red Component</key>
-		<real>0.9568627450980393</real>
+		<real>0.9490196078431372</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.7450980392156863</real>
+		<real>0.7098039215686275</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7843137254901961</real>
+		<real>0.7490196078431373</real>
 		<key>Red Component</key>
-		<real>0.5058823529411764</real>
+		<real>0.35294117647058826</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.807843137254902</real>
+		<real>0.8862745098039215</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.6784313725490196</real>
+		<real>0.7490196078431373</real>
 		<key>Red Component</key>
-		<real>0.6470588235294118</real>
+		<real>0.7098039215686275</real>
 	</dict>
 	<key>Ansi 2 Color</key>
 	<dict>
@@ -261,13 +261,13 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8862745098039215</real>
+		<real>0.807843137254902</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.7490196078431373</real>
+		<real>0.6784313725490196</real>
 		<key>Red Component</key>
-		<real>0.7098039215686275</real>
+		<real>0.6470588235294118</real>
 	</dict>
 	<key>Ansi 8 Color</key>
 	<dict>
@@ -287,13 +287,13 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.5176470588235295</real>
+		<real>0.4470588235294118</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.5098039215686274</real>
+		<real>0.44313725490196076</real>
 		<key>Red Component</key>
-		<real>0.9058823529411765</real>
+		<real>0.9019607843137255</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>
@@ -339,26 +339,26 @@ Source: Catppuccin (https://github.com/catppuccin/)
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.27450980392156865</real>
+		<real>0.9607843137254902</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.20392156862745098</real>
+		<real>0.8156862745098039</real>
 		<key>Red Component</key>
-		<real>0.18823529411764706</real>
+		<real>0.7764705882352941</real>
 	</dict>
 	<key>Selection Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1.0</real>
 		<key>Blue Component</key>
-		<real>0.8117647058823529</real>
+		<real>0.34901960784313724</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8352941176470589</real>
+		<real>0.27058823529411763</real>
 		<key>Red Component</key>
-		<real>0.9490196078431372</real>
+		<real>0.2549019607843137</real>
 	</dict>
 </dict>
 </plist>
