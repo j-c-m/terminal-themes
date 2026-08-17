@@ -23,12 +23,9 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
           last=$(git tag --list 'release-*' --sort=-creatordate | head -n 1)
-          if [ -z "$last" ]; then
+          echo "last_tag=$last" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$last" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -73,13 +70,26 @@ jobs:
         run: |
           tag="release-$(date -u +%Y%m%d-%H%M%S)"
           title="Themes $(date -u +%Y-%m-%d)"
-          cat > /tmp/notes.md <<EOF
-          Commit: ${GITHUB_SHA}
-
-          7z archives: alacritty, ghostty, wezterm, kitty, itermcolors, iterm2-color-yml, json, shell, and all.
-
-          See the [README](https://github.com/${{ github.repository }}#readme).
-          EOF
+          last="${{ steps.changes.outputs.last_tag }}"
+          {
+            echo "Commit: ${GITHUB_SHA}"
+            echo
+            echo "## Changes"
+            echo
+            if [ -n "$last" ]; then
+              git log --pretty=format:'- %s' "$last"..HEAD
+              echo
+              echo
+              echo "https://github.com/${{ github.repository }}/compare/${last}...${tag}"
+            else
+              git log --pretty=format:'- %s'
+              echo
+            fi
+            echo
+            echo "7z archives: alacritty, ghostty, wezterm, kitty, itermcolors, iterm2-color-yml, json, shell, and all."
+            echo
+            echo "See the [README](https://github.com/${{ github.repository }}#readme)."
+          } > /tmp/notes.md
           gh release create "$tag" \
             --title "$title" \
             --notes-file /tmp/notes.md \
