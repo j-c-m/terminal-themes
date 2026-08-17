@@ -8,15 +8,13 @@
 background  = '{{background.hex}}'
 foreground  = '{{foreground.hex}}'
 
-# Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '{{cursor-text.hex}}'
-cursor      = '{{cursor.hex}}'
+text        = 'CellBackground'
+cursor      = 'CellForeground'
 
-# Selection colors
 [colors.selection]
-background  = '{{selection-background.hex}}'
-text        = '{{selection-foreground.hex}}'
+text        = 'CellBackground'
+background  = 'CellForeground'
 
 # Normal colors
 [colors.normal]

@@ -30,15 +30,13 @@
 background  = '#2d2d2d'
 foreground  = '#cccccc'
 
-# Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '#2d2d2d'
-cursor      = '#cccccc'
+text        = 'CellBackground'
+cursor      = 'CellForeground'
 
-# Selection colors
 [colors.selection]
-background  = '#cccccc'
-text        = '#2d2d2d'
+text        = 'CellBackground'
+background  = 'CellForeground'
 
 # Normal colors
 [colors.normal]
